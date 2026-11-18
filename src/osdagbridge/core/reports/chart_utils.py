@@ -373,8 +373,18 @@ def extract_girder_ur_data(bridge: Any) -> Tuple[bool, List[str], List[float], s
         for g, gd in pg_dict.items():
             if str(g).startswith("EB"):
                 continue
-            for chk in (gd.get("checks") or []):
-                if chk.get("check_id") in cids:
+            checks_val = gd.get("checks")
+            if isinstance(checks_val, dict):
+                chk_list = list(checks_val.values())
+            elif isinstance(checks_val, list):
+                chk_list = checks_val
+            else:
+                chk_list = []
+            for chk in chk_list:
+                if not isinstance(chk, dict):
+                    continue
+                cid = chk.get("check_id") or chk.get("id")
+                if cid in cids:
                     d = chk.get("dcr")
                     if d is not None:
                         try:
@@ -393,8 +403,18 @@ def extract_girder_ur_data(bridge: Any) -> Tuple[bool, List[str], List[float], s
                 for _lc, _ld in (gd.get("per_lc") or {}).items():
                     if str(_lc).lower().startswith("envelope"):
                         continue
-                    for chk in (_ld.get("checks") or []):
-                        if chk.get("id") in cids:
+                    ld_checks = _ld.get("checks")
+                    if isinstance(ld_checks, dict):
+                        ld_list = list(ld_checks.values())
+                    elif isinstance(ld_checks, list):
+                        ld_list = ld_checks
+                    else:
+                        ld_list = []
+                    for chk in ld_list:
+                        if not isinstance(chk, dict):
+                            continue
+                        cid = chk.get("id") or chk.get("check_id")
+                        if cid in cids:
                             d = chk.get("dcr")
                             if d is not None:
                                 try:

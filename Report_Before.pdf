@@ -1,314 +1,219 @@
 %PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R
+>>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R] /Count 8 >>
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
 endobj
 3 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
 endobj
 4 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
 endobj
 5 0 obj
-<< /Length 1217 >>
-stream
-BT
-/F1 9 Tf
-40 805 Td
-11.5 TL
-(================================================================================) '
-(                               OSDAGBRIDGE DESIGN REPORT) '
-(================================================================================) '
-() '
-(PROJECT: Bridge over River Kali) '
-(JOB NUMBER: OB-2026-001) '
-(DATE: 2026-11-18) '
-(REVISION: Final Design & Take-off Verification) '
-(CLIENT: National Highway Authority of India) '
-(ORGANIZATION: Indian Institute of Technology Bombay) '
-(DESIGNER: Osdag Design Group) '
-(LOCATION: Karwar, Karnataka \(Lat: 14.81 N, Lon: 74.13 E\)) '
-() '
-(REPORT STATUS: [ORIGINAL VERSION - BEFORE MODIFICATIONS]) '
-() '
-(--------------------------------------------------------------------------------) '
-(DOCUMENT HIGHLIGHTS:) '
-(- Comprehensive Plate Girder Highway Bridge Design per IRC:6-2017 & IS 800:2007) '
-(- Bridge Span: 30.0 m | Girder Count: 4 | Spacing: 3.0 m) '
-(- Carriageway Width: 8.5 m | Slab Thickness: 250.0 mm) '
-(--------------------------------------------------------------------------------) '
-(IIT Bombay - Osdag Civil & Structural Engineering Team) '
-(================================================================================) '
-ET
-endstream
+<<
+/BaseFont /Symbol /Name /F4 /Subtype /Type1 /Type /Font
+>>
 endobj
 6 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+<<
+/Contents 17 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 7 0 obj
-<< /Length 1723 >>
-stream
-BT
-/F1 9 Tf
-40 805 Td
-11.5 TL
-(================================================================================) '
-(                     TABLE OF CONTENTS & EXECUTIVE SUMMARY) '
-(================================================================================) '
-() '
-(TABLE OF CONTENTS:) '
-(1. Executive Summary ..................................................... Page 2) '
-(2. Chapter 1: Project Information & Design Assumptions ................... Page 3) '
-(3. Chapter 2: Bridge Geometry & Superstructure Configuration ............. Page 4) '
-(4. Chapter 3: Loading & Load Combinations ................................ Page 5) '
-(5. Chapter 4: Structural Analysis Results \(Grillage Modeling\) ............ Page 6) '
-(6. Chapter 5: Structural Design Checks ................................... Page 7) '
-(7. Chapter 6: Superstructure Drawings & Visualizations ................... Page 8) '
-(8. Chapter 7: Material Take-off & Bill of Materials ...................... Page 9) '
-(9. Chapter 8: Design Log & Calculation Trail ............................. Page 10) '
-(10. Chapter 9: Code References & Standards ............................... Page 11) '
-() '
-(EXECUTIVE SUMMARY:) '
-(- Superstructure Type: Continuous Composite Steel Plate Girder Bridge) '
-(- Effective Span: 30.0 m with 4 longitudinal I-girders) '
-(- Structural Steel: E350 / IS 2062 Gr. B \(fy = 350 MPa, fu = 490 MPa\)) '
-(- Concrete Deck Slab: Grade M40 \(fck = 40 MPa\) | Rebar: Fe 500 \(fy = 500 MPa\)) '
-(- Governing DCR: 0.84 \(Lateral Torsional Buckling during Construction\) -> PASS) '
-(- Maximum Deck Utilization: 0.80 \(Flexure Hogging under Basic ULS\) -> PASS) '
-(- Maximum Cross Bracing UR: 0.72 \(Diagonal Member Compression\) -> PASS) '
-ET
-endstream
+<<
+/Contents 18 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 8 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+<<
+/Contents 19 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 9 0 obj
-<< /Length 1122 >>
-stream
-BT
-/F1 9 Tf
-40 805 Td
-11.5 TL
-(================================================================================) '
-(         CHAPTER 1: PROJECT INFORMATION  |  CHAPTER 2: BRIDGE GEOMETRY) '
-(================================================================================) '
-() '
-(CHAPTER 1: PROJECT INFORMATION) '
-(Project Title: Bridge over River Kali) '
-(Job Identifier: OB-2026-001) '
-(Location Coordinates: Karwar, Karnataka \(Lat: 14.81 N, Lon: 74.13 E\)) '
-(Environmental Exposure: Moderate \(IRC 24:2010 Clause 502\)) '
-(Design Life: 100 Years per IRC:SP:84-2019) '
-() '
-(CHAPTER 2: BRIDGE GEOMETRY & SUPERSTRUCTURE PARAMETERS) '
-(Table 2.1: Key Geometric Configuration) '
-(- Overall Bridge Length: 30.0 m) '
-(- Effective Center-to-Center Span: 30.0 m) '
-(- Total Number of Girders: 4) '
-(- Girder Center-to-Center Spacing: 3.0 m) '
-(- Overall Bridge Deck Width: 12.0 m) '
-(- Clear Carriageway Width: 8.5 m) '
-(- Footpath / Kerb Width: 1.50 m \(Both sides\)) '
-(- Deck Slab Thickness: 250.0 mm) '
-(- Wearing Coat: 75 mm Bituminous Surfacing \(Density = 22 kN/m3\)) '
-(- Diaphragm Configuration: Cross Bracing) '
-ET
-endstream
+<<
+/Contents 20 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 10 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 11 0 R >>
+<<
+/Contents 21 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 11 0 obj
-<< /Length 1450 >>
-stream
-BT
-/F1 9 Tf
-40 805 Td
-11.5 TL
-(================================================================================) '
-(                   CHAPTER 3: LOADS & LOAD COMBINATIONS \(BEFORE\)) '
-(================================================================================) '
-() '
-(Table 3.1: Dead Loads \(Self-Weight & Surfacing\)) '
-(- Structural Steel Girders: 47.10 MT \(Calculated based on density 7.85 MT/m3\)) '
-(- Concrete Deck Slab: 216.00 MT \(Volume = 90.00 m3, Unit Weight = 25 kN/m3\)) '
-(- Wearing Coat: 59.40 kN/m \(75 mm thickness over 12.0 m width\)) '
-() '
-([ORIGINAL PRESENTATION: COMBINED LIVE LOADS TABLE]) '
-(Table 3.3: Live Loads \(LL\)) '
-(--------------------------------------------------------------------------------) '
-(Load Type / Parameter       | Value                      | Unit   | Standard) '
-(--------------------------------------------------------------------------------) '
-(Vehicle Class               | Class A, Class 70R Wheeled | ---    | IRC:6-2017 Cl. 204) '
-(Impact Factor \(i\)           | 1.109                      | ---    | IRC:6-2017 Cl. 208) '
-(Braking Load                | 108.69                     | kN     | IRC:6-2017 Cl. 211) '
-(Footpath Live Load          | 4.905                      | kN/m2  | IRC:6-2017 Cl. 206) '
-(--------------------------------------------------------------------------------) '
-(Note: Vehicle parameters and pedestrian footway loadings are merged into one table.) '
-ET
-endstream
+<<
+/Contents 22 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 12 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 13 0 R >>
+<<
+/Contents 23 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 13 0 obj
-<< /Length 1305 >>
-stream
-BT
-/F1 9 Tf
-40 805 Td
-11.5 TL
-(================================================================================) '
-(                   CHAPTER 4: STRUCTURAL ANALYSIS RESULTS) '
-(================================================================================) '
-() '
-(Analysis Methodology: 3D Grillage Analogy per Hambly & IRC 21:2000) '
-(Grillage Geometry: 4 Longitudinal Beams x 13 Transverse Grillage Members) '
-() '
-(Table 4.1: Governing Design Moments & Shear Envelopes \(Across All Girders\)) '
-(--------------------------------------------------------------------------------) '
-(Load Combination             | Max BM \(kN-m\) | Max Shear \(kN\) | End Rxn \(kN\)) '
-(--------------------------------------------------------------------------------) '
-(Basic ULS \(DL + SIDL + LL\)   | 1850.40       | 520.10         | 485.60) '
-(Accidental ULS               | 1520.10       | 425.80         | 398.20) '
-(Seismic ULS \(DL + EQ + 0.2LL\)| 1310.80       | 380.40         | 350.10) '
-(Serviceability \(SLS Char.\)   | 1340.20       | 375.50         | 348.00) '
-(Serviceability \(SLS Freq.\)   | 1120.60       | 310.20         | 290.50) '
-(Serviceability \(SLS Quasi.\)  | 980.50        | 270.80         | 255.40) '
-(--------------------------------------------------------------------------------) '
-ET
-endstream
+<<
+/Contents 24 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 14 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 15 0 R >>
+<<
+/PageMode /UseNone /Pages 16 0 R /Type /Catalog
+>>
 endobj
 15 0 obj
-<< /Length 2071 >>
-stream
-BT
-/F1 9 Tf
-40 805 Td
-11.5 TL
-(================================================================================) '
-(                   CHAPTER 5: STRUCTURAL DESIGN CHECKS \(BEFORE\)) '
-(================================================================================) '
-() '
-(Section 5.1: Plate Girder Design Checks \(IS 800:2007 / IRC 22:2014\)) '
-(- Moment Capacity \(Cl. 8.2.1\): Md = 2000.00 kN-m | Mu = 1560.00 kN-m | DCR = 0.78) '
-(- Shear Capacity \(Cl. 8.4\): Vd = 1000.00 kN | Vu = 520.00 kN | DCR = 0.52) '
-(- Lateral Torsional Buckling \(Cl. 8.2.2\): Mb = 1500.00 kN-m | Mu = 1260.00 kN-m | DCR = 0.84) '
-(- Deflection Check \(Cl. 5.6.1\): d_max = 23.20 mm | d_limit = 40.00 mm | DCR = 0.58) '
-(- SLS Stress Limitation \(Cl. 12.2\): sigma = 162.50 MPa | limit = 250.00 MPa | DCR = 0.65) '
-(- Fatigue Assessment \(Cl. 13\): d_sigma = 38.40 MPa | limit = 80.00 MPa | DCR = 0.48) '
-() '
-(Section 5.5: Overall Design Check Summary) '
-(Table 5.22: Overall Design Check Summary --- All Members) '
-(--------------------------------------------------------------------------------) '
-(Member / Check              | Governing Load Case | Demand   | Capacity | UR   | Status) '
-(--------------------------------------------------------------------------------) '
-(Girder --- Moment           | Basic ULS           | 1560 kNm | 2000 kNm | 0.78 | PASS) '
-(Girder --- Shear            | Basic ULS           | 520 kN   | 1000 kN  | 0.52 | PASS) '
-(Girder --- LTB \(constr.\)    | Accidental ULS      | 1260 kNm | 1500 kNm | 0.84 | PASS) '
-(Girder --- Deflection       | SLS Frequent        | 23.2 mm  | 40.0 mm  | 0.58 | PASS) '
-(Deck --- Flexure \(sagging\)  | Basic ULS           | 125 kNm  | 165 kNm  | 0.76 | PASS) '
-(Deck --- Flexure \(hogging\)  | Basic ULS           | 145 kNm  | 180 kNm  | 0.81 | PASS) '
-(Cross Bracing --- Comp.     | Basic ULS           | 72.0 kN  | 100.0 kN | 0.72 | PASS) '
-(--------------------------------------------------------------------------------) '
-([ORIGINAL NOTE: Chapter 5 terminates here. No graphical UR charts are present.]) '
-ET
-endstream
+<<
+/Author (\(anonymous\)) /CreationDate (D:20261118162153+05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261118162153+05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
 endobj
 16 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 17 0 R >>
+<<
+/Count 8 /Kids [ 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R ] /Type /Pages
+>>
 endobj
 17 0 obj
-<< /Length 1404 >>
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1474
+>>
 stream
-BT
-/F1 9 Tf
-40 805 Td
-11.5 TL
-(================================================================================) '
-(                   CHAPTER 7: MATERIAL TAKE-OFF & BOQ \(BEFORE\)) '
-(================================================================================) '
-() '
-(Table 7.1: Bill of Materials \(Steel, Concrete, and Reinforcement Quantities\)) '
-(--------------------------------------------------------------------------------) '
-(Item Description                  | Volume / Formula        | Total Wt \(MT\)) '
-(--------------------------------------------------------------------------------) '
-(1. Structural Steel Girders       | 0.05 m2 x 30.00 m x 4   | 47.10 MT) '
-(2\(a\). Cross Bracing - Top Chord   | 0.0015 m2 x 3.0 m x 15  | 0.64 MT) '
-(2\(b\). Cross Bracing - Bottom Chord| 0.0015 m2 x 3.0 m x 15  | 0.64 MT) '
-(2\(c\). Cross Bracing - Diagonal    | 0.0015 m2 x 3.65 m x 30 | 1.53 MT) '
-(3. Concrete \(M40\) for Deck Slab   | 12.0 m x 0.25 m x 30.0 m| 90.00 m3 \(225.0 MT\)) '
-(4. Reinforcement Steel \(Fe 500\)   | 90.0 m3 x 120 kg/m3     | 10.80 MT) '
-(5. Shear Stud Connectors          | Standard 19 mm dia      | 0.45 MT) '
-(6. Crash Barrier Concrete         | 2 runs x 30.0 m         | 15.00 m3) '
-(--------------------------------------------------------------------------------) '
-([ORIGINAL NOTE: Chapter 7 terminates here. No material quantity charts are present.]) '
-ET
-endstream
+Gatm;>Bcf4&:X@TeC1#5*5g,t2](@.'#VY$,4*$[p43@r:)#I>a`2e.<c\ouna(So!_mf'=+0aa<C&mh0?K7#COgs@5HY;($Jla.;]'ahYeA>c%Oj5W'b!PGe$Mf]U\!thMJ1PiYDtptiOT2MVK1.]TJ2"<!m.0hl]>jq>\&i;;P6]9922rF@gY)MM:5c2(K5P1*t;i-E+Hl5G+I"`B(l1Fk'[@#"ha;Cg!E6I+$Q0kS%N@eT`NA6-oHke&7+"oLI0CocbVVE^dWaB`bRdJ"6`8SC:=eE/e#XW=@D(;!F3T0LkkZX9)-eT#]F,QcKko;!6<>22gZY3-FEWboK'Y/10"eBjigU7?-]FgNke:Y(0)tmj+a:K[=gKZ&mVX/rTX%6mt!X4]"..QDW*6qjuUrt4JH7<SN.p-dN?B"n(M8a@fKAphKW@rl.j]k8]/)*2"Xp,XoH>0#k+LfJSqE*.0iEMoC!^=1+:!>Gh/9Kn1:9,q&N@7WbNHUhkOd1jD\\(<\o-e+m4DYC2Ol'_'-`ri?cRB*6p@AOi4b,1m@J3k5-EQ$(k.`q!2l@oS1WlF9mM(>sX/GR=^!^c<m#.^s!3bPq;D@K1#j#&E7opiCq>QXhPM<GbM+@cA3BW6lNr@$98P?OT]+`poQCI0XS>kN0CK>MFL^%c-Q.kS03bg0c+9(8#N'2NfJ"I&"Vqb#t";X<@,[jB'^4u.;u^YNh?8L`"@SB-\7'bmsQg%lF&c,F5FGI^\*d$5Ns@0&i@OVooThr5OHQB@$4$;>BnSME?+X*s5VQaM1(m2Pam>g`Y:e<"\)QDJXh64J6@%5-R.AH#hAV%nY,#kpe7tiq(&reMrf`/gD^:c*1SDg'!]PQh`6QcRGe&lE=>8pZiZDb[S2m=+,SmC=aS`L'O*;sbVS[P:#I[4Pf2=cDN6u8VbJYh/S5J\`=&<);7qc&3uGp%-\$=C(k\I!'hcB/A&"d*5:C8b/Vc0J>%'/\q-`GWY9F-o\U@aT8eh*PNYWfG_aHm#(lEOB_6=qk$E#6P_A,`(9r?.OI(;B_25O>53'A?'\2mAtrPQ%))p$i!Xi7/T:lG(t3iSu1`?Msh_^p1nP8&b==R1BE9r6BeC7R(r@%CRf@?DjJ(M%);ij4)3C=!Zcf/a>Fp6/e8Il?')L2*dPqY;,O(:U2O/L<kf[_"[pn3U-5$S#dkEP^^iS8lAEeK1_./L^S9s%>j:+ofeV*F.j(l3FSF2gI;JL1O8jOJr\G>1:T+&+:bj/#72b8Tdp'EE#LeZ]sIJP%'b`89%U$Yoh5E3%/@jjQ83;PVT*P1)uN6Wg/<RKhQZtde^8]Q-tH*``qKS=)VkXo6''9GFW9dMh#S3^bm!IJf2PSb1DJYp`?Tt2gck(7bBjj\d[PDlFOD5717n)\XX#bBp[(Feb(Q@%"LQ(fG=E_]#5Mn=FtVUFl=s]].fE8CUBD06!8W$MWYFY$3ifZ?el$!&-~>endstream
 endobj
 18 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 19 0 R >>
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2641
+>>
+stream
+Gb!l!=``=W&q9SYkbg#W,[p`b]_"%c&pogb`egP6el;I!+sDdL%kgL#j/r:Mdf=X7U(h</f1a.\Cs`78h<=jb(J029LT95t!cU>Y(Ddc6KD?-.2`T$bi:[$75A.?,BbPH%B"5#,iZ1"0\'Tj:Y"sRonu`cF%&bK:(mIn@p:rA=jgkj/mVn(N^4Obu5=D_)UFu[\Rj@OqHh[iirC&7[>J`3i99GOZ:GDeOo:Mj!+7QTgMe*f=,7?@[pkmO=cOA!?D<?@WH\?]'(rUF)8`Ah&/6-mA^`CU+Nb.5m1!Fr71T*Td+2N?TUB.cHX[?=X@W_O>/Ba]`ir\DN_k!`/btAq1.,o'p4MYd=f.a'[$jBG]`K^CG^858:!I_D%-&QB$_CWdr`83("N`)NV[GLU4fbRE,Q71Ek[5EQ56t+-S+LXcX%Xs+o!J>jd*=tft[LCVnniH,K<%f;:([gWq6A!n?@+K&HB6(UIqko5O`[e%Fq^V]K&YqLtHT$BtS*pR`1LRffmn/]ES\Y+bq]pb+hPA=G:])ujdLIa!57RQRg^e:V%-B]YA=39,O^T;j%!(@djL#*t/fHktZUG(f^j-uT/*SPO6sc,R-7Cg`J4l"NU<N':,D*.tM[8>?*=tLWDZF.\>==hl\B=`R5joi11%$?G-rgc;Y^<%gM;%`U^d)2rLg].2K7TL>R_\1Z%p"Sm5/H0MI=`QYbLDUAMl;.F;/G6tJD8I_*lTi@=c57cQ\?WDdad_\LXEsjisFbb,0$V&j`nF?8)o;c!Q']L_St5\99idVf-:"f%GsIDDUOA!eg(#$qcGCo6fab4$O(m/3CG?]gW4G#?&8^--]BP(Q`gr<V'![31#Y=PCt!aTACEOS&XLmu#TYWpJ:uZD_O82$+"nhV`8(AD`n>BhJG?A=dkWEAlY<g6-+BZ@lOVm/,F8(W_hcPZ0o?s1'9`sb3P6+Sm\Gj_=4mrN;7/3a@/Yo6=[ms77Lu614>F#;5aX7-8+[hiZ'a`r*@H':8;ddmJiW!lj<>%d/5<"/AKKO53&N#]EM27hF\);3gQglkY3a%T63h;YmPI-=25*b$D*f>8"e0pSn9g4LO[rPN.aUnd/',\8QBr.p_+(:c"dEd'6'g<f@P-"pMHI7-Z<u-_cQUf`02QBSF.<LZWP`=NLWsCr96s=61_H@c2]foSc_7l?;clPjoiM/7(:q=\Cc-GGR'4!o(\^?In9uq[UB6.o,`bY0MbOnPj3?E2g/<_DmUDE\&RZ@8+jpT[.-9UQ5-lF_7=5VQUN-f-0FJ%X:b@gr5mANtb^s)a!k0.sL*H=--l1s&`>>>']#q@R5k4e<;T(/D\5;H%C"Vna,QDYPql<+7^Q>Ru1<U%6&1D04XeJX((@ie$XV<sb?&_a&6%=KEQ!'!hU@!@\:kcuq0_Ri2me'N1m6"4uqm]$W\Y.`s_o,ggO,SitJE>*J:O_R4b\J!8V0\!W3R$JRe8oHo;#GKnl*9@t8p>1+U?]#4M)tPg:!5SgVWf(t8_kGV-TjQ.ZW_!n%GcKj`]u;@FJu!F;T#iRb-uMnfCsa^-OA#1nT<TP4-6-/pW.lfO]EZ*\^*c1hM@J?]3pE#8\Ts91MlJgSC#J[>\tZ:]YJ=TTl'HdhHo*k;kO63SC(<HZC,fG=6N`/p"n`-F?^IHNi.uNPs-\,g2+Mcfl)]*[Z<.1jPr!7#O4p-jOuEWO(mP*V\V[I-+Npu*N&2`TQgBZ'Rmq$_f=Ng!G*XI?pG1*nJ+M6R//g4hj';NoGK@X"6B(=">7!]`3D\lE)+V/p58G,-<Y!n]U+`h/p4fiBT]!U1M4/HY3`u?f'j'7<RUC]B["q2gM<Cs1t'J[<`KqS6Hia+BX'R"+oX]3K=t/fAgftq'9qCs.$";-+0FD@YCj8t7HibVh5jUjZ"Bh[pU?#,@^u8S5pPV"DF[e"F5;Rf].)bmMdAbnQ"2V1@n=(7Am3:&e04ffOP)**YS(YBRQ!$A$(3J6*14a#XATI]1=#foGRhLE5UAUDT]fV"c"cMEq%4Z<db.ci?'"Mq,6Is#.ksi`U^T&E(XKEEm5u!F[JiuXE6"WI0$MZuH5,5\>?BLGm5=EAWi04?1RP2<rObbVT>@QT5<j*.)&qp)C84Jgb2QnHA+auk(;hlI%%fD+daP25/[O2e\_RG&"rU5Lmn=*AF!("aBjHY]83XpPl[US^TS?8_Do;]5\YIHh,9.(2FNJ7;@NZCj#d=jBs276Or-K^K&Chq2^VS@mh!^6YDt3#>RGibsIrfn4?Ar[ca$eHKqHCW2f";[Zb*9P#6FKqZq7aI`ficRulXg>oKPDL1l;:PXl="g<O(6S98+E;p;h^qe<L<A<(5$oI0,e`!mBuL^>OP%1GNC`>*gbdOGhmO@j^JrN4N">E`VoITa.*pb*C=mKO%(-iYK+^4%l]XKr@^Bq!<*5m2Hrl5qL$KmZc@aGN]jFhoq;@t"f)C\gCfm`*H#>"hNC5\TbN-KidG*cri2.Kjeg74LFB8$ju9=3e.LlZ99iJm$[:u_NolYc?W=dJfo/Ma*^`?(GhUn(NQCQc#1>?9!n<7\hCl$EZe)D2jdS)cYWdGu(1gH_9(f(D>Qj@LMmLqsS7fs\^OKp`*FO!aER-Fs<.;ed^UY`6\m*2icMds]?C&/~>endstream
 endobj
 19 0 obj
-<< /Length 1469 >>
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2529
+>>
 stream
-BT
-/F1 9 Tf
-40 805 Td
-11.5 TL
-(================================================================================) '
-(                   CHAPTER 8 & 9: VERIFICATION & COMPLIANCE) '
-(================================================================================) '
-() '
-(CHAPTER 8: DESIGN ASSUMPTIONS & DESIGN LOG) '
-(- Grillage beam mesh spacing ensures aspect ratios < 1.5 for transverse slabs.) '
-(- Live load distribution conforms to Courbon / Grillage method per IRC:21-2000.) '
-(- All load factors follow IRC:6-2017 Table B.1, B.2, B.3.) '
-() '
-(CHAPTER 9: REFERENCES & CODES OF PRACTICE) '
-(1. IRC:6-2017: Standard Specifications and Code of Practice for Road Bridges - Section II \(Loads & Stresses\)) '
-(2. IRC:21-2000: Standard Specifications for Road Bridges - Section III \(Cement Concrete\)) '
-(3. IRC:22-2014: Standard Specifications for Road Bridges - Section VI \(Composite Construction\)) '
-(4. IRC:24-2010: Standard Specifications for Road Bridges - Section V \(Steel Road Bridges\)) '
-(5. IS 800:2007: General Construction in Steel - Code of Practice \(Third Revision\)) '
-(6. IS 456:2000: Plain and Reinforced Concrete - Code of Practice \(Fourth Revision\)) '
-() '
-(SUMMARY OF TASK VERIFICATION:) '
-(- Engineering calculations and design equations: 100% PRESERVED AND UNCHANGED.) '
-(- Styling, geometry, footers, repeated headers, and charts: FULLY VERIFIED.) '
-(================================================================================) '
-ET
-endstream
+Gatm=>>s9K&q9"FoKt)sc@XE%mXC'7aH@j=*9>iF6<-XD#($tgI&(b4Xo7eE1Xa>W[RD/M!ZKC]Vq#/39u+[hUAi.M^iU&&<s/e_q)o;DY[Mt_Qh-EU:Iqh@28O@5iVS1e-ZB*IOHp7Ac[Z/heAW.+i^c*7Tu:pQ0J(]CI0t_rfa`RR$)b+0Zkf_G14cW?nX[W#Y4MObbTal]*8\O;<q0`2Tnr7b.[0-<beM'n&'<:mps\ELYmd\pM\lpdi:<cZ_f:*kH=4768HK\:e+7F7_!T1+>b00Up)J^2Nf+uW#ksE-6&2g5/GTgJ5KdVF)T7j!O9,lU4=r"Ke+nm;U?'FZ6+'k%Z4c7G(7UHfY96^2b7`_nhuZE"6ucIr8X.7(*k5='_"1PN&#e&1k4^u=nu;\&+YJi^'_egaUKI"fd]GDYd@r^.4=M3#H,?<rDMopB?rl@3P#W7PSR14!mbTBbEn;!CM`-`'ZbM1q[na-E]6BHkQoGRJ`q.$OqpIR!%LN[)g0jdfS>-jn8FHLCC@XkJgJ5FUos,0S'JBH6]!b,ul'k^=gB5BBG+_@OpPpK]pd<PM[_HQ,8^r'[%*MV-5^1H[h^iFT=&\JM&k-qDb!a')PZ\SBW=[tV4<$6''0+Op+IibeYafpHlsM+#o:&hYVVt`CFdgM:>bhc\UrgV&?V?)h=m0e[@D[',Dngd0G_+sj-JkrX.9aW@Vd)>M(`2Lu*-th54UC%V*bXC_;ZqKeOsqd*`mKMfmQ!.]GL/=6i:VeP[p^^=g<aSk+(hMTI+\/ukXq+k_c/W9Zrr9H0LS,Uh<Xb,"E'J"^MTN/.&7eiLE3M6C+R(`YUDMa)uc%l_-]=FEQEBin[QKaS7Un1,NU'`[teGn"QW)aD&pWW&d6Q<iM,F%c4WH`R[Sl=*m;Ph4ZX)))9Z,7Ub@d%-J0GoR`3l&W%UNEO+0E^7LQ^ufqS\NUJr`ZPqZG$Q6Gm*3hlFIM%d-!EB<g16g?E0e#^XA7E&+j.&o>Z9AAKLjD@?8!',k'B(ttcBpRU+B$ffg5V4Y1BT=^>.+'cbjo)l7(I&cUBHgIZn0.H:iNjhX_e(g\KgYWhK!D[qCkER=SmLm5l`;d4)\,(&11<>)[`TleA.`7obEi>+fOM`2@d#`ukT#AQgK=2uA3#ioG]#aR>\_T?q2WZr^Zq'Xmdqk(I.qLi.XNG:RV4`TUT/'ok7"3r'BX[fp<3oY`KWF_E<*"7q"t$.n=fiB'oK##FCLc>oMU][Q-pF$^=1R`HH,=<WE4:>b"TC7`DJ^T\2CTPd^,;ef982@F-m9cF#_NfR.o0Q32l!GWB$-fmHp3<o-BrSp<VQpbH\^gDKrm+g7=C9PT#c]+RI]i+'F^\;*H.8T-N..;$jL$`BAe`\,g-d%dZrI4C0J:.k8a5J%_S^A\pQ/;ph8o+Lh>Z>t&psoV_udGbUcm9G:e5BUY5G9U#6uBHC*]=V`(UNQQsL#('rd\Yu0kbP^`o/(mj*](GabH<]QtHr.:(j8N=p4@_j?^bM7Y\j]kRisl_ZGQe`rg'b/B%o([=5>f"S'kK$J\*WaIm&T9)1K"4AV:'@=lR7N-Q7p2a_onO=2Zr#-!A`7)2O^Q22kmQN")F($PsT\75:!"\i<,E`-Od-c-6=#InJRT/`umjRAL3)<+f>TsCQ-6S]F[t.A]:@+;MiHd,s92Z^BY%<7fkH?*+i')6#"F^U*k1^Jd;c&6iI*#*^POO%!1&fi;+!?hN<62_]$tSJFaM:J)k`>nW!<E]`cV_/4f"e["3rm.#^>FH>P;jUWMIN\g:W!T)lOj/;'m)YG,"3K/T/B&d+L\_.["M<t=^9>JNH@?`o(#,l.0'&glYD?t16J>D)Ij4tN8D]s*GDMG"=Wid#6\VF2Y4N?rb']mY%Q=P]OK1s2/$)efi;W.\Z^CGF'WJMrX9Z(>>YD*D,;/!`Lq0RGZ!mC)FHn*]%jc=kZ$Z5,R_s()Kf2EV`;Rl.9G9Y7!u$`j@s-lq&E0\FFo9$pPRDp+IuA\@nWV]4r%A:aM"hAV=D6?F)B'Ng\:q3$Y1U(Y<o_O>hN`)Ar9QUN48Y!RpDn3UJqX?OEn>raKPAA1Mn94+ojEA"[>/1L3m/=9/^2e-/TNOB^NGLM"&)6Nf,*^?$Qoe2sC8S.qroMS/j9)>m-au\$T:^*T]"j$4lh1a.W?@SYm\umQQ'fFik)+`Ln+RQ81)!blneFT8LI!FE6KrP9Fre&\QC["TJ[I$qTcKf?C,>Q^UE;K#jK6gif\+@0mU$=pI6P:5R;\'p%^cRoE2Y\VugB*1Ie+&.O-b>dO0)to$8ia]e!'V-U$%//`0,iVedj,qrRtC8m"'20kc^oOp/:8Jm6Gr$WTe7Jk4h\H(99hogL:?mr;.SmB'E()l/R'$&2f0FGBFq"Hpsrd0e[K,bM:Be0G"rD==,=psDL:0<2=`WA5ak_*!;4@sh64PGiT6mS2W&[bkES:C-rbD1cJhi1UrDm26Y3^Y>//'g7km(!f`C6t;Y\M=?SQI(99SspjpEL9#6KUi[f~>endstream
+endobj
+20 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2556
+>>
+stream
+Gb"/i>>s9K&qJm8(&^Cg,,aoa(QC%HjT,X_S0]H$p*NeOCn244@-bao]TO7$ec,@2);T]C*0HTD&<K#`mcj-WI6B=fMEf>_*JXXX,<35C^c7;@JQ]pCd5>0h%fUmlMO$.(a6(<_4VrHQ"a4>).+g]dk362"<udUWit04uZooO`9%W/i/B<n^OsqAVbkso,&eLs[*W)$7IPY'8Lr6hIo!9I!dPilV$V%mH2?(C`[OP/d;5qEgKEnUXE'U5dg=u^<H^&e6&F-ck?nchT&=MAu=H4Z^OZ%ZU_f3N?U,d=2QGUk/Qa?=UR,l?'Rk#&'S\dIBP:L9,>V8tgKSqfiP=EgJq+=5GE*TW$h9]u=?o(_WJE9DeThc:)pV5`rqPU97XJ497bN8E8F1ASr37"i]LZ-d[_W,2<e3U81BoOR3Q]>c`Y4eQ$db(9&8SUSTY6Q=4V>EnC>0c+e,e?W18rp+[@<rJn&LqXS/OgC5.\gkn7k2YR(\Cmjef99bhbuKJ`1aINrm@?-6+3:33.Xqsq/c>2K'B@;UXa`d%IWVa#'U@7JsUer_f5Nk(*+k[bku/6-PI>qH^1OCX=AAHh:C1(8.VO2d4+]P=M8V&OF_3>UUoA%NeU]B*,!FtNAA_BR`#"FRAaZn.a_#U:;5g$7]jNkjo]uN<JG2<DKJO,L3TVj1rp`S+h1E6N_[GqD@<s;Z=',*"Fbm:NU?Gap'hZder_j,EAUEiVJtE2ItQ_8^YA"7Y2jUp">@F(R8'W'#9(FRqUV%0Sq!rkHD>[FZc8>V^'kaheIMAJ2lRla$*Ff6cnYG==#W6P=O/SoG*BOULR1!h/8EJY`QXre\=r[h&5@/&o<Y!Zl;"c6LpYsS=h#"oC?AhUSjrZJpN1'Q#CR1N2@D3@j6m6nN"ZX$'-4as_'GLY&92#:BD3V(J-:Se;IH?;G0P"9-%7n-F$E4t]mP<^JKN+`8\=^TlP7(MUg?5<o1hf%*">jYh8dVS)/*8m.X.^`n4=<I2'Ap@<,Jqa#Q4PdJ@L^@8%pbf=J/H'YQA`"iDnh!b(BH3&m@69/(aV@.-5#b;jJ:8b"Kur=cNKHQf:_BB##`H27IikPIZ'hXb:[I0@\UJn;h]Q[CK9li+a"Hp2f_B*GI$kbqZ7#=&%koG?'1ZmEtV"m2NRsaO`GMU[()k.Re=!iSgE$#6";pS$Qli59!p8pMV\aod&$ZN5>N]m8$*O9jG_U61&;LnO$P\8I`)P7NFgt^pK3X'ho1f,#0nPNA(9Y=i4a]<JN8d4,P9**DJb=COC$LX9fTlhXlb@R&&8[G6)ccjm*!>(PPXF>dbGi5>=*)RBOHK7n+Jg*TqIZT`b'N6XEiXXVu9haQ=@@P'X=`X1dDhf]`8DXjA.pSD$,$RA9/R9GMM]r<aTqYGiksK\$_Nr]#N\r"CHf=U.#jVFrb4Jp:VDjp^i*YOXrbl;^,trtstD&Xsu[rAC[+*Cj%VN"ACE/>"<h2]WB0)QeH#nOl=k]4+Ct'"\_XNOi2gI:a)2b"2GR;[5U`Ht*_0k_fmY^t@*r`D=[jMW8O3@ldNhgTO-p>&3">*gJB\qq\4/&g?Vak9c,IPnK)!c)^jZ(Vfp`R^GOsg:U6h\#2!EZ#-J!jgiX35SS*=\ZWNAE/l?:,E-DUi_5n0#tK&A(j^Bo@Y9#41(X@//C[(a=VCLlWD;CQ.1S\09T`b9.#Yos'K]atbToYD"PHHrX/WtC>ld-?;bV\^Xqqk>bI:6tTcLmeOJd%8I1MK#$?^5EfC'[n-J:qhO3`4*+Dgo@[#@k/='k#)3>D4ZR?b<5m9?>oBtO'B\Wt5/4=liKES>=>d.bdpnOA0(rKch$flD$BobtmCBeYP3`%J/&D-@D#[lV\*S\$o->^9ON:V<i9Qg*m!C\HQMMER),ft=*IrG)s=Sp7-<Q]#?_Za=d<%E;dd%MoKHTYiF4hWZh.mh!@"oGC%I8UT<H0'X\;,JI/8mJO+<_&;c8b\"enc;!UPDPP1jOQahXCJWa>&p48]+XU#R8+3?TOG;ts-c;Z7M>rD%=juj6O*.H=-b(eKW_E-sqemA2LW=?nGUj%_g_gQ,Br')'X1'j>B7J2\81C7(I0e;JOZ"+pN/3g8ZU[Ef>nPI!"--?j:l1ernZaq?UZmg"MfgE?4:*?59e6"+T49i->4SZ/2I)U@!YA]i6+H`p1FbH6Lj?pY$KaO_Z;t=E)AP.Icb(JI:.ri<F0(A+o0T#B#p&gsN7TU[O>G`V"nHf*-HS2n\g<r[24c$8'd2sGAV`^!);Z(;c3dfh9f_"PjlgJc.LM'bf<Vb/G(WdW\!T\P!iqpcH9n;&.EfI^KSD.4e\$\W"T%TEr-8;3++Omlh'm_47ji8f7qjbj0">e!JS-84_K(JZ0]?m5@>$>cA$1sm.@p7_6FX:4(5I?N^6iDD.mM9rW3bM77a(u9cJ%fY>ZurU=T3H<W_=B+3J0lVln7n^q&*]#Qm+J>RB`1WeYhBqo$Z=eUP[9IqGE\)k%3bSHUNk`/;iW\oF]C/nBQMgougNH1uqf2LO28N?:b%]UOb![D#7TK%fQjTWd?c~>endstream
+endobj
+21 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1625
+>>
+stream
+Gb!#\>?BiC&:Vs/R&?PB[S\>RZ>ABJ"UY^89@C:tEGQqGf9b!1Q?#`MHq1K5fE>;/k+$=T376iWDe;1m+u,bc@eMrY!KQ=3lR;qU@D2jkLk,:8:?J=d8$!Tm;G\tnT'(G["$6eK9Y*D!LJ#nQ5_Kc56*V=O(u+$p;Ms*HR'bM[5oq-*"RAYr+:_d['q;G]'L;eU=chF(E=(7.ga#l+?cH_IS0YpC_dsnR,gKFt5(%nV=."IooKM<9:Jj0kfhu?K_C]q<N/2R=QRa2]:RUYQTun#YKBoj@AnS"aPU'L*(V_4LgP9tN/i7!sq$6YdHgWu'rsX;@^15t`"QpG7>r-B]X#ik3Mf9W"TZ\fe,]S+),?SHCILFRmEX+lG_>3co!G<'@.4&r%D[K&+C_^$@-q5%U[@jKo(V2$L@#YQ-/p+)!$E>$S@@jXn19NI8P5sKAE=q0n?f:W)::-]t'gYlLa#:Vd$%8mGLYnauJd%B=]Nf'[/.L(1jUP0jjOh!kJe0^ElQFYJ8MIR0c.=3O,+R:V^k;_o?fje76.hE67%>imNQsj"jec,aTghC,A<8)+f5tUL1n2e![aED)`heRaX<^RJa2RE6ZJ/$Gc(J2W;laDta%+)Zj#L^HK-9L\c>n"g1X+0$<4g8uBjMY15G?#Jd*dN`g4cjo"cnh2&iHOKOKRm5n?Gu,FNp`aiCTCr'U&aEO,.CS9t+k`R>20HmO,a.;BVR7>bMuu4mMgTSUi'IhOGXaUL&gl8)Bk*Xk35\ZB^:#jhpiY&u]u][krEais==;+G4PsQiV33"Lq^rLj9-`9<2kgO&4?r1=em`L.Q==?;_VOYI)Un;,XBZ^eQ@XZODk<]%o.+ce,#0eS@N<4R-ed&c;`$QWSLIr@plf[<=kuKD%u#o!M=+`)V\=NR(A%nW)kjQp'2Us2[*>*\krr91@HU]-^b2bVs+H*H@,UVaNQ%,HP.35+6fF<j@Vr"4*.+V?(n!X,Yd^lhUTom*Q/K`&ODm7aUg(;tq44,q2NcR$cnZ^f%#m24T=CY*C1@T@f6b,_mV_'VRiMahXW@$)QBmF?:SokC>["U>.*cA'+U)3dhN2ot>#Er:0>O)D2:RO@7C#XJ8JgUbW02qN*=L?RULC2q(s'LHc@3:gEj[']."Y3>d[W&qp9?6,!^5aZ'mYQ6YRFeZ?J-SL4S$T\0>k3?4NtM/kj&Dis-Cd<M'5`OfsEior5o^Y6@+@e7%1HRKMFfsfjm_m;8g$iKl_+s,86YKo]3<hhh7V=s+`5+,W5m:D#bI^O?'BP1#p]0B6%E,+!::OI;crReR=3Nm>>%rIe!^GW7PG-#$io=MH@W`bbQY14-W;"O%XAIVkPC]3%Aa.<cd*Fk_Oc0=_#=&W"I7p186KrGt4'lgV/@*W2"*Llf\K-UZr(Z6KE*5L):roE81K[T9AnE+tAT7GD3j5.,g^_%V"Ncb.\X:`JA0PkT5Pu4c#\/fIe4:Nb\_'`O.WsfLilb'/WFIp#*@TG>L[IR=7/]DY0^@U'eRG^767+1LF=_mCV_*C\l%Y46)qL3`JS"6)%O69X[#8o_J.^$"G6GA,`%WAZ.?C`+qGr`CHT9h]LFR0=k-e&:6Z21B/i0";qlW$=ir<Kth`4Q~>endstream
+endobj
+22 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2724
+>>
+stream
+Gb"/*>>sQA(4PFJS;4'mHE'eG2dcE`@=b6k)CA&E4=j]8-4u(>a(?<H)><XY=-@KBS2_[m'N;EoBs<_1SPR]0FR8V<(``@fqY,4EE&rT3(DniWd3E%R(lYWVI!##H&M@;!%X9Tl^*!.@$<\N*_0%E:r>]dLY53B/!-?[$_?=p=!(7jqqZIK%(rq_4iV74)53F*lrX"=)[N+JR/<&O`@M)<J31GcpdfR7=Dg<$ers83E9jjV(M[qN<"\(^)BKsX8)]ko5f'kBQn=-NYEeLsg]>Og4"qD,J5`Y"`MICILPj#12^c[X5a'JL2%)Xr.'@5lg;hs%Jc(sRf.&PNpdrRVc@m(rpE,4s\>_j6bi\20f).aIA42jU(*&Epe:sT@f?k_@n=kBFf<9!I/SB/[l"?cZ+HW-Q:)WS-WQh+985_2EbP8sk!b<.>:^-`!#>nR_%EqPl%V]L2#T5nIHqP;tPqp[3!YAs26((7#Hi96FM?2'[a_b8=UE3pBbbsJtrWdE8(<kVnO2O);fUBqp0%^*HmS41cH)6+uH0jAkQ)md4T\B&70a\*I`ksW<P4GlfX@o41`2<n9kFDpKdF]`5P+roc[-73d.o.ZT^`Z:gOa#55g?eZ8Lb#bH)Hk+1or`\&7g2p"EBCB8UaEM?4qV.[OAe]HkmD$RRETsrd[:(-=bCq[b\uNA^6Js%oD&lUSK@T!O#T.pu^ek8UD`\]U,YFqQPKlU[f+SVfa5>_N4SeFE_oBA`q6i^7=$uHt#L6d(-]&tYdB<%THZg-PrGiA.-L;k3iT][M]Z"g(a2nhoKfIB4TI?_I#K9+7]-S-rH+pQBe.lbe?p`cs?uf%eI6tJt5`7e>NuTJL/pEXs2XWa>LG]40@LY1Whi^26B-PQ'I/*#N5$5/J@KYrXJh<HI`Y,bLEDB.#CRi_L?:tE:3*bOK.fA:p#7V6>IOu"F!GRaJPFY:l!-f:enA*bTHnB8ReXc+VbnflI8"Q8(a%rrI(cjoECa4U%/1UaQoTI(_h,]%KHN]-,6/d.n#^]D%h!j"Bgb9na$Tk.Q9AG>0"C.ju\hAMkb==tBMTO3E]YC(o^]/X"2ln15)Oph:RMjo>M"WUAQ;ne5]\3Mp779>)ccp.^D=dqLMM&]PRM*6L:lMU^@jP1BI`'Y8GS`7L@VpT9?4Z"m1j`-:@@1\:Z%2.R*p'*k\@e+5(-rd'!cNu/p<7!#!a7b/@95@.i8uY.gsE!,bD$*b+^>[iB./WLp7ScQiUWO"@7#42(h(N*0;S&4Q_L4l+AAZ,81!p6L'*NG92MkRI%FTIC<<H&E*;]oUO%>b2ujB%97]8D3[bubs4J?#_Rhf-(]![G&b;Xj5I`i(q=lEC4kH*(Ff+`sFW0+<=ZEb+1"m>Lh()LN\h'+Z<N/_d(WH6X.ed%J.Sm'"SSg&Pok@E$]s:V/eCOQ/XZe>Z0e;an@tTcfU/W/&;MpBPW1u(.Vjmje2<M2OB(Yt1=.eE"UB%AraUuoadDi:W)m*"S(,nqOJp`0V1`9pM(\3<'qujnsI":\E1^h>RA@IenXTA^E_>a[t5HKAY2ZQTDUE.RNdmRbk5JiDI5DZDo$<o*o_2.H;Jb[=,-%O227:_6qZ<$<R1"p`EP.Ub`)=f3K)@<+6>-r(W@>O<Q>@<=N^Y80=MM53fh=^<pUQp2F3m#5emTSZJNtFCA,R^C4Y`_G]H]><b=\.FRLs>Zm`2`3531VNh^50bs9?HAoiu?/,NO@r#?hq#k*":AA(7<TsTT@?MDpr*rLE?_Ws$e9Vlg5jh7Nt)]DKpo%erp3ofV2tD&RKt-AQ0XIZY5^\>WtBM=l)dZCM*U:[Rm1$qsk+,S*qU:+m`e*WF%(Y5%!?'7YA*rYQ_sU"5e_?[W&Ua^j"sn/a6_?-<QK?)D7P68KPk1V7H%t9*^B`Dl'R=fVn)Y7"%#X1sE8(#D?Q>bm]$<$+:?l%Ke"Za,3&/MAGoYX:W;&R2GX>M`n%J9eA&NKT`il3FU1rh(fkoFCnXul3/>[RL'T#d_VAE5RhS"i/XU,qm:3P;6;Nl;#Vd]M?pY0XP>>n:'4^@`L\?ZW"bb5l!i%N5GE,Nb64<#jn$")#HPLrnbnV3>79;Rk6Qu\Ja&5_o!e2L5Y,S_9-;oU@1Pr!)iX70%=>D"^*2JYe2Wqofq^i)r)&8Y90_?j"]^j5k`EZ[>otU-&[V1e'o/Faolgo]n%seY2&1b..L'Ud(iH<^\1JGJQ7<)UW>N.8"5Hp3atY^/Vd_>-fVDtQT,uno%'EQg.\5C@fgK]nhZifsjH^NmH1.4MPdb#8fSq-./)X811chYarU"cIFa<ZQo/3%e*hH_GI6E@h\"iOjE1)F+ZY1>uCQOQ66jPRL8Xb:cpXG;!"S,^&J;8(ei[>D3ZCCD7"QqFH]PN"_i`KNnN+FBO$/(7'i?_*_Mte#BTlNA,U3d7iQEe*_IS@(nQp[=\YNYGGRF+o#8\>&6V%g1;ehLcj1V#U-i[lB83QJ%#1msXiTL#B&s!<UKJ:@TI8KU.4mHFpsLjS,@k#]2g/S#Rr/_=LofLA,oYMKJ&gGlPPN)-[]D;QrmiO$PsH'tRN1@uLp>4`_hQ"4%D$V4Cg-?@UBi"ai*nh47\N)Z,m^?j8SGKe6U6+$Z(11[#aQiK9Y4nafgiUHbMT3`h--qr]1O[o4&Qg=8L,;Gc9Bq.q*iA@)iKWhHBdW#]5*X`&1W6$]phM$!%?.H(7nhN3$&';c2S,~>endstream
+endobj
+23 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2092
+>>
+stream
+Gau0E>?;b&&:WeDbYsRd'8r.Lc5QsT8I5OdSt;P%#N:rm-@9a>l_L'"+5`4Sia$@?")<Y*njo5F2#9$ZN@7p(8+lU-"W0tmn;IE[0V&;gL]c+!(f([V*RMBoB7]M+&d2Wn4g5""crLO_:P"8#fARSLl7+rM1?s0/&DM5XJ,sY;a/'mp0K=@9b>Ln#No4/Q6Lk8>V<$;rU`q>J(H=E=Ki?*C`7^l0#Lb=[IBW.qi*RRiCD4>!7#;:9YkmA\EP9.t4qKBSB]oK%r4oQdgn#Tu\p"LAmh4cp*r\]<Z:21_F]9#hX+0X2.2RD.fTpQ3Eb;7uBe,ea-EEu)74D<EE[:lWouLO,Vb7mD=GB93#N#!g1?$mk8FgR/Q`DO[Y^.YfU)4YT<lR/N/RfTk+%7Bfo1Hm+W,^I_6rh3MZn1KkpQEjeZ+8qpH?'.Pni//i,9hq"-m&Rs(D1#5A/m1SSqr2hr19Yre.#!>IDr'VR=@L6btqT-;CqD`/p$hZG0Lt$9C(B2<Nb6L]+LM-8+;@F+[u]3q,];pkAqp%c&-.F>X$#8Q)7eM_VJUAI<5.#-ZI,p/-;T"_sSPqcOT7Ih^Z4BRVkgJD9D;\!C!2I0T)%snp*=r!XC`bM2:#UPX6W;i$?W\;NsMs#Auu#c#Yno,i%>gf>UbJ#N0i%Dl#Q$>WIDI+o9Ch>SuHu62Jj`UH\A&1gk/&)ITOZ6:.<T%Oqp9S,nMn^p6>YG+s)R92B?E?EVe%G3d**^K@E$n(+K":KprThpos:0Q!rT\f[_&hUpJ_ib"sp`ttc@CW\%58eG'\I"Ll/)b_In>a-FLAt>)-Us,rVY4?a=%n#?eG#P_=%f16#lkq@u,lt<L[X!Hj1=&o^4;Gh/`_.'1=qnZY)^lPO!t6.+GF%PR38+p!=c-?EO(Z*1Uu-J#M='ad43o&V$#:odM-?HqBIc$C3mJ\a:G(S\6#H>i/1t.jh3uS:M;@!S]es!s'EW./;M%QL'k+gX,G8iD*V!1iRBjR>.cGH#/:_g?g3nE_U1n6K`7T78gAKdb<+L]/BApJ>Khp18oT"4jNZbHLB5Baoie.aQnP)QVopg-([aWS?#b*O11lHCc7aR99+_BjL6NBH#gGR0+h$s/5qnl1Z2I`,m0K;oK3Z-Bd\iYXnO(l=]PD<C4]8:55`5UdSIou_M+(XQ%2,sM\--_"V(Ssos(h"$&=VIN.Z^$[X6+i5ArX2L<HSY/@In#knY`4^=]I`Yr+%dG=nTmNjK(&t*)M@N?1?tF@+Zaq6Xm%h2dBTh-7RqM:[Lr'ek)13TdC[M6&B!huBF[FkOEb0@pEub&&?hiS@PGQX[.iEIRPI)Ej/Es=[sX9bOmZhR0q5XtP)'ARi=D&==K"->P:CX\PC(<^Nr3Y/^_JjV4lYk_.N/EY3n?#tN:pQ63ICAC*.U>EbDFpu%j%KY?X],eqjg,3#i]+[8AHV-D)(D<T0`L$cRY\XX;@C.N3^7-)]%Z/>*fP4e[G8I5L@d55PuCfIa,?.;R$Qu]AoP-j(AEubCX*]`P_2k(dfI*\5ZU-at3>!f^&HOC)X["6t,Qd2O]6eZAA8f5@4mk!7h,(o)kQQ?70blSZJp8.]M7d\c\3&lUn6bX/^VQmje?Af<AQjZD*XpWKHJiDC*lQ7d`@G'FTmoB5B)t/iIb)YGG?7XT`JW_&@M,]8rC`Pup2]Ende;Y+E>SgU.s3g\tgV9#,G;kH7Ar(;/XQMY\&>m,%Eb?e;b'k8.4?QS:IlN%Zie`c-&`*?RRoJHGV;`YgEu!=qL(ZG'02f%d"D*k3a/IA`=k,qPl@e5Fnb8oXms"t>D82Y?=9,$C)D2jU%1F0gb6G[@>tgj<=_\./WWXfbN?TS*(V/,tW^\;f&5D`ijWrWW(ah]K]-BZMae%5!K]@+9JqVZ?);[niTD"L\sTS6)nT6Q;^5G<X`(pP/'[Knj2\Au*l0nKPkAWVk1qZf>q[lIC]cp;?at.)fQ#\n>bhMI$*-ENO,&[p$RcE<b^8.gP8Ml`m'f:F>,,/m`'cbVOV\8>$^c9_(2;`U"bkPC2m+UHH6QO&+qMK,>VU:)FU:3PW$!RA5C_V)IPB$kE7=b6R/l~>endstream
+endobj
+24 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2446
+>>
+stream
+Gau`V>Bci#&:Vs/R&;!D:SL8j=21ld,gA7%h6l'&jb85$e)fR5SDEi0a*/d_`\qe+KV$,=!=<@-T0A6HL/9Sn6hPYb!)2PErgEn"0OFf;M$`c8\=0&gI7C8!D$(cI&_H\\HicD!&R%iDq\,WoHKtGd")98FKJI;q*Y<3kY02?_NbMA3QS?!Uq<LB.i/Zb4+erTUGM*UXJu]t;fG%2K_Oi$5(/a"jMg$lT$g'Z(K>->Xh^FBr?5l=i"lHT^iu,+<f4GL(gG>d@"#1eIj:nIMB;p>@!Rn:ZF"A7`@[OQZVHuVHTj7Q3iA"^-6U;`HKgO8;?ucFnkej:='#+u$LjFks[Zll3+Nm,gIs?QS-/c*<rT,;c_PMdeKLVc\-l!;(kp"7`OII@(;D'j^2C7ZkBOTQqr&=mFp#@D;aXq$J57JcrP,J@`TRM-%i2W636B4.t[4E;oj5Q1[B"i=m26ta&E"YjrJdZJSn6kcBb#=r"%BR9p\p.9469L$+-49DcgN4hb?%[L*IYcFI8+ra)m.isgZX5$hs4K0<dk=Y/+5UF>]LsU9F_GIRYiA`>I,ap'8bT:A4oQlM1]\IB"\K8)E_mc/#\N$Io+4AI2>-G[^8u]2[KO+m^ZgObC)1,n!%pjLej#3.Jb2Ud45J0\A(Aj2W[[Dbbm6hJ<k>L,K%_]OKY"Mk9<jU@Rnt5&6b>pK^LB6?8fZ<![X+hqnagZ3-`$#%coDkj'^tDAJ*PZ.U2]FDm]*^VJuc"0<!.Ft9&M%Wi`OUhPE;gn?$?&Nc&88P]>WbFj<JE!\M9t_#,'As:6D(^(@t4)T!lhPKi[\`\b=9DdgCk,gY@tOO3>_IfrR*+dFV-N_'[":9`iF?Cr-Gu48_q08WinL6oQ_%/@Q:WLu\S@n0h?^m+sD3ZcQ%P0nT&i6eo6BlbgQQdn5b]PdbVM4IIEg1Z"-;"4"ida>ZDiacR`E`/BQB,$M,V:g:]iXO3XclV%Y.OY?V4(Ga&_IdH0Qo?=/2dl'tZ;td/3hF3JlPGOTj6Rcn]LjLmEG"0+b5Ff/A]2H#$?]Vc;/K!;=0B"\[V1]?r@@(Ve0nh#]`#FgC!oq0t8.79r7@^K,Bq]%KJQs.F0<pC*D^(-io-t:7ji28nO4h@.PM+>?j6cWHZf9LDR>IT\+k?g/$NGqO*7o!Ndc)6Y/)fY^S%JJ!Js?Tq6s1acH:`^=$ptV"m4c@8R)T'B.Jt#TE=4j'O$IkX]H&r>2S>V!rXqT[jZ0EJl=@S"K9b:[.V@c$!KWoa<)n:5@.k4dZ,+)/:#IeQd%a>+Eb@Ib-Gug$+j0%X8CNO,UWUl>=-I2J;Mf;P>aHaW+k6`/7)gE>#EN)JKNt?2Vbk;Oa<l\XjRZH[@d\^Z(YN9Fmm-k2>$.^"O14;j5VS-\iV&j5(mY*6n^A[3,)e8k2`@ZGL2eYKKE;olSnp)1BpkBMq"NAXEM<<$hONj,hQG(ekYb#uY%i3(C!Td.EjNa;];t::Hb-:R<BY0%#74;9j4Uk@f:C&rICa9>bc2CR[V`UI<4;)@D*)sA<]m@h\N;V&qHdp$G,o-%DJE8?p3o*`jlk67fDbHQenK--Y4*HT)>;Eg?Z-?OYn4I'5,ATY'b=m[-7jTeG3=s#N9NA&=1QqiS"fZC9'&>&a_lkH\4sl^:LT+eO2M'r9B?`lglIggSbmU6oJ#00o2;"ae&V09l5\DP^hbTS\f)i:7]3N6(@VJd]HR^TqU&K>X;XaAB*cF6VRsM^l_J=2,)dBa=sIQh6T(SMJ`"Fjgd:%$7!`L^g/Z-']D-=nZ<e4SUB<qS03%DU0](Alo$O:1_6GaCa9?00pERmmU/]=,$I#QV4:pKM]9f88]$WBi6^ROgeEfMg.?^-PUAJR:ge:]u,(p[?P.IrmDQ*f`<(0/T'os.eR!YA@F([Ikc$kU5)/Ld]#@_Wq7',-YLo^NA6>(L0B=V<pnRj%YochGfOJ>e&P9G%MnC1+>M:5+;Y`)<s\2P*3R,CZ"kPdr1V*_!7.4[p@\t.'\2,m_r_#<=`UdA&dpJt7X<nu%Y3J-RG1g`\^EbLMrMWA.2c8__m3&+nkS=C73C*h+5G;FSNDA[5.]]&!7E4X=QH*J7f..rn+""8d3"dD[<=$LtdT?cC&P@k%.ofUq0:%]9*QXD.LjZc3od"ASP?kG"'&gcHCA%Cp_d93G"n1IAO/F=H4oD%0up$9pROn"65^&IAIhqS4K16M%4$rdh#Xmm:kRP9`NpMYL#!W3>p0mabTkDAaCp4Zr%L5"1Tf0]Xb"lmF=hZ@\qe.1N^4Zg"`8h[-DFZ3[rn,=]-qB(Nm=D)p,0W-:uV)f.(;*,U,CMaAad5&S@gJjhmM@dsE5&QVtnnZ$+RCiYfO'%JAqX\NHFeqm7"aZ*p-n6nk<%D]9JlS8Yg%#Fr=n:K8*R;h?0cKm^gs6E5I\l^qH7S,-Z0iY6iTre8MDI^~>endstream
 endobj
 xref
-0 20
+0 25
 0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000162 00000 n 
-0000000230 00000 n 
-0000000362 00000 n 
-0000001631 00000 n 
-0000001763 00000 n 
-0000003538 00000 n 
-0000003670 00000 n 
-0000004844 00000 n 
-0000004978 00000 n 
-0000006481 00000 n 
-0000006615 00000 n 
-0000007973 00000 n 
-0000008107 00000 n 
-0000010231 00000 n 
-0000010365 00000 n 
-0000011822 00000 n 
-0000011956 00000 n 
+0000000061 00000 n 
+0000000122 00000 n 
+0000000229 00000 n 
+0000000341 00000 n 
+0000000456 00000 n 
+0000000533 00000 n 
+0000000738 00000 n 
+0000000943 00000 n 
+0000001148 00000 n 
+0000001353 00000 n 
+0000001559 00000 n 
+0000001765 00000 n 
+0000001971 00000 n 
+0000002177 00000 n 
+0000002247 00000 n 
+0000002528 00000 n 
+0000002634 00000 n 
+0000004200 00000 n 
+0000006933 00000 n 
+0000009554 00000 n 
+0000012202 00000 n 
+0000013919 00000 n 
+0000016735 00000 n 
+0000018919 00000 n 
 trailer
-<< /Size 20 /Root 1 0 R >>
+<<
+/ID 
+[<9d42dfbbe1dd7438d9d6b3ed629a69ce><9d42dfbbe1dd7438d9d6b3ed629a69ce>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 15 0 R
+/Root 14 0 R
+/Size 25
+>>
 startxref
-13478
+21457
 %%EOF

@@ -428,11 +428,29 @@ class ReportDataBridge:
         member    "diagonal" or "chord"
         force_type "tension" or "compression"
         """
-        from osdagbridge.core.bridge_types.plate_girder.results_data import _extract_osdag_summary
         try:
+            try:
+                from osdagbridge.core.bridge_types.plate_girder.results_data import _extract_osdag_summary
+            except Exception:
+                def _extract_osdag_summary(result: dict) -> dict:
+                    if not result:
+                        return {}
+                    def _first(*keys):
+                        for k in keys:
+                            v = result.get(k)
+                            if v is not None:
+                                return v
+                        return None
+                    return {
+                        "section":     _first("section_size.designation", "Optimum.Designation"),
+                        "capacity_kN": _first("Member.tension_capacity",  "Design.Strength"),
+                        "efficiency":  _first("Member.efficiency",        "Optimum.UR"),
+                        "slenderness": result.get("Member.Slenderness"),
+                        "connection":  "Welded" if "Weld.Type" in result else "Bolted",
+                    }
             raw = self._cb_pair_designs()[pair][member][force_type]
             return _extract_osdag_summary(raw or {})
-        except (KeyError, TypeError):
+        except (KeyError, TypeError, Exception):
             return {}
 
     def get_cb_pairs(self) -> list:
@@ -940,10 +958,26 @@ def generate_report(payload, request):
                 shutil.copy2(tmp_tex, tex_path)
             if os.path.exists(tmp_pdf):
                 shutil.copy2(tmp_pdf, pdf_path)
+                logger.info("Report generated via pdflatex: %s", pdf_path)
+                return ReportResult(pdf_path=pdf_path, tex_path=tex_path)
 
-        if os.path.exists(pdf_path):
-            logger.info("Report generated: %s", pdf_path)
-            return ReportResult(pdf_path=pdf_path, tex_path=tex_path)
+            # Fallback to direct ReportLab PDF renderer when pdflatex binary is absent or failed
+            # Executed INSIDE tmp_dir so that all generated chart images in fig_paths are present!
+            try:
+                from .pdf_renderer import render_pdf_report
+                logger.info("pdflatex compiler not available; rendering PDF via standalone ReportLab engine...")
+                render_pdf_report(
+                    output_path=pdf_path,
+                    inputs=payload.inputs,
+                    output_dict=payload.output_dict,
+                    fig_paths=fig_paths,
+                    is_before_version=False,
+                )
+                if os.path.exists(pdf_path):
+                    logger.info("Report successfully generated via standalone engine: %s", pdf_path)
+                    return ReportResult(pdf_path=pdf_path, tex_path=tex_path)
+            except Exception as _rle:
+                logger.warning("Standalone ReportLab renderer encountered an error: %s", _rle)
 
         logger.error("pdflatex ran but no PDF was produced.")
         if 'res' in locals():
