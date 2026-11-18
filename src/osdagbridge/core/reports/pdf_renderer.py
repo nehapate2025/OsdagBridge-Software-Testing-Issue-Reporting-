@@ -584,6 +584,22 @@ def render_pdf_report(
     ]))
     story.append(t_db)
 
+    def _find_img(p):
+        if not p:
+            return None
+        if os.path.isfile(p):
+            return p
+        base = os.path.basename(p)
+        candidates = [
+            os.path.join("images", base),
+            os.path.join(os.path.dirname(os.path.abspath(output_path)), "images", base),
+            os.path.join(os.path.dirname(os.path.abspath(output_path)), base),
+        ]
+        for c in candidates:
+            if os.path.isfile(c):
+                return c
+        return None
+
     # ── SECTION 5.5: GRAPHICAL CHARTS ──
     story.append(Spacer(1, 10))
     story.append(Paragraph("Section 5.5: Component Utilization Ratio (UR) Charts", h2_style))
@@ -604,32 +620,32 @@ def render_pdf_report(
 
         # 5.5.1 Girder UR Chart
         story.append(Paragraph("5.5.1 Steel Plate Girder Utilization Ratio", h3_style))
-        p_g = fig_paths.get("ur_girder") or fig_paths.get("ur_steel_plate_girder")
-        if p_g and os.path.exists(p_g):
+        p_g = _find_img(fig_paths.get("ur_girder") or fig_paths.get("ur_steel_plate_girder"))
+        if p_g:
             story.append(Image(p_g, width=460, height=205))
             story.append(Paragraph("<b>Figure 5.1:</b> Steel Plate Girder Utilization Ratio Check Summary", caption_style))
         story.append(Spacer(1, 10))
 
         # 5.5.2 Deck Slab UR Chart
         story.append(Paragraph("5.5.2 Concrete Deck Slab Utilization Ratio", h3_style))
-        p_d = fig_paths.get("ur_deck") or fig_paths.get("ur_concrete_deck_slab")
-        if p_d and os.path.exists(p_d):
+        p_d = _find_img(fig_paths.get("ur_deck") or fig_paths.get("ur_concrete_deck_slab"))
+        if p_d:
             story.append(Image(p_d, width=460, height=205))
             story.append(Paragraph("<b>Figure 5.2:</b> Concrete Deck Slab Utilization Ratio Check Summary", caption_style))
         story.append(PageBreak())
 
         # 5.5.3 Cross Bracing UR Chart
         story.append(Paragraph("5.5.3 Cross Bracing Utilization Ratio", h3_style))
-        p_cb = fig_paths.get("ur_cross_bracing")
-        if p_cb and os.path.exists(p_cb):
+        p_cb = _find_img(fig_paths.get("ur_cross_bracing"))
+        if p_cb:
             story.append(Image(p_cb, width=460, height=205))
             story.append(Paragraph("<b>Figure 5.3:</b> Cross Bracing Utilization Ratio Check Summary", caption_style))
         story.append(Spacer(1, 10))
 
         # 5.5.4 End Diaphragm UR Chart
         story.append(Paragraph("5.5.4 End Diaphragm Utilization Ratio", h3_style))
-        p_ed = fig_paths.get("ur_end_diaphragm")
-        if p_ed and os.path.exists(p_ed):
+        p_ed = _find_img(fig_paths.get("ur_end_diaphragm"))
+        if p_ed:
             story.append(Image(p_ed, width=460, height=205))
             story.append(Paragraph("<b>Figure 5.4:</b> End Diaphragm Utilization Ratio Check Summary", caption_style))
 
@@ -693,15 +709,15 @@ def render_pdf_report(
         ))
     else:
         story.append(Paragraph("Section 7.1: Structural Steel Quantity Distribution", h2_style))
-        p_st = fig_paths.get("mat_steel")
-        if p_st and os.path.exists(p_st):
+        p_st = _find_img(fig_paths.get("mat_steel") or fig_paths.get("structural_steel_quantities"))
+        if p_st:
             story.append(Image(p_st, width=460, height=205))
             story.append(Paragraph("<b>Figure 7.1:</b> Structural Steel Quantity Distribution (MT)", caption_style))
         story.append(Spacer(1, 10))
 
         story.append(Paragraph("Section 7.2: Concrete & Reinforcement Quantities", h2_style))
-        p_cr = fig_paths.get("mat_concrete_rebar")
-        if p_cr and os.path.exists(p_cr):
+        p_cr = _find_img(fig_paths.get("mat_concrete_rebar") or fig_paths.get("concrete_rebar_quantities"))
+        if p_cr:
             story.append(Image(p_cr, width=460, height=205))
             story.append(Paragraph("<b>Figure 7.2:</b> Concrete Volume (m³) and Reinforcement Steel Weight (MT)", caption_style))
 

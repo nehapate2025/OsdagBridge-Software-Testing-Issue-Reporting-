@@ -1083,13 +1083,23 @@ Fatigue Shear Resistance, $Q_r$ & IRC 22 Table 8 ($\phi d$, $N_{sc}$) & """
     ]
     t522_content = "\n".join(_t522)
 
+    # Ensure Chapter 5 UR charts exist; auto-generate if not pre-populated
+    _required_ur_charts = ("ur_girder", "ur_deck", "ur_cross_bracing", "ur_end_diaphragm")
+    if not all(k in fig_paths for k in _required_ur_charts):
+        try:
+            from .chart_utils import generate_ch5_ur_charts
+            ur_charts = generate_ch5_ur_charts(bridge)
+            fig_paths.update(ur_charts)
+        except Exception as _ex:
+            logger.warning("Could not auto-generate missing Chapter 5 UR charts: %s", _ex)
+
     fig_ur_girder = _fig_numbered_embed(
-        fig_paths.get("ur_girder"),
+        fig_paths.get("ur_girder") or fig_paths.get("ur_steel_plate_girder"),
         caption=r"Steel Plate Girder --- Utilization Ratio Check Summary",
         label="fig:ur-steel-girder",
     )
     fig_ur_deck = _fig_numbered_embed(
-        fig_paths.get("ur_deck"),
+        fig_paths.get("ur_deck") or fig_paths.get("ur_concrete_deck_slab"),
         caption=r"Concrete Deck Slab --- Utilization Ratio Check Summary",
         label="fig:ur-deck-slab",
     )

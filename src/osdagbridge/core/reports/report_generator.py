@@ -954,6 +954,15 @@ def generate_report(payload, request):
                 except Exception as exc:
                     logger.warning(f"pdflatex run failed: {exc}")
 
+            # Mirror generated figure images to output_dir/images/ so they persist with the report
+            out_img_dir = os.path.join(request.output_dir, 'images')
+            os.makedirs(out_img_dir, exist_ok=True)
+            if os.path.exists(tmp_images):
+                for img_name in os.listdir(tmp_images):
+                    src_img = os.path.join(tmp_images, img_name)
+                    if os.path.isfile(src_img):
+                        shutil.copy2(src_img, os.path.join(out_img_dir, img_name))
+
             if os.path.exists(tmp_tex):
                 shutil.copy2(tmp_tex, tex_path)
             if os.path.exists(tmp_pdf):

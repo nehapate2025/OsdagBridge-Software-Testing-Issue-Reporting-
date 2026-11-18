@@ -738,6 +738,7 @@ def generate_ch5_ur_charts(bridge: Any, output_dir: Optional[str] = None) -> Dic
             output_path=p1,
         )
     fig_paths["ur_girder"] = p1.replace("\\", "/")
+    fig_paths["ur_steel_plate_girder"] = p1.replace("\\", "/")
 
     # -------------------------------------------------------------------------
     # Chart 5.5.2: Concrete Deck Slab Utilization Ratio
@@ -760,6 +761,7 @@ def generate_ch5_ur_charts(bridge: Any, output_dir: Optional[str] = None) -> Dic
             output_path=p2,
         )
     fig_paths["ur_deck"] = p2.replace("\\", "/")
+    fig_paths["ur_concrete_deck_slab"] = p2.replace("\\", "/")
 
     # -------------------------------------------------------------------------
     # Chart 5.5.3: Cross Bracing Utilization Ratio
@@ -1158,12 +1160,14 @@ def generate_ch7_material_charts(inputs: dict, output_dir: Optional[str] = None)
     cats, vals, d_strs = extract_structural_steel_data(inputs)
     create_structural_steel_chart(cats, vals, d_strs, p1)
     fig_paths["mat_steel"] = p1.replace("\\", "/")
+    fig_paths["structural_steel_quantities"] = p1.replace("\\", "/")
 
     # Chart 7.2: Concrete and Reinforcement Material Quantities
     p2 = os.path.join(output_dir, "concrete_rebar_quantities.png")
     c_vol, c_str, r_wt, r_str = extract_concrete_rebar_data(inputs)
     create_concrete_rebar_chart(c_vol, c_str, r_wt, r_str, p2)
     fig_paths["mat_concrete_rebar"] = p2.replace("\\", "/")
+    fig_paths["concrete_rebar_quantities"] = p2.replace("\\", "/")
 
     return fig_paths
 
