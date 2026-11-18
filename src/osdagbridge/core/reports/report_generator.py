@@ -105,7 +105,7 @@
 
 import os, shutil, logging, datetime, tempfile, subprocess
 from dataclasses import dataclass, field
-from typing import Optional, List, Literal
+from typing import Optional, List
 
 from osdagbridge.core.utils.common import (
     KEY_DESIGN_MODE,
@@ -133,7 +133,6 @@ from .styles import (
     DOCUMENT_CLASS,
     DOCUMENT_FONT_SIZE,
     PAGE_SIZE,
-    PAGE_MARGIN,
     LINE_SPACING,
     LONGTABLE_ALIGN_LEFT,
     LONGTABLE_ALIGN_RIGHT,

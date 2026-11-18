@@ -15,13 +15,13 @@ Features:
 
 import os
 import logging
-from typing import Dict, Any, Optional, List
+from typing import Dict, Any
 
 from reportlab.lib.pagesizes import A4
 from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import (
-    SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, Image, KeepTogether, PageBreak, HRFlowable
+    SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, Image, PageBreak, HRFlowable
 )
 from reportlab.pdfgen import canvas
 

@@ -8,7 +8,6 @@ footers per the OsdagBridge design report specification.
 """
 
 import re
-from typing import Optional
 
 
 def make_repeated_header(

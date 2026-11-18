@@ -51,6 +51,8 @@ dependencies = [
   "openseespy>=3.2.2.6",
   "opsvis>=1.0",
   "xarray",
+  "reportlab>=4.0.0",
+  "pypdf>=4.0.0",
 ]
 
 [project.optional-dependencies]

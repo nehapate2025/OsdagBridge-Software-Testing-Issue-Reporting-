@@ -18,6 +18,8 @@ dependencies:
   - scipy>=1.10.1
   - pydantic
   - xarray
+  - reportlab
+  - pypdf
 
   # development install
   - pip

@@ -57,7 +57,7 @@
 \fancypagestyle{main}{
   \fancyhf{}
   \fancyhead[L]{Bridge over River Kali $|$ OB-2026-001}
-  \fancyhead[R]{2026-11-18 $|$ Final Design \& Compliance Verification}
+  \fancyhead[R]{2026-11-18 $|$ Rev 0}
   \fancyfoot[L]{Osdag $|$ FOSSEE $|$ Indian Institute of Technology Bombay}
   \fancyfoot[R]{Page \thepage\ of \pageref{LastPage}}
   \renewcommand{\headrule}{\color{osdagGreen}\hrule width\headwidth height 1pt \vspace{2pt}}
@@ -72,7 +72,7 @@
 \fancypagestyle{plain}{
   \fancyhf{}
   \fancyhead[L]{Bridge over River Kali $|$ OB-2026-001}
-  \fancyhead[R]{2026-11-18 $|$ Final Design \& Compliance Verification}
+  \fancyhead[R]{2026-11-18 $|$ Rev 0}
   \fancyfoot[L]{Osdag $|$ FOSSEE $|$ Indian Institute of Technology Bombay}
   \fancyfoot[R]{Page \thepage\ of \pageref{LastPage}}
   \renewcommand{\headrule}{\color{osdagGreen}\hrule width\headwidth height 1pt \vspace{2pt}}
@@ -139,21 +139,21 @@
 \hline
 \textbf{Project Name} & Bridge over River Kali \\
 \hline
-\textbf{Project Location} & Karwar, Karnataka \\
+\textbf{Project Location} & Karwar \\
 \hline
 \textbf{Author / Designer} & Ankit Shukla \\
 \hline
-\textbf{Reviewer} & Prof. Design Reviewer \\
+\textbf{Reviewer} & Prof \\
 \hline
-\textbf{Organization} & Indian Institute of Technology Bombay \\
+\textbf{Organization} & IIT Bombay \\
 \hline
-\textbf{Client Name and Organization} & National Highway Authority of India \\
+\textbf{Client Name and Organization} & NHAI \\
 \hline
 \textbf{Job Number} & OB-2026-001 \\
 \hline
 \textbf{Date} & 2026-11-18 \\
 \hline
-\textbf{Report Version} & Final Design \& Compliance Verification \\
+\textbf{Report Version} &  \\
 \hline
 \end{tabular}
 \end{titlepage}
@@ -220,7 +220,7 @@ This section provides a concise summary of the bridge design, key inputs, govern
 \hline
 \textbf{Governing Check} &  \\
 \hline
-\textbf{Overall Utilization Ratio (max)} & 0.84 (Girder) \\
+\textbf{Overall Utilization Ratio (max)} & 0.78 (Girder) \\
 \hline
 \end{tabular}
 
@@ -266,7 +266,7 @@ Section Designation &  \\
 \hline
 Governing Check &  \\
 \hline
-Utilization Ratio & 0.84 (Girder) \\
+Utilization Ratio & 0.78 (Girder) \\
 \hline
 \end{tabular}
 
@@ -311,15 +311,15 @@ This section records all project metadata as entered by the designer.
 \hline
 \textbf{Project Name} & Bridge over River Kali \\
 \hline
-\textbf{Project Location} & Karwar, Karnataka \\
+\textbf{Project Location} & Karwar \\
 \hline
 \textbf{Designer} & Ankit Shukla \\
 \hline
-\textbf{Reviewer} & Prof. Design Reviewer \\
+\textbf{Reviewer} & Prof \\
 \hline
-\textbf{Organization} & Indian Institute of Technology Bombay \\
+\textbf{Organization} & IIT Bombay \\
 \hline
-\textbf{Client} & National Highway Authority of India \\
+\textbf{Client} & NHAI \\
 \hline
 \textbf{Software Version} & OsdagBridge \\
 \hline
@@ -361,7 +361,7 @@ This section documents all inputs provided to OsdagBridge. User-provided inputs 
 \hline
 \textbf{parameter} & \textbf{value} \\
 \hline
-\textnormal{Project Location} & Karwar, Karnataka \\
+\textnormal{Project Location} & Karwar \\
 \hline
 \textnormal{Latitude / Longitude} & ,  \\
 \hline
@@ -1536,7 +1536,7 @@ This section presents all structural design checks performed by OsdagBridge. For
 
 \hline
 \endlastfoot
-Girder 1 &  &  & 1260.00 kN-m & 1500.00 kN-m & 0.840 & --- \\[6pt]
+Girder 1 &  &  & 1560.00 kN-m & 2000.00 kN-m & 0.780 & --- \\[6pt]
 \hline
 \end{longtable}
 \noindent\textit{Note: UR = Demand / Capacity. A value $\leq 1.0$ indicates a passing check. The controlling check is the criterion with the highest UR for each girder, with the real load case/combination that drives it.}
@@ -1945,8 +1945,7 @@ Cross bracing between adjacent plate girders provides lateral stability during c
 
 \hline
 \endlastfoot
-\multirow{2}{*}{\makecell{G1-G2}} & Diagonal &  &  & 150000.0 &  \\[6pt]\cline{2-6}
-\multirow{2}{*}{\makecell{G1-G2}} & Top / Bottom chord &  &  &  &  \\[6pt]\cline{2-6}
+Between Girders & Diagonal &  &  &  &  \\[6pt]
 \hline
 \end{longtable}
 \noindent\textit{Note: $A_g$ = gross cross-sectional area; $r_{min}$ = minimum radius of gyration.}
@@ -1971,11 +1970,7 @@ Cross bracing between adjacent plate girders provides lateral stability during c
 
 \hline
 \endlastfoot
-\multirow{3}{*}{\makecell{G1-G2}} & Diagonal & C & 0 &  & 250 ---  \\[6pt]
-\cline{2-6}
- & Top chord & C & 0 &  & 250 ---  \\[6pt]
-\cline{2-6}
- & Bottom chord & T & 0 &  & 400 ---  \\[6pt]
+Between Girders & Diagonal & C &  &  &  ---  \\[6pt]
 \hline
 \end{longtable}
 \noindent\textit{Note:  3. Limit = 250 for compression members, 400 for tension members. $K = 1.0$ for members with both ends pinned.}
@@ -2000,9 +1995,7 @@ Cross bracing between adjacent plate girders provides lateral stability during c
 
 \hline
 \endlastfoot
-\multirow{2}{*}{\makecell{G1-G2}} & Diagonal &  &  &  &  &  &  \\[6pt]\cline{2-8}
- & Chord &  &  &  &  &  &  \\[6pt]\cline{2-8}
-\hline
+
 \end{longtable}
 \noindent\textit{Note: Designed per IS 800 Cl. 7 (compression) and Cl. 6 (tension). OsdagBridge cross-bracing module used.}
 
@@ -2040,8 +2033,7 @@ End diaphragms at the supports transfer transverse loads to the bearings, restra
 
 \hline
 \endlastfoot
-\multirow{2}{*}{\makecell{G1-G2}} & Diagonal &  &  & 150000.0 &  \\[6pt]\cline{2-6}
-\multirow{2}{*}{\makecell{G1-G2}} & Top / Bottom chord &  &  &  &  \\[6pt]\cline{2-6}
+Between Girders & Diagonal &  &  &  &  \\[6pt]
 \hline
 \end{longtable}
 \noindent\textit{Note: $A_g$ = gross cross-sectional area; $r_{min}$ = minimum radius of gyration.}
@@ -2066,11 +2058,7 @@ End diaphragms at the supports transfer transverse loads to the bearings, restra
 
 \hline
 \endlastfoot
-\multirow{3}{*}{\makecell{G1-G2}} & Diagonal & C & 0 &  & 250 ---  \\[6pt]
-\cline{2-6}
- & Top chord & C & 0 &  & 250 ---  \\[6pt]
-\cline{2-6}
- & Bottom chord & T & 0 &  & 400 ---  \\[6pt]
+Between Girders & Diagonal & C &  &  &  ---  \\[6pt]
 \hline
 \end{longtable}
 \noindent\textit{Note:  3. Limit = 250 for compression members, 400 for tension members. $K = 1.0$ for members with both ends pinned.}
@@ -2096,9 +2084,7 @@ End diaphragms at the supports transfer transverse loads to the bearings, restra
 
 \hline
 \endlastfoot
-\multirow{2}{*}{\makecell{G1-G2}} & Diagonal &  &  &  &  &  &  \\[6pt]\cline{2-8}
- & Chord &  &  &  &  &  &  \\[6pt]\cline{2-8}
-\hline
+
 \end{longtable}
 \noindent\textit{Note: Designed per IS 800 Cl. 7 (compression) and Cl. 6 (tension). OsdagBridge cross-bracing module used.}
 
@@ -2129,15 +2115,15 @@ End diaphragms at the supports transfer transverse loads to the bearings, restra
 \endlastfoot
 Girder --- Moment & --- & 1560.00 kN-m & 2000.00 kN-m & 0.78 \\[6pt]
 \hline
-Girder --- Shear & --- & 520.00 kN & 1000.00 kN & 0.52 \\[6pt]
+Girder --- Shear & --- & --- & --- & --- \\[6pt]
 \hline
-Girder --- LTB (constr.) & --- & 1260.00 kN-m & 1500.00 kN-m & 0.84 \\[6pt]
+Girder --- LTB (constr.) & --- & --- & --- & --- \\[6pt]
 \hline
-Girder --- Deflection & --- & 23.20 mm & 40.00 mm & 0.58 \\[6pt]
+Girder --- Deflection & --- & --- & --- & --- \\[6pt]
 \hline
-Girder --- Stress & --- & 162.50 MPa & 250.00 MPa & 0.65 \\[6pt]
+Girder --- Stress & --- & --- & --- & --- \\[6pt]
 \hline
-Girder --- Fatigue & --- & 38.40 MPa & 80.00 MPa & 0.48 \\[6pt]
+Girder --- Fatigue & --- & --- & --- & --- \\[6pt]
 \hline
 Transverse Shear (slab) & --- & --- & --- & --- \\[6pt]
 \hline
@@ -2177,7 +2163,7 @@ This section presents graphical Utilization Ratio (UR = Demand / Capacity) chart
 \label{subsubsec:ur-girder}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.88\textwidth,height=0.32\textheight,keepaspectratio]{C:/Users/acer/AppData/Local/Temp/tmpr1ql2x0a/images/ur_steel_plate_girder.png}
+\includegraphics[width=0.88\textwidth,height=0.32\textheight,keepaspectratio]{C:/Users/acer/AppData/Local/Temp/tmp8y_nazp2/images/ur_steel_plate_girder.png}
 \caption{Steel Plate Girder --- Utilization Ratio Check Summary}
 \label{fig:ur-steel-girder}
 \end{figure}
@@ -2187,7 +2173,7 @@ This section presents graphical Utilization Ratio (UR = Demand / Capacity) chart
 \label{subsubsec:ur-deck}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.88\textwidth,height=0.32\textheight,keepaspectratio]{C:/Users/acer/AppData/Local/Temp/tmpr1ql2x0a/images/ur_concrete_deck_slab.png}
+\includegraphics[width=0.88\textwidth,height=0.32\textheight,keepaspectratio]{C:/Users/acer/AppData/Local/Temp/tmp8y_nazp2/images/ur_concrete_deck_slab.png}
 \caption{Concrete Deck Slab --- Utilization Ratio Check Summary}
 \label{fig:ur-deck-slab}
 \end{figure}
@@ -2197,7 +2183,7 @@ This section presents graphical Utilization Ratio (UR = Demand / Capacity) chart
 \label{subsubsec:ur-cross-bracing}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.88\textwidth,height=0.32\textheight,keepaspectratio]{C:/Users/acer/AppData/Local/Temp/tmpr1ql2x0a/images/ur_cross_bracing.png}
+\includegraphics[width=0.88\textwidth,height=0.32\textheight,keepaspectratio]{C:/Users/acer/AppData/Local/Temp/tmp8y_nazp2/images/ur_cross_bracing.png}
 \caption{Cross Bracing --- Utilization Ratio Check Summary}
 \label{fig:ur-cross-bracing}
 \end{figure}
@@ -2207,7 +2193,7 @@ This section presents graphical Utilization Ratio (UR = Demand / Capacity) chart
 \label{subsubsec:ur-end-diaphragm}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.88\textwidth,height=0.32\textheight,keepaspectratio]{C:/Users/acer/AppData/Local/Temp/tmpr1ql2x0a/images/ur_end_diaphragm.png}
+\includegraphics[width=0.88\textwidth,height=0.32\textheight,keepaspectratio]{C:/Users/acer/AppData/Local/Temp/tmp8y_nazp2/images/ur_end_diaphragm.png}
 \caption{End Diaphragm --- Utilization Ratio Check Summary}
 \label{fig:ur-end-diaphragm}
 \end{figure}
@@ -2413,7 +2399,7 @@ This section presents the graphical distribution of the primary construction mat
 \label{subsec:chart-steel-tonnage}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.88\textwidth,height=0.32\textheight,keepaspectratio]{C:/Users/acer/AppData/Local/Temp/tmpr1ql2x0a/images/structural_steel_quantities.png}
+\includegraphics[width=0.88\textwidth,height=0.32\textheight,keepaspectratio]{C:/Users/acer/AppData/Local/Temp/tmp8y_nazp2/images/structural_steel_quantities.png}
 \caption{Structural Steel Quantity Distribution}
 \label{fig:chart-steel-tonnage}
 \end{figure}
@@ -2423,7 +2409,7 @@ This section presents the graphical distribution of the primary construction mat
 \label{subsec:chart-concrete-rebar}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.88\textwidth,height=0.32\textheight,keepaspectratio]{C:/Users/acer/AppData/Local/Temp/tmpr1ql2x0a/images/concrete_rebar_quantities.png}
+\includegraphics[width=0.88\textwidth,height=0.32\textheight,keepaspectratio]{C:/Users/acer/AppData/Local/Temp/tmp8y_nazp2/images/concrete_rebar_quantities.png}
 \caption{Concrete and Reinforcement Material Quantities}
 \label{fig:chart-concrete-rebar}
 \end{figure}
