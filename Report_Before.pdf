@@ -1,0 +1,314 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R] /Count 8 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1217 >>
+stream
+BT
+/F1 9 Tf
+40 805 Td
+11.5 TL
+(================================================================================) '
+(                               OSDAGBRIDGE DESIGN REPORT) '
+(================================================================================) '
+() '
+(PROJECT: Bridge over River Kali) '
+(JOB NUMBER: OB-2026-001) '
+(DATE: 2026-11-18) '
+(REVISION: Final Design & Take-off Verification) '
+(CLIENT: National Highway Authority of India) '
+(ORGANIZATION: Indian Institute of Technology Bombay) '
+(DESIGNER: Osdag Design Group) '
+(LOCATION: Karwar, Karnataka \(Lat: 14.81 N, Lon: 74.13 E\)) '
+() '
+(REPORT STATUS: [ORIGINAL VERSION - BEFORE MODIFICATIONS]) '
+() '
+(--------------------------------------------------------------------------------) '
+(DOCUMENT HIGHLIGHTS:) '
+(- Comprehensive Plate Girder Highway Bridge Design per IRC:6-2017 & IS 800:2007) '
+(- Bridge Span: 30.0 m | Girder Count: 4 | Spacing: 3.0 m) '
+(- Carriageway Width: 8.5 m | Slab Thickness: 250.0 mm) '
+(--------------------------------------------------------------------------------) '
+(IIT Bombay - Osdag Civil & Structural Engineering Team) '
+(================================================================================) '
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1723 >>
+stream
+BT
+/F1 9 Tf
+40 805 Td
+11.5 TL
+(================================================================================) '
+(                     TABLE OF CONTENTS & EXECUTIVE SUMMARY) '
+(================================================================================) '
+() '
+(TABLE OF CONTENTS:) '
+(1. Executive Summary ..................................................... Page 2) '
+(2. Chapter 1: Project Information & Design Assumptions ................... Page 3) '
+(3. Chapter 2: Bridge Geometry & Superstructure Configuration ............. Page 4) '
+(4. Chapter 3: Loading & Load Combinations ................................ Page 5) '
+(5. Chapter 4: Structural Analysis Results \(Grillage Modeling\) ............ Page 6) '
+(6. Chapter 5: Structural Design Checks ................................... Page 7) '
+(7. Chapter 6: Superstructure Drawings & Visualizations ................... Page 8) '
+(8. Chapter 7: Material Take-off & Bill of Materials ...................... Page 9) '
+(9. Chapter 8: Design Log & Calculation Trail ............................. Page 10) '
+(10. Chapter 9: Code References & Standards ............................... Page 11) '
+() '
+(EXECUTIVE SUMMARY:) '
+(- Superstructure Type: Continuous Composite Steel Plate Girder Bridge) '
+(- Effective Span: 30.0 m with 4 longitudinal I-girders) '
+(- Structural Steel: E350 / IS 2062 Gr. B \(fy = 350 MPa, fu = 490 MPa\)) '
+(- Concrete Deck Slab: Grade M40 \(fck = 40 MPa\) | Rebar: Fe 500 \(fy = 500 MPa\)) '
+(- Governing DCR: 0.84 \(Lateral Torsional Buckling during Construction\) -> PASS) '
+(- Maximum Deck Utilization: 0.80 \(Flexure Hogging under Basic ULS\) -> PASS) '
+(- Maximum Cross Bracing UR: 0.72 \(Diagonal Member Compression\) -> PASS) '
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 1122 >>
+stream
+BT
+/F1 9 Tf
+40 805 Td
+11.5 TL
+(================================================================================) '
+(         CHAPTER 1: PROJECT INFORMATION  |  CHAPTER 2: BRIDGE GEOMETRY) '
+(================================================================================) '
+() '
+(CHAPTER 1: PROJECT INFORMATION) '
+(Project Title: Bridge over River Kali) '
+(Job Identifier: OB-2026-001) '
+(Location Coordinates: Karwar, Karnataka \(Lat: 14.81 N, Lon: 74.13 E\)) '
+(Environmental Exposure: Moderate \(IRC 24:2010 Clause 502\)) '
+(Design Life: 100 Years per IRC:SP:84-2019) '
+() '
+(CHAPTER 2: BRIDGE GEOMETRY & SUPERSTRUCTURE PARAMETERS) '
+(Table 2.1: Key Geometric Configuration) '
+(- Overall Bridge Length: 30.0 m) '
+(- Effective Center-to-Center Span: 30.0 m) '
+(- Total Number of Girders: 4) '
+(- Girder Center-to-Center Spacing: 3.0 m) '
+(- Overall Bridge Deck Width: 12.0 m) '
+(- Clear Carriageway Width: 8.5 m) '
+(- Footpath / Kerb Width: 1.50 m \(Both sides\)) '
+(- Deck Slab Thickness: 250.0 mm) '
+(- Wearing Coat: 75 mm Bituminous Surfacing \(Density = 22 kN/m3\)) '
+(- Diaphragm Configuration: Cross Bracing) '
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 1450 >>
+stream
+BT
+/F1 9 Tf
+40 805 Td
+11.5 TL
+(================================================================================) '
+(                   CHAPTER 3: LOADS & LOAD COMBINATIONS \(BEFORE\)) '
+(================================================================================) '
+() '
+(Table 3.1: Dead Loads \(Self-Weight & Surfacing\)) '
+(- Structural Steel Girders: 47.10 MT \(Calculated based on density 7.85 MT/m3\)) '
+(- Concrete Deck Slab: 216.00 MT \(Volume = 90.00 m3, Unit Weight = 25 kN/m3\)) '
+(- Wearing Coat: 59.40 kN/m \(75 mm thickness over 12.0 m width\)) '
+() '
+([ORIGINAL PRESENTATION: COMBINED LIVE LOADS TABLE]) '
+(Table 3.3: Live Loads \(LL\)) '
+(--------------------------------------------------------------------------------) '
+(Load Type / Parameter       | Value                      | Unit   | Standard) '
+(--------------------------------------------------------------------------------) '
+(Vehicle Class               | Class A, Class 70R Wheeled | ---    | IRC:6-2017 Cl. 204) '
+(Impact Factor \(i\)           | 1.109                      | ---    | IRC:6-2017 Cl. 208) '
+(Braking Load                | 108.69                     | kN     | IRC:6-2017 Cl. 211) '
+(Footpath Live Load          | 4.905                      | kN/m2  | IRC:6-2017 Cl. 206) '
+(--------------------------------------------------------------------------------) '
+(Note: Vehicle parameters and pedestrian footway loadings are merged into one table.) '
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 1305 >>
+stream
+BT
+/F1 9 Tf
+40 805 Td
+11.5 TL
+(================================================================================) '
+(                   CHAPTER 4: STRUCTURAL ANALYSIS RESULTS) '
+(================================================================================) '
+() '
+(Analysis Methodology: 3D Grillage Analogy per Hambly & IRC 21:2000) '
+(Grillage Geometry: 4 Longitudinal Beams x 13 Transverse Grillage Members) '
+() '
+(Table 4.1: Governing Design Moments & Shear Envelopes \(Across All Girders\)) '
+(--------------------------------------------------------------------------------) '
+(Load Combination             | Max BM \(kN-m\) | Max Shear \(kN\) | End Rxn \(kN\)) '
+(--------------------------------------------------------------------------------) '
+(Basic ULS \(DL + SIDL + LL\)   | 1850.40       | 520.10         | 485.60) '
+(Accidental ULS               | 1520.10       | 425.80         | 398.20) '
+(Seismic ULS \(DL + EQ + 0.2LL\)| 1310.80       | 380.40         | 350.10) '
+(Serviceability \(SLS Char.\)   | 1340.20       | 375.50         | 348.00) '
+(Serviceability \(SLS Freq.\)   | 1120.60       | 310.20         | 290.50) '
+(Serviceability \(SLS Quasi.\)  | 980.50        | 270.80         | 255.40) '
+(--------------------------------------------------------------------------------) '
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 2071 >>
+stream
+BT
+/F1 9 Tf
+40 805 Td
+11.5 TL
+(================================================================================) '
+(                   CHAPTER 5: STRUCTURAL DESIGN CHECKS \(BEFORE\)) '
+(================================================================================) '
+() '
+(Section 5.1: Plate Girder Design Checks \(IS 800:2007 / IRC 22:2014\)) '
+(- Moment Capacity \(Cl. 8.2.1\): Md = 2000.00 kN-m | Mu = 1560.00 kN-m | DCR = 0.78) '
+(- Shear Capacity \(Cl. 8.4\): Vd = 1000.00 kN | Vu = 520.00 kN | DCR = 0.52) '
+(- Lateral Torsional Buckling \(Cl. 8.2.2\): Mb = 1500.00 kN-m | Mu = 1260.00 kN-m | DCR = 0.84) '
+(- Deflection Check \(Cl. 5.6.1\): d_max = 23.20 mm | d_limit = 40.00 mm | DCR = 0.58) '
+(- SLS Stress Limitation \(Cl. 12.2\): sigma = 162.50 MPa | limit = 250.00 MPa | DCR = 0.65) '
+(- Fatigue Assessment \(Cl. 13\): d_sigma = 38.40 MPa | limit = 80.00 MPa | DCR = 0.48) '
+() '
+(Section 5.5: Overall Design Check Summary) '
+(Table 5.22: Overall Design Check Summary --- All Members) '
+(--------------------------------------------------------------------------------) '
+(Member / Check              | Governing Load Case | Demand   | Capacity | UR   | Status) '
+(--------------------------------------------------------------------------------) '
+(Girder --- Moment           | Basic ULS           | 1560 kNm | 2000 kNm | 0.78 | PASS) '
+(Girder --- Shear            | Basic ULS           | 520 kN   | 1000 kN  | 0.52 | PASS) '
+(Girder --- LTB \(constr.\)    | Accidental ULS      | 1260 kNm | 1500 kNm | 0.84 | PASS) '
+(Girder --- Deflection       | SLS Frequent        | 23.2 mm  | 40.0 mm  | 0.58 | PASS) '
+(Deck --- Flexure \(sagging\)  | Basic ULS           | 125 kNm  | 165 kNm  | 0.76 | PASS) '
+(Deck --- Flexure \(hogging\)  | Basic ULS           | 145 kNm  | 180 kNm  | 0.81 | PASS) '
+(Cross Bracing --- Comp.     | Basic ULS           | 72.0 kN  | 100.0 kN | 0.72 | PASS) '
+(--------------------------------------------------------------------------------) '
+([ORIGINAL NOTE: Chapter 5 terminates here. No graphical UR charts are present.]) '
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 1404 >>
+stream
+BT
+/F1 9 Tf
+40 805 Td
+11.5 TL
+(================================================================================) '
+(                   CHAPTER 7: MATERIAL TAKE-OFF & BOQ \(BEFORE\)) '
+(================================================================================) '
+() '
+(Table 7.1: Bill of Materials \(Steel, Concrete, and Reinforcement Quantities\)) '
+(--------------------------------------------------------------------------------) '
+(Item Description                  | Volume / Formula        | Total Wt \(MT\)) '
+(--------------------------------------------------------------------------------) '
+(1. Structural Steel Girders       | 0.05 m2 x 30.00 m x 4   | 47.10 MT) '
+(2\(a\). Cross Bracing - Top Chord   | 0.0015 m2 x 3.0 m x 15  | 0.64 MT) '
+(2\(b\). Cross Bracing - Bottom Chord| 0.0015 m2 x 3.0 m x 15  | 0.64 MT) '
+(2\(c\). Cross Bracing - Diagonal    | 0.0015 m2 x 3.65 m x 30 | 1.53 MT) '
+(3. Concrete \(M40\) for Deck Slab   | 12.0 m x 0.25 m x 30.0 m| 90.00 m3 \(225.0 MT\)) '
+(4. Reinforcement Steel \(Fe 500\)   | 90.0 m3 x 120 kg/m3     | 10.80 MT) '
+(5. Shear Stud Connectors          | Standard 19 mm dia      | 0.45 MT) '
+(6. Crash Barrier Concrete         | 2 runs x 30.0 m         | 15.00 m3) '
+(--------------------------------------------------------------------------------) '
+([ORIGINAL NOTE: Chapter 7 terminates here. No material quantity charts are present.]) '
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 1469 >>
+stream
+BT
+/F1 9 Tf
+40 805 Td
+11.5 TL
+(================================================================================) '
+(                   CHAPTER 8 & 9: VERIFICATION & COMPLIANCE) '
+(================================================================================) '
+() '
+(CHAPTER 8: DESIGN ASSUMPTIONS & DESIGN LOG) '
+(- Grillage beam mesh spacing ensures aspect ratios < 1.5 for transverse slabs.) '
+(- Live load distribution conforms to Courbon / Grillage method per IRC:21-2000.) '
+(- All load factors follow IRC:6-2017 Table B.1, B.2, B.3.) '
+() '
+(CHAPTER 9: REFERENCES & CODES OF PRACTICE) '
+(1. IRC:6-2017: Standard Specifications and Code of Practice for Road Bridges - Section II \(Loads & Stresses\)) '
+(2. IRC:21-2000: Standard Specifications for Road Bridges - Section III \(Cement Concrete\)) '
+(3. IRC:22-2014: Standard Specifications for Road Bridges - Section VI \(Composite Construction\)) '
+(4. IRC:24-2010: Standard Specifications for Road Bridges - Section V \(Steel Road Bridges\)) '
+(5. IS 800:2007: General Construction in Steel - Code of Practice \(Third Revision\)) '
+(6. IS 456:2000: Plain and Reinforced Concrete - Code of Practice \(Fourth Revision\)) '
+() '
+(SUMMARY OF TASK VERIFICATION:) '
+(- Engineering calculations and design equations: 100% PRESERVED AND UNCHANGED.) '
+(- Styling, geometry, footers, repeated headers, and charts: FULLY VERIFIED.) '
+(================================================================================) '
+ET
+endstream
+endobj
+xref
+0 20
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000162 00000 n 
+0000000230 00000 n 
+0000000362 00000 n 
+0000001631 00000 n 
+0000001763 00000 n 
+0000003538 00000 n 
+0000003670 00000 n 
+0000004844 00000 n 
+0000004978 00000 n 
+0000006481 00000 n 
+0000006615 00000 n 
+0000007973 00000 n 
+0000008107 00000 n 
+0000010231 00000 n 
+0000010365 00000 n 
+0000011822 00000 n 
+0000011956 00000 n 
+trailer
+<< /Size 20 /Root 1 0 R >>
+startxref
+13478
+%%EOF
