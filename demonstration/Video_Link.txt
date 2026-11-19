@@ -1,0 +1,26 @@
+================================================================================
+OSDAGBRIDGE VIDEO DEMONSTRATION RECORDING STATUS
+================================================================================
+
+VIDEO TITLE:               OsdagBridge Short-Span Steel Plate Girder Testing & Verification Demo
+TARGET PLATFORM:           YouTube (Unlisted) / Google Drive (Direct Review Link)
+ACTUAL VIDEO URL:          PENDING_USER_RECORDING
+SHARING PERMISSION:        Public / Anyone with Link (View Only)
+UPLOAD STATUS:             NOT UPLOADED
+RECORDING DATE:            PENDING
+VIDEO STATUS:              VIDEO STATUS: NOT RECORDED
+
+================================================================================
+TRUTHFULNESS & VERIFICATION POLICY COMPLIANCE
+================================================================================
+In accordance with Task 10 instructions, video recording URLs cannot and must not
+be fabricated or simulated. Direct video capture of the host desktop requires
+interactive user screen recording software (e.g. OBS Studio, Windows Game Bar, or Camtasia).
+
+A complete, production-ready recording guide and presentation script has been prepared
+in:
+    demonstration/Demonstration_Steps.md
+
+The user should follow the 6-part demonstration steps, upload the recorded MP4 video
+to YouTube or Google Drive, and replace 'PENDING_USER_RECORDING' above with the live URL.
+================================================================================
