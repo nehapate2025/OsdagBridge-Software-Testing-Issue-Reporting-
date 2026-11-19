@@ -172,7 +172,7 @@ class NativeMapWidget(QWidget):
         request = QNetworkRequest(QUrl(url))
         request.setAttribute(QNetworkRequest.CacheLoadControlAttribute, QNetworkRequest.PreferCache)
         # Identify user agent as polite usage policy requires
-        request.setHeader(QNetworkRequest.UserAgentHeader, "OsdagBridge/1.0 (Garvit)")
+        request.setHeader(QNetworkRequest.UserAgentHeader, "OsdagBridge/1.0 (Ankit Shukla)")
 
         self._pending_tile_requests.add(url)
         reply = self.manager.get(request)

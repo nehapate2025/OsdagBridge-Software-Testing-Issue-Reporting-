@@ -62,7 +62,7 @@ tex_content = r'''\documentclass[11pt,a4paper]{report}
     \item \textbf{Development Type:} Individual Project
     \item \textbf{Project Ownership:} Sole Individual Developer
 \end{itemize}
-OsdagBridge is developed and maintained as an individual project by Ankit Shukla. All project-specific development, testing implementation, customization, documentation, and project integration covered by this submission are attributed to Ankit Shukla.
+OsdagBridge is an individual software project developed and maintained by Ankit Shukla. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Ankit Shukla.
 
 \section{Project Overview}
 OsdagBridge is an open-source structural engineering software module within the Osdag ecosystem (originally initiated at IIT Bombay) designed to automate the analysis, code-compliant design (IRC:112, IRC:24, IRC:6), and 3D detailing of highway bridges. In this individual project by Ankit Shukla, the short-span steel plate girder bridge module and its comprehensive automated verification framework were customized, verified, and documented.
@@ -203,14 +203,14 @@ class NumberedCanvas(canvas.Canvas):
         if self._pageNumber > 1:
             # Header
             self.drawString(54, 11 * inch - 36, "OsdagBridge - Comprehensive Software Testing and Verification Report")
-            self.drawRightString(8.5 * inch - 54, 11 * inch - 36, "Developed by Ankit Shukla | Individual Project")
+            self.drawRightString(8.5 * inch - 54, 11 * inch - 36, "Developed and Maintained by Ankit Shukla | Individual Project")
             self.setStrokeColor(colors.HexColor("#D1D5DB"))
             self.setLineWidth(0.5)
             self.line(54, 11 * inch - 42, 8.5 * inch - 54, 11 * inch - 42)
             
             # Footer
             self.line(54, 46, 8.5 * inch - 54, 46)
-            self.drawString(54, 34, "Prepared and Developed by Ankit Shukla (Sole Individual Developer)")
+            self.drawString(54, 34, "Developed and Maintained by Ankit Shukla (Individual Project)")
             self.drawRightString(8.5 * inch - 54, 34, f"Page {self._pageNumber} of {page_count}")
             
         self.restoreState()
@@ -328,11 +328,11 @@ elements.append(HRFlowable(width="80%", thickness=2, color=secondary_color, spac
 
 meta_text = """
 <b>Project Name:</b> OsdagBridge<br/>
-<b>Prepared and Developed by:</b> Ankit Shukla<br/>
-<b>Developer & Author:</b> Ankit Shukla<br/>
-<b>Project Creator:</b> Ankit Shukla<br/>
-<b>Development Type:</b> Individual Project<br/>
-<b>Project Ownership:</b> Sole Individual Developer<br/>
+<b>Developer:</b> Ankit Shukla<br/>
+<b>Creator:</b> Ankit Shukla<br/>
+<b>Maintained By:</b> Ankit Shukla<br/>
+<b>Project Type:</b> Individual Project<br/>
+<b>Project Ownership:</b> Ankit Shukla<br/>
 <b>Document Identifier:</b> OSB-QA-TR-2026-FINAL<br/>
 <b>Date of Evaluation:</b> November 2026<br/>
 <b>Testing Status:</b> 95 Total Test Cases (90 PASS, 5 BLOCKED, 0 FAIL) - 94.7% Passing Rate

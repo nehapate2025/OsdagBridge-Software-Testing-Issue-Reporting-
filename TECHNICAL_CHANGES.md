@@ -4,12 +4,12 @@
 
 - **Project Name:** OsdagBridge
 - **Developer:** Ankit Shukla
-- **Author:** Ankit Shukla
-- **Project Creator:** Ankit Shukla
-- **Development Type:** Individual Project
-- **Project Ownership:** Sole Individual Developer
+- **Creator:** Ankit Shukla
+- **Maintained By:** Ankit Shukla
+- **Project Type:** Individual Project
+- **Project Ownership:** Ankit Shukla
 
-OsdagBridge is developed and maintained as an individual project by Ankit Shukla. All project-specific development, testing implementation, customization, documentation, and project integration covered by this submission are attributed to Ankit Shukla.
+OsdagBridge is an individual software project developed and maintained by Ankit Shukla. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Ankit Shukla.
 
 ---
 
