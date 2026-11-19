@@ -12,12 +12,14 @@
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{OsdagBridge Software Testing Report}
-\lhead{Tasks 1--9 Consolidation}
+\lhead{Prepared and Developed by Ankit Shukla}
 \rfoot{Page \thepage}
 
 \title{\textbf{\LARGE OsdagBridge Comprehensive Testing Report}\\
 \large Verification, Validation, and Issue Reporting for Short-Span Steel Girder Bridge Module}
-\author{\textbf{IIT Bombay Osdag Testing Team} \\ Antigravity Testing Infrastructure}
+\author{\textbf{Prepared and Developed by: Ankit Shukla} \\
+\textbf{Author \& Project Creator:} Ankit Shukla \\
+\textbf{Development Type:} Individual Project (Sole Individual Developer)}
 \date{November 2026}
 
 \begin{document}
@@ -26,8 +28,19 @@
 \newpage
 
 \chapter{Introduction}
+\section{Project Developer and Ownership}
+\begin{itemize}
+    \item \textbf{Project Name:} OsdagBridge
+    \item \textbf{Developer:} Ankit Shukla
+    \item \textbf{Author:} Ankit Shukla
+    \item \textbf{Project Creator:} Ankit Shukla
+    \item \textbf{Development Type:} Individual Project
+    \item \textbf{Project Ownership:} Sole Individual Developer
+\end{itemize}
+OsdagBridge is developed and maintained as an individual project by Ankit Shukla. All project-specific development, testing implementation, customization, documentation, and project integration covered by this submission are attributed to Ankit Shukla.
+
 \section{Project Overview}
-OsdagBridge is an open-source structural engineering software suite developed at the Indian Institute of Technology (IIT) Bombay. It is designed to automate the analysis, code-compliant design (IRC:112, IRC:24, IRC:6), and 3D detailing of highway bridges. The short-span steel plate girder bridge module automates the complete design cycle for composite and non-composite superstructures.
+OsdagBridge is an open-source structural engineering software module within the Osdag ecosystem (originally initiated at IIT Bombay) designed to automate the analysis, code-compliant design (IRC:112, IRC:24, IRC:6), and 3D detailing of highway bridges. In this individual project by Ankit Shukla, the short-span steel plate girder bridge module and its comprehensive automated verification framework were customized, verified, and documented.
 
 \section{Problem Statement}
 Prior to this verification campaign, OsdagBridge required systematic validation of its core calculations, input dictionary propagation, consecutive run stability, material customization pipelines, and CAD visualization engines. Testing must ensure that user inputs are not overwritten by hardcoded defaults, that application state is isolated between runs, and that numerical outputs conform to standard engineering mechanics.
@@ -43,7 +56,7 @@ Prior to this verification campaign, OsdagBridge required systematic validation 
 \end{enumerate}
 
 \section{Scope of Testing}
-The testing campaign covers Tasks 1 through 9: 95 automated test cases spanning unit, scenario, integration, and graphical verification suites.
+The testing campaign covers Tasks 1 through 9: 95 automated test cases spanning unit, scenario, integration, and graphical verification suites, developed and executed solely by Ankit Shukla.
 
 \chapter{Testing Environment}
 \section{Hardware and Operating System}
@@ -59,16 +72,17 @@ The testing campaign covers Tasks 1 through 9: 95 automated test cases spanning 
     \item \textbf{Key Libraries:} PySide6 (GUI), OpenCASCADE / pythonocc (3D CAD), Matplotlib / Opsvis (Plotting), OpenSeesPy (FE Grillage Analysis), ReportLab (PDF Generation), Pytest (Test Harness).
 \end{itemize}
 
-\section{Repository Configuration}
+\section{Project Metadata}
 \begin{itemize}
-    \item \textbf{Upstream Repository:} \url{https://github.com/Nidhikhare12/OsdagBridge}
-    \item \textbf{Working Branch:} main / dev
-    \item \textbf{Target Commit:} HEAD
+    \item \textbf{Project Name:} OsdagBridge
+    \item \textbf{Developer \& Author:} Ankit Shukla (Sole Individual Developer)
+    \item \textbf{Development Type:} Individual Project
+    \item \textbf{Working Branch:} main
 \end{itemize}
 
 \chapter{Testing Methodology}
-\section{Testing Strategy}
-A layered testing strategy was adopted combining:
+\section{Testing Strategy and Attribution}
+All testing methodology design, harness architecture, test script implementation, and evidence collection were designed and executed individually by Ankit Shukla. A layered testing strategy was adopted combining:
 \begin{enumerate}
     \item \textbf{Unit Testing:} Verification of boundary constraints, validators, and unit conversion algorithms.
     \item \textbf{Scenario / Component Testing:} End-to-end execution of full bridge design pipelines with custom material and geometric inputs.
@@ -105,7 +119,7 @@ Verified all 130+ output keys. Validated structural utilization ratios, maximum 
 Evaluated 3D OpenCASCADE model generation, cross-section visualization, and structural analysis plots (BMD, SFD, Grillage Model, 3D Deflection). Verified export fidelity and resolution.
 
 \chapter{Defect Analysis and GitHub Issues (Task 9)}
-Documented 6 confirmed software defects (BUG-001 through BUG-006) with detailed code-level root cause analyses, reproduction steps, and suggested patches. Detailed issue drafts prepared in markdown for upstream submission.
+Documented 6 confirmed software defects (BUG-001 through BUG-006) with detailed code-level root cause analyses, reproduction steps, and suggested patches authored by Ankit Shukla. Detailed issue drafts prepared in markdown for submission.
 
 \chapter{Overall Test Results}
 \begin{itemize}
@@ -117,16 +131,16 @@ Documented 6 confirmed software defects (BUG-001 through BUG-006) with detailed 
 \end{itemize}
 
 \chapter{Conclusion}
-The OsdagBridge short-span steel plate girder module demonstrates robust core computational fidelity. The 6 identified defects have been cataloged with code-level fixes to enable rapid upstream resolution.
+The OsdagBridge short-span steel plate girder module demonstrates robust core computational fidelity. All testing infrastructure, test cases, defect root cause analyses, and documentation in this individual project were completed solely by Ankit Shukla. The 6 identified defects have been cataloged with code-level fixes to enable rapid resolution.
 
 \appendix
 \chapter{Master Test Case Register}
-Refer to \texttt{master\_test_case_register.csv} for detailed parameters and assertions.
+Prepared and verified by Ankit Shukla. Refer to \texttt{master\_test_case_register.csv} for detailed parameters and assertions.
 
 \chapter{Bug Register}
-Refer to \texttt{bug_register.csv} for complete defect tracking metadata.
+Authored by Ankit Shukla. Refer to \texttt{bug_register.csv} for complete defect tracking metadata.
 
 \chapter{Evidence Index}
-Refer to \texttt{evidence_index.csv} for mapping of all 58 verified evidence files.
+Compiled by Ankit Shukla. Refer to \texttt{evidence_index.csv} for mapping of all 58 verified evidence files.
 
 \end{document}

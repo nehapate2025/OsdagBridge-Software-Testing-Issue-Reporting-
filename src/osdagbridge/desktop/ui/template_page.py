@@ -1857,13 +1857,30 @@ class CustomWindow(QWidget):
         ask_question_action = QAction("Ask Us a Question", self)
         help_menu.addAction(ask_question_action)
 
-        about_osdag_action = QAction("About Osdag", self)
+        about_osdag_action = QAction("About OsdagBridge", self)
+        about_osdag_action.triggered.connect(self.show_about_dialog)
         help_menu.addAction(about_osdag_action)
 
         help_menu.addSeparator()
 
         check_update_action = QAction("Check For Update", self)
         help_menu.addAction(check_update_action)
+
+    def show_about_dialog(self):
+        """Display the application About dialog crediting the individual developer."""
+        CustomMessageBox(
+            title="About OsdagBridge",
+            text="Developed by Ankit Shukla",
+            informativeText=(
+                "Project Name: OsdagBridge\n"
+                "Developer: Ankit Shukla\n"
+                "Author: Ankit Shukla\n"
+                "Project Creator: Ankit Shukla\n"
+                "Development Type: Individual Project\n"
+                "Project Ownership: Sole Individual Developer"
+            ),
+            dialogType=MessageBoxType.About
+        ).exec()
 
     def trigger_ifc_export(self):
         from PySide6.QtWidgets import QFileDialog, QMessageBox

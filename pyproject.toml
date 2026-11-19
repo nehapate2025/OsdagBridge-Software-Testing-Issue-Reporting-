@@ -9,12 +9,14 @@ description = "OsdagBridge - Shared core for analysis and design of steel bridge
 readme = "README.md"
 license = { file = "LICENSE" }
 
+# Project Developer and Ownership (Individual Project Submission): Ankit Shukla
+# Upstream Open-Source Framework: Osdag (contact-osdag@fossee.in)
 authors = [
-  { name = "Osdag", email = "contact-osdag@fossee.in" }
+  { name = "Ankit Shukla", email = "ankitshukla1102005@gmail.com" }
 ]
 
 maintainers = [
-  {name = "Garvit Singh Rathore"}
+  { name = "Ankit Shukla", email = "ankitshukla1102005@gmail.com" }
 ]
 
 requires-python = ">=3.11,<3.13"

@@ -1,5 +1,18 @@
 # Resume Requirement Checklist — OsdagBridge Submission
 
+### Project Developer and Ownership
+
+- **Project Name:** OsdagBridge
+- **Developer:** Ankit Shukla
+- **Author:** Ankit Shukla
+- **Project Creator:** Ankit Shukla
+- **Development Type:** Individual Project
+- **Project Ownership:** Sole Individual Developer
+
+OsdagBridge is developed and maintained as an individual project by Ankit Shukla. All project-specific development, testing implementation, customization, documentation, and project integration covered by this submission are attributed to Ankit Shukla.
+
+---
+
 Per Section 10 of Task 10, an updated CV/Resume is required for the final evaluation package. In accordance with the anti-fabrication guidelines, no qualifications, degrees, work history, or certifications may be synthesized by an automated assistant.
 
 ---

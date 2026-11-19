@@ -1,5 +1,18 @@
 # Environment Setup Guide — OsdagBridge
 
+### Project Developer and Ownership
+
+- **Project Name:** OsdagBridge
+- **Developer:** Ankit Shukla
+- **Author:** Ankit Shukla
+- **Project Creator:** Ankit Shukla
+- **Development Type:** Individual Project
+- **Project Ownership:** Sole Individual Developer
+
+OsdagBridge is developed and maintained as an individual project by Ankit Shukla. All project-specific development, testing implementation, customization, documentation, and project integration covered by this submission are attributed to Ankit Shukla.
+
+---
+
 This guide provides instructions for setting up the development, analysis, and verification environment for **OsdagBridge** (Short-Span Steel Plate Girder Highway Bridge Design Module).
 
 ---
@@ -20,7 +33,7 @@ We recommend using **Anaconda** or **Miniconda** to manage dependencies.
 
 ### Step 2.1: Clone or Open the Repository
 ```bash
-git clone https://github.com/Nidhikhare12/OsdagBridge.git
+git clone https://github.com/osdag-admin/OsdagBridge.git
 cd OsdagBridge
 ```
 

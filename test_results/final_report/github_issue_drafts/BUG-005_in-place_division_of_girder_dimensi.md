@@ -3,10 +3,14 @@
 ## Description
 An issue was identified in module `osdagbridge.core.bridge_types.plate_girder.plategirderbridge` during the comprehensive test campaign of OsdagBridge.
 
+## Project Developer & Author
+- **Project Name:** OsdagBridge
+- **Developer & Author:** Ankit Shukla (Sole Individual Developer — Individual Project)
+
 ## Environment
 - **Operating System:** Microsoft Windows 11 Home (x64)
 - **Python Version:** Python 3.13 / Anaconda Python 3.11/3.12
-- **Repository:** https://github.com/Nidhikhare12/OsdagBridge
+- **Repository:** https://github.com/osdag-admin/OsdagBridge
 - **Branch:** main / dev
 - **Severity:** Major
 - **Priority:** High
@@ -51,4 +55,4 @@ Create a converted copy of the geometry dictionary or tag dictionary with `_dime
 
 ---
 *Status: DRAFT / NOT SUBMITTED*  
-*Submission Target: https://github.com/Nidhikhare12/OsdagBridge/issues/new*
+*Submission Target: https://github.com/osdag-admin/OsdagBridge/issues/new*

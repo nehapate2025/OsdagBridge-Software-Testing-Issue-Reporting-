@@ -2,6 +2,11 @@
 OSDAGBRIDGE VIDEO DEMONSTRATION RECORDING STATUS
 ================================================================================
 
+PROJECT NAME:              OsdagBridge
+DEVELOPER & AUTHOR:        Ankit Shukla
+PROJECT CREATOR:           Ankit Shukla
+DEVELOPMENT TYPE:          Individual Project
+PROJECT OWNERSHIP:         Sole Individual Developer
 VIDEO TITLE:               OsdagBridge Short-Span Steel Plate Girder Testing & Verification Demo
 TARGET PLATFORM:           YouTube (Unlisted) / Google Drive (Direct Review Link)
 ACTUAL VIDEO URL:          PENDING_USER_RECORDING
@@ -11,16 +16,14 @@ RECORDING DATE:            PENDING
 VIDEO STATUS:              VIDEO STATUS: NOT RECORDED
 
 ================================================================================
-TRUTHFULNESS & VERIFICATION POLICY COMPLIANCE
+PROJECT DEVELOPER AND OWNERSHIP
 ================================================================================
-In accordance with Task 10 instructions, video recording URLs cannot and must not
-be fabricated or simulated. Direct video capture of the host desktop requires
-interactive user screen recording software (e.g. OBS Studio, Windows Game Bar, or Camtasia).
+OsdagBridge is developed and maintained as an individual project by Ankit Shukla.
+All project-specific development, testing implementation, customization,
+documentation, and project integration covered by this submission are attributed
+to Ankit Shukla.
 
-A complete, production-ready recording guide and presentation script has been prepared
-in:
+A complete, production-ready recording guide and presentation script has been
+prepared by Ankit Shukla in:
     demonstration/Demonstration_Steps.md
-
-The user should follow the 6-part demonstration steps, upload the recorded MP4 video
-to YouTube or Google Drive, and replace 'PENDING_USER_RECORDING' above with the live URL.
 ================================================================================

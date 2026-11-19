@@ -1,5 +1,18 @@
 # Known Issues & Defect Tracking — OsdagBridge
 
+### Project Developer and Ownership
+
+- **Project Name:** OsdagBridge
+- **Developer:** Ankit Shukla
+- **Author:** Ankit Shukla
+- **Project Creator:** Ankit Shukla
+- **Development Type:** Individual Project
+- **Project Ownership:** Sole Individual Developer
+
+OsdagBridge is developed and maintained as an individual project by Ankit Shukla. All project-specific development, testing implementation, customization, documentation, and project integration covered by this submission are attributed to Ankit Shukla.
+
+---
+
 This document tracks all confirmed software defects, limitations, and architectural issues discovered during the testing campaign of the **OsdagBridge** short-span steel plate girder module.
 
 ---

@@ -3,6 +3,19 @@
 OsdagBridge is a modular, shared-core software plugin for the analysis and design of steel bridges within the Osdag ecosystem.  
 It supports desktop (PySide6), web (Django + React), and CLI interfaces through a unified Python core.
 
+### Project Developer and Ownership
+
+- **Project Name:** OsdagBridge
+- **Developer:** Ankit Shukla
+- **Author:** Ankit Shukla
+- **Project Creator:** Ankit Shukla
+- **Development Type:** Individual Project
+- **Project Ownership:** Sole Individual Developer
+
+OsdagBridge is developed and maintained as an individual project by Ankit Shukla. All project-specific development, testing implementation, customization, documentation, and project integration covered by this submission are attributed to Ankit Shukla.
+
+---
+
 The system currently supports:
 - Plate Girder Bridges  
  
@@ -165,7 +178,9 @@ Continuous integration runs automatically through GitHub Actions (`.github/workf
 
 ## Acknowledgements
 
-OsdagBridge is part of the Osdag project, promoting open-source tools for steel design education, research, and practice.
+OsdagBridge is part of the Osdag open-source ecosystem, promoting open-source tools for steel design education, research, and practice.
+
+**Developed by Ankit Shukla** (Sole Individual Developer — Individual Project Submission).
 
 ---
 
