@@ -1,0 +1,6 @@
+Category,Total Supported Parameters,Verified Keys,Default Values Consistent,Custom Values Preserved,Unit Fidelity Verified,Status
+Bridge Geometry,12,12,Yes,Yes,Yes,PASS
+Steel Components & Materials,16,16,Yes,Yes,Yes,PASS
+Concrete Deck & Reinforcement,14,14,Yes,Yes,Yes,PASS
+Additional Design Parameters & Sub-Tabs,16,16,Yes,Yes,Yes,PASS
+Total Canonical Input Dictionary,541,541,Yes,Yes,Yes,PASS

@@ -1,0 +1,81 @@
+{
+  "test_case_id": "OSB-REB-006",
+  "description": "Validation checks and boundary clamping for invalid reinforcement inputs",
+  "records": [
+    {
+      "key": "design_options.deck.reinforcement_bounds",
+      "input": {
+        "lower": 25,
+        "upper": 12
+      },
+      "result": [
+        {
+          "lower": 25,
+          "upper": 25
+        },
+        "Reinforcement bar diameter bounds must be integers between 8 and 40 mm, with upper bound not less than lower bound."
+      ]
+    },
+    {
+      "key": "design_options.deck.reinforcement_bounds",
+      "input": {
+        "lower": 4,
+        "upper": 12
+      },
+      "result": [
+        {
+          "lower": 8,
+          "upper": 12
+        },
+        "Reinforcement bar diameter bounds must be integers between 8 and 40 mm, with upper bound not less than lower bound."
+      ]
+    },
+    {
+      "key": "design_options.deck.reinforcement_bounds",
+      "input": {
+        "lower": 12,
+        "upper": 50
+      },
+      "result": [
+        {
+          "lower": 12,
+          "upper": 40
+        },
+        "Reinforcement bar diameter bounds must be integers between 8 and 40 mm, with upper bound not less than lower bound."
+      ]
+    },
+    {
+      "key": "design_options.deck.top_clear_cover",
+      "input": 25.0,
+      "result": [
+        40,
+        "Top clear cover must be between 40 and 75 mm."
+      ]
+    },
+    {
+      "key": "design_options.deck.top_clear_cover",
+      "input": 90.0,
+      "result": [
+        75,
+        "Top clear cover must be between 40 and 75 mm."
+      ]
+    },
+    {
+      "key": "design_options.deck.bottom_clear_cover",
+      "input": 20.0,
+      "result": [
+        35,
+        "Bottom clear cover must be between 35 and 75 mm."
+      ]
+    },
+    {
+      "key": "design_options.deck.bottom_clear_cover",
+      "input": 85.0,
+      "result": [
+        75,
+        "Bottom clear cover must be between 35 and 75 mm."
+      ]
+    }
+  ],
+  "status": "PASS"
+}

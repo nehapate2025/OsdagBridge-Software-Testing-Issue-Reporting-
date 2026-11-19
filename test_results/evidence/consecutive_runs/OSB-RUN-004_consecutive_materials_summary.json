@@ -1,0 +1,31 @@
+{
+  "test_case_id": "OSB-RUN-004",
+  "scenario": "Consecutive material modifications across 3 sequential runs",
+  "run_progression": {
+    "run_1": {
+      "girder_steel_grade": "E250",
+      "concrete_grade": "M35",
+      "fck_MPa": 35.0,
+      "girder_moment_capacity_Mu_kNm_per_m": 36.8713698717,
+      "allowable_concrete_stress_MPa": 16.8,
+      "punching_resistance_VRDC_MPa": 0.5187292164511269
+    },
+    "run_2": {
+      "girder_steel_grade": "E 250A",
+      "concrete_grade": "M35",
+      "fck_MPa": 35.0,
+      "girder_moment_capacity_Mu_kNm_per_m": 26.599914832499998,
+      "allowable_concrete_stress_MPa": 16.8,
+      "punching_resistance_VRDC_MPa": 0.5187292164511269
+    },
+    "run_3": {
+      "girder_steel_grade": "E 250A",
+      "concrete_grade": "M45",
+      "fck_MPa": 45.0,
+      "girder_moment_capacity_Mu_kNm_per_m": 26.746149314166665,
+      "allowable_concrete_stress_MPa": 21.6,
+      "punching_resistance_VRDC_MPa": 0.5881836447913187
+    }
+  },
+  "status": "PASS"
+}

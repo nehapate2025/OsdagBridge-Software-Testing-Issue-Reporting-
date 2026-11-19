@@ -1,0 +1,15 @@
+{
+  "test_case_id": "OSB-REB-005",
+  "description": "Reinforcement spacing limits (75mm floor, 300mm cap, 5mm rounding)",
+  "observed_spacings": {
+    "bottom": 175.0,
+    "top": 235.0,
+    "longitudinal": 300.0,
+    "overhang": 75.0
+  },
+  "boundary_checks": {
+    "extreme_high_demand_spacing_mm": 75.0,
+    "extreme_low_demand_spacing_mm": 300.0
+  },
+  "status": "PASS"
+}

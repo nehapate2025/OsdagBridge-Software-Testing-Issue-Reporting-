@@ -1,0 +1,7 @@
+{
+  "span_mm": 36000.0,
+  "carriageway_width_mm": 9500.0,
+  "skew_angle": 15.0,
+  "footpath_config": "BOTH",
+  "num_girders": 6
+}

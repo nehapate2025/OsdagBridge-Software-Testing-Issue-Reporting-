@@ -1,0 +1,11 @@
+{
+  "material.custom_concrete_fck": 45.0,
+  "material.custom_concrete_density": 25.5,
+  "material.custom_concrete_elastic_modulus": 33.5,
+  "material.custom_concrete_poissons_ratio": 0.18,
+  "material.rebar_grade": "Custom",
+  "material.custom_rebar_fy": 550.0,
+  "material.custom_rebar_elastic_modulus": 200000.0,
+  "design_options_cont.partial_factor.concrete_basic.gamma_c_basic": "1.50",
+  "design_options_cont.partial_factor.concrete_accidental.gamma_c_accidental": "1.20"
+}

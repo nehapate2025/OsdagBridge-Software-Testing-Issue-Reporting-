@@ -1,0 +1,67 @@
+{
+  "test_case_id": "OSB-CON-002",
+  "description": "Multi-grade concrete database retrieval and design response",
+  "grades_evaluated": {
+    "M25": {
+      "fck_MPa": 25.0,
+      "fctm_MPa": 2.2,
+      "Ecm_GPa": 30.0,
+      "allowable_concrete_stress_MPa": 12.0,
+      "actual_concrete_stress_bot_MPa": 2.484,
+      "shear_UR": 0.941,
+      "punching_UR": 0.388,
+      "punching_VRDC_MPa": 0.48888387050245996
+    },
+    "M30": {
+      "fck_MPa": 30.0,
+      "fctm_MPa": 2.5,
+      "Ecm_GPa": 31.0,
+      "allowable_concrete_stress_MPa": 14.4,
+      "actual_concrete_stress_bot_MPa": 2.49,
+      "shear_UR": 0.947,
+      "punching_UR": 0.39,
+      "punching_VRDC_MPa": 0.4859325177413774
+    },
+    "M35": {
+      "fck_MPa": 35.0,
+      "fctm_MPa": 2.8,
+      "Ecm_GPa": 32.0,
+      "allowable_concrete_stress_MPa": 16.8,
+      "actual_concrete_stress_bot_MPa": 2.492,
+      "shear_UR": 0.887,
+      "punching_UR": 0.366,
+      "punching_VRDC_MPa": 0.5187292164511269
+    },
+    "M40": {
+      "fck_MPa": 40.0,
+      "fctm_MPa": 3.0,
+      "Ecm_GPa": 33.0,
+      "allowable_concrete_stress_MPa": 19.2,
+      "actual_concrete_stress_bot_MPa": 2.493,
+      "shear_UR": 0.83,
+      "punching_UR": 0.342,
+      "punching_VRDC_MPa": 0.5545448584199479
+    },
+    "M45": {
+      "fck_MPa": 45.0,
+      "fctm_MPa": 3.3,
+      "Ecm_GPa": 34.0,
+      "allowable_concrete_stress_MPa": 21.6,
+      "actual_concrete_stress_bot_MPa": 2.495,
+      "shear_UR": 0.782,
+      "punching_UR": 0.323,
+      "punching_VRDC_MPa": 0.5881836447913187
+    },
+    "M50": {
+      "fck_MPa": 50.0,
+      "fctm_MPa": 3.5,
+      "Ecm_GPa": 35.0,
+      "allowable_concrete_stress_MPa": 24.0,
+      "actual_concrete_stress_bot_MPa": 2.496,
+      "shear_UR": 0.742,
+      "punching_UR": 0.306,
+      "punching_VRDC_MPa": 0.6200000000000001
+    }
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,46 @@
+{
+  "density_low": [
+    50.0,
+    "Weight Density must be between 50.0 and 120.0 kN/m\u00b3."
+  ],
+  "density_high": [
+    120.0,
+    "Weight Density must be between 50.0 and 120.0 kN/m\u00b3."
+  ],
+  "fy_low": [
+    100.0,
+    "Yield Strength, Fy must be between 100.0 and 1200.0 MPa."
+  ],
+  "fy_high": [
+    1200.0,
+    "Yield Strength, Fy must be between 100.0 and 1200.0 MPa."
+  ],
+  "fu_low": [
+    100.0,
+    "Ultimate Tensile Strength, Fu must be between 100.0 and 1500.0 MPa."
+  ],
+  "fu_high": [
+    1500.0,
+    "Ultimate Tensile Strength, Fu must be between 100.0 and 1500.0 MPa."
+  ],
+  "e_low": [
+    100.0,
+    "Modulus of Elasticity, E must be between 100.0 and 300.0 GPa."
+  ],
+  "e_high": [
+    300.0,
+    "Modulus of Elasticity, E must be between 100.0 and 300.0 GPa."
+  ],
+  "poisson_low": [
+    0.0,
+    "Poisson's Ratio must be between 0.0 and 0.5."
+  ],
+  "poisson_high": [
+    0.5,
+    "Poisson's Ratio must be between 0.0 and 0.5."
+  ],
+  "non_numeric": [
+    100.0,
+    "Yield Strength, Fy must be a numeric value."
+  ]
+}

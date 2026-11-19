@@ -1,0 +1,16 @@
+{
+  "structure.type": "Plate Girder",
+  "geometry.span": 36.0,
+  "geometry.carriageway_width": 9.5,
+  "geometry.skew_angle": 15.0,
+  "geometry.include_median": "Yes",
+  "geometry.footpath": "Both Sides",
+  "material.girder": "E 250",
+  "material.cross_bracing": "E 250",
+  "material.end_diaphragm": "E 250",
+  "material.deck": "M35",
+  "geometry.design_mode": "Auto",
+  "typical_section.footpath_left_width": 1.5,
+  "typical_section.footpath_right_width": 1.5,
+  "typical_section.median_width": 1.2
+}

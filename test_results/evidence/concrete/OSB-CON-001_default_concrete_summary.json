@@ -1,0 +1,38 @@
+{
+  "test_case_id": "OSB-CON-001",
+  "description": "Baseline default concrete deck design execution",
+  "input_parameters": {
+    "concrete_grade": "M35",
+    "fck_MPa": 35.0,
+    "fctm_MPa": 2.8,
+    "Ecm_GPa": 32.0,
+    "deck_thickness_mm": 250.0,
+    "rebar_grade": "Fe 500",
+    "fy_MPa": 500.0
+  },
+  "design_summary": {
+    "deck_design_check": "IRC 6:2017 Deck Slab Design Summary\n====================================================\n\nGoverning vehicle      : Class...",
+    "bottom_rebar": {
+      "dia_mm": 12.0,
+      "spacing_mm": 175.0,
+      "area_mm2_per_m": 646.0
+    },
+    "top_rebar": {
+      "dia_mm": 12.0,
+      "spacing_mm": 235.0,
+      "area_mm2_per_m": 481.0
+    },
+    "overhang_rebar": {
+      "dia_mm": 12.0,
+      "spacing_mm": 75.0,
+      "area_mm2_per_m": 1508.0
+    },
+    "concrete_stress_service_MPa": 2.492,
+    "concrete_stress_allowable_MPa": 16.8,
+    "shear_demand_VED_kN_per_m": 89.24447193354801,
+    "shear_capacity_VRDC_kN_per_m": 100.63346799151861,
+    "punching_shear_OK": true,
+    "one_way_shear_OK": true
+  },
+  "status": "PASS"
+}

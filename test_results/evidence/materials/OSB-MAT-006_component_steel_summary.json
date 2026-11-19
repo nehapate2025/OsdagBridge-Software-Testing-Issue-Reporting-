@@ -1,0 +1,52 @@
+{
+  "supported_components": {
+    "main_girder": {
+      "key": "material.girder",
+      "prefix": "material.girder",
+      "keys": [
+        "material.girder.density",
+        "material.girder.fy",
+        "material.girder.fu",
+        "material.girder.e",
+        "material.girder.g",
+        "material.girder.poisson",
+        "material.girder.thermal"
+      ],
+      "supports_custom": true
+    },
+    "cross_bracing": {
+      "key": "material.cross_bracing",
+      "prefix": "material.cross_bracing",
+      "keys": [
+        "material.cross_bracing.density",
+        "material.cross_bracing.fy",
+        "material.cross_bracing.fu",
+        "material.cross_bracing.e",
+        "material.cross_bracing.g",
+        "material.cross_bracing.poisson",
+        "material.cross_bracing.thermal"
+      ],
+      "supports_custom": true
+    },
+    "end_diaphragm": {
+      "key": "material.end_diaphragm",
+      "prefix": "material.end_diaphragm",
+      "keys": [
+        "material.end_diaphragm.density",
+        "material.end_diaphragm.fy",
+        "material.end_diaphragm.fu",
+        "material.end_diaphragm.e",
+        "material.end_diaphragm.g",
+        "material.end_diaphragm.poisson",
+        "material.end_diaphragm.thermal"
+      ],
+      "supports_custom": true
+    },
+    "stiffeners": {
+      "web_stiffener": "Shares main girder material (material.girder.fy)",
+      "bearing_stiffener": "Shares main girder material (material.girder.fy)",
+      "longitudinal_stiffener": "Shares main girder material (material.girder.fy)",
+      "supports_custom": "Inherits from main girder"
+    }
+  }
+}

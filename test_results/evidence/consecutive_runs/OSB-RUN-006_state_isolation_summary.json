@@ -1,0 +1,8 @@
+{
+  "test_case_id": "OSB-RUN-006",
+  "description": "State isolation and memory guard release verification",
+  "defaults_unmutated": true,
+  "distinct_output_instances": true,
+  "memory_guard_cleared_state": true,
+  "status": "PASS"
+}

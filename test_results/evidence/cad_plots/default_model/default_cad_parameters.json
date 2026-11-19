@@ -1,0 +1,11 @@
+{
+  "span_mm": 30000.0,
+  "carriageway_width_mm": 7500.0,
+  "num_girders": 4,
+  "girder_spacing_mm": 2100.0,
+  "deck_thickness_mm": 250.0,
+  "girder_section_d_mm": 1670.0,
+  "girder_section_bf_mm": 510.0,
+  "girder_section_tf_mm": 22.0,
+  "girder_section_tw_mm": 10.0
+}

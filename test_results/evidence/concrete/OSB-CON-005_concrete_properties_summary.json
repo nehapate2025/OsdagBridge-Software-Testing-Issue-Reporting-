@@ -1,0 +1,49 @@
+{
+  "test_case_id": "OSB-CON-005",
+  "description": "Independent concrete property modifications (Ecm, fctm, density)",
+  "ecm_sensitivity": {
+    "Ecm_25.0GPa": {
+      "Ecm_GPa": 25.0,
+      "stress_concrete_bot_MPa": 2.486,
+      "stress_rebar_bot_MPa": 366.344,
+      "crack_width_bot_mm": 0.1973
+    },
+    "Ecm_30.0GPa": {
+      "Ecm_GPa": 30.0,
+      "stress_concrete_bot_MPa": 2.49,
+      "stress_rebar_bot_MPa": 365.716,
+      "crack_width_bot_mm": 0.1976
+    },
+    "Ecm_35.0GPa": {
+      "Ecm_GPa": 35.0,
+      "stress_concrete_bot_MPa": 2.495,
+      "stress_rebar_bot_MPa": 365.099,
+      "crack_width_bot_mm": 0.1978
+    },
+    "Ecm_40.0GPa": {
+      "Ecm_GPa": 40.0,
+      "stress_concrete_bot_MPa": 2.499,
+      "stress_rebar_bot_MPa": 364.493,
+      "crack_width_bot_mm": 0.1981
+    }
+  },
+  "fctm_sensitivity": {
+    "fctm_2.0MPa": {
+      "fctm_MPa": 2.0,
+      "min_reinforcement_As_min_mm2": 252.20000000000002
+    },
+    "fctm_2.5MPa": {
+      "fctm_MPa": 2.5,
+      "min_reinforcement_As_min_mm2": 252.20000000000005
+    },
+    "fctm_2.8MPa": {
+      "fctm_MPa": 2.8,
+      "min_reinforcement_As_min_mm2": 282.464
+    },
+    "fctm_3.5MPa": {
+      "fctm_MPa": 3.5,
+      "min_reinforcement_As_min_mm2": 353.08
+    }
+  },
+  "status": "PASS"
+}

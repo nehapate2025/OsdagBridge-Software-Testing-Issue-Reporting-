@@ -1,0 +1,19 @@
+{
+  "run1": {
+    "geometry.span": 30.0,
+    "geometry.carriageway_width": 7.5,
+    "material.girder": "E 250"
+  },
+  "run2": {
+    "geometry.span": 36.0,
+    "geometry.carriageway_width": 9.5,
+    "material.girder": "E 350",
+    "geometry.skew_angle": 15.0
+  },
+  "run3": {
+    "geometry.span": 24.0,
+    "geometry.carriageway_width": 4.25,
+    "material.girder": "Custom",
+    "material.custom_steel_fy": 410.0
+  }
+}

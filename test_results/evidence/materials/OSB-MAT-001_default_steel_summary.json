@@ -1,0 +1,16 @@
+{
+  "default_grade": "E 350A",
+  "db_properties": {
+    "grade": "E 350A",
+    "fy_MPa": 350,
+    "fu_MPa": 490,
+    "E_GPa": 200,
+    "poisson": 0.3,
+    "density_kN_m3": 78.5
+  },
+  "input_dict_material_keys": {
+    "material.girder": "E 350A",
+    "material.cross_bracing": "E 350A",
+    "material.end_diaphragm": "E 350A"
+  }
+}

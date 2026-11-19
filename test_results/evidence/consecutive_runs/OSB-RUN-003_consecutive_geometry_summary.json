@@ -1,0 +1,40 @@
+{
+  "test_case_id": "OSB-RUN-003",
+  "scenario": "Consecutive geometry modifications across 3 sequential runs",
+  "run_progression": {
+    "run_1": {
+      "span_m": 30.0,
+      "carriageway_width_m": 7.5,
+      "overall_width_m": 8.4,
+      "no_of_girders": 4,
+      "girder_spacing_m": 2.1,
+      "boq_concrete_volume_m3": 63.0,
+      "m_uls_sag_kNm_per_m": 45.9407878432377,
+      "rebar_bottom_dia": 12.0,
+      "rebar_bottom_spacing": 175.0
+    },
+    "run_2": {
+      "span_m": 36.0,
+      "carriageway_width_m": 7.5,
+      "overall_width_m": 8.4,
+      "no_of_girders": 4,
+      "girder_spacing_m": 2.1,
+      "boq_concrete_volume_m3": 75.6,
+      "m_uls_sag_kNm_per_m": 45.9407878432377,
+      "rebar_bottom_dia": 12.0,
+      "rebar_bottom_spacing": 175.0
+    },
+    "run_3": {
+      "span_m": 36.0,
+      "carriageway_width_m": 10.5,
+      "overall_width_m": 11.399999999999999,
+      "no_of_girders": 4,
+      "girder_spacing_m": 2.85,
+      "boq_concrete_volume_m3": 102.6,
+      "m_uls_sag_kNm_per_m": 55.469784345979924,
+      "rebar_bottom_dia": 12.0,
+      "rebar_bottom_spacing": 145.0
+    }
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,12 @@
+{
+  "structure.type": "Plate Girder",
+  "geometry.design_mode": "Optimized",
+  "geometry.span": 30.0,
+  "geometry.carriageway_width": 7.5,
+  "geometry.footpath": "None",
+  "material.girder": "E250",
+  "material.deck": "M35",
+  "project.title": "Baseline 30m Highway Bridge",
+  "project.job_number": "OSB-TEST-001",
+  "project.designer": "OsdagBridge Test Suite"
+}

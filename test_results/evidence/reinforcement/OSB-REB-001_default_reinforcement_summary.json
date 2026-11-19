@@ -1,0 +1,38 @@
+{
+  "test_case_id": "OSB-REB-001",
+  "description": "Baseline default reinforcement properties and design output",
+  "input_parameters": {
+    "rebar_grade": "Fe 500",
+    "fy_MPa": 500.0,
+    "fu_MPa": 545.0,
+    "Es_MPa": 200000.0,
+    "top_cover_mm": 50.0,
+    "bottom_cover_mm": 50.0
+  },
+  "design_summary": {
+    "bottom_layer": {
+      "dia_mm": 12.0,
+      "spacing_mm": 175.0,
+      "area_mm2_per_m": 646.0,
+      "stress_actual_MPa": 365.468,
+      "stress_allowable_MPa": 400.0
+    },
+    "top_layer": {
+      "dia_mm": 12.0,
+      "spacing_mm": 235.0,
+      "area_mm2_per_m": 481.0,
+      "stress_actual_MPa": 366.738
+    },
+    "overhang_layer": {
+      "dia_mm": 12.0,
+      "spacing_mm": 75.0,
+      "area_mm2_per_m": 1508.0
+    },
+    "longitudinal_distribution": {
+      "dia_mm": 12.0,
+      "spacing_mm": 300.0,
+      "area_mm2_per_m": 377.0
+    }
+  },
+  "status": "PASS"
+}

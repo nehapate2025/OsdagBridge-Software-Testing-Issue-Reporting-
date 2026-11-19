@@ -1,0 +1,11 @@
+{
+  "test_case_id": "OSB-RUN-005",
+  "scenario": "Baseline restoration and repeatability verification",
+  "run_1_vs_run_3_repeatability": {
+    "inputs_identical": true,
+    "results_identical": true,
+    "report_identical": true,
+    "boq_identical": true
+  },
+  "status": "PASS"
+}

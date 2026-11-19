@@ -1,0 +1,122 @@
+[
+  {
+    "scenario": "Density Under Min (30.0 kN/m3)",
+    "key": "material.girder.density",
+    "input_val": 30.0,
+    "clamped_val": 50.0,
+    "message": "Weight Density must be between 50.0 and 120.0 kN/m\u00b3.",
+    "matches_expected": true
+  },
+  {
+    "scenario": "Density Over Max (150.0 kN/m3)",
+    "key": "material.girder.density",
+    "input_val": 150.0,
+    "clamped_val": 120.0,
+    "message": "Weight Density must be between 50.0 and 120.0 kN/m\u00b3.",
+    "matches_expected": true
+  },
+  {
+    "scenario": "Density Negative (-10.0 kN/m3)",
+    "key": "material.girder.density",
+    "input_val": -10.0,
+    "clamped_val": 50.0,
+    "message": "Weight Density must be between 50.0 and 120.0 kN/m\u00b3.",
+    "matches_expected": true
+  },
+  {
+    "scenario": "Density Non-Numeric ('heavy')",
+    "key": "material.girder.density",
+    "input_val": "heavy",
+    "clamped_val": 50.0,
+    "message": "Weight Density must be a numeric value.",
+    "matches_expected": true
+  },
+  {
+    "scenario": "Fy Under Min (50.0 MPa)",
+    "key": "material.girder.fy",
+    "input_val": 50.0,
+    "clamped_val": 100.0,
+    "message": "Yield Strength, Fy must be between 100.0 and 1200.0 MPa.",
+    "matches_expected": true
+  },
+  {
+    "scenario": "Fy Negative (-350.0 MPa)",
+    "key": "material.girder.fy",
+    "input_val": -350.0,
+    "clamped_val": 100.0,
+    "message": "Yield Strength, Fy must be between 100.0 and 1200.0 MPa.",
+    "matches_expected": true
+  },
+  {
+    "scenario": "Fy Over Max (1500.0 MPa)",
+    "key": "material.girder.fy",
+    "input_val": 1500.0,
+    "clamped_val": 1200.0,
+    "message": "Yield Strength, Fy must be between 100.0 and 1200.0 MPa.",
+    "matches_expected": true
+  },
+  {
+    "scenario": "Fu Under Min (50.0 MPa)",
+    "key": "material.girder.fu",
+    "input_val": 50.0,
+    "clamped_val": 100.0,
+    "message": "Ultimate Tensile Strength, Fu must be between 100.0 and 1500.0 MPa.",
+    "matches_expected": true
+  },
+  {
+    "scenario": "Fu Over Max (2000.0 MPa)",
+    "key": "material.girder.fu",
+    "input_val": 2000.0,
+    "clamped_val": 1500.0,
+    "message": "Ultimate Tensile Strength, Fu must be between 100.0 and 1500.0 MPa.",
+    "matches_expected": true
+  },
+  {
+    "scenario": "E Under Min (50.0 GPa)",
+    "key": "material.girder.e",
+    "input_val": 50.0,
+    "clamped_val": 100.0,
+    "message": "Modulus of Elasticity, E must be between 100.0 and 300.0 GPa.",
+    "matches_expected": true
+  },
+  {
+    "scenario": "E Over Max (400.0 GPa)",
+    "key": "material.girder.e",
+    "input_val": 400.0,
+    "clamped_val": 300.0,
+    "message": "Modulus of Elasticity, E must be between 100.0 and 300.0 GPa.",
+    "matches_expected": true
+  },
+  {
+    "scenario": "Poisson Under Min (-0.2)",
+    "key": "material.girder.poisson",
+    "input_val": -0.2,
+    "clamped_val": 0.0,
+    "message": "Poisson's Ratio must be between 0.0 and 0.5.",
+    "matches_expected": true
+  },
+  {
+    "scenario": "Poisson Over Max (0.8)",
+    "key": "material.girder.poisson",
+    "input_val": 0.8,
+    "clamped_val": 0.5,
+    "message": "Poisson's Ratio must be between 0.0 and 0.5.",
+    "matches_expected": true
+  },
+  {
+    "scenario": "Thermal Under Min (0.5)",
+    "key": "material.girder.thermal",
+    "input_val": 0.5,
+    "clamped_val": 1.0,
+    "message": "Thermal Expansion Coefficient must be between 1.0 and 30.0 (\u00d710\u207b\u2076/\u00b0C).",
+    "matches_expected": true
+  },
+  {
+    "scenario": "Thermal Over Max (40.0)",
+    "key": "material.girder.thermal",
+    "input_val": 40.0,
+    "clamped_val": 30.0,
+    "message": "Thermal Expansion Coefficient must be between 1.0 and 30.0 (\u00d710\u207b\u2076/\u00b0C).",
+    "matches_expected": true
+  }
+]

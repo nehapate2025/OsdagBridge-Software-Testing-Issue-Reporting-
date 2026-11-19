@@ -1,0 +1,14 @@
+{
+  "cycle1": {
+    "Mu": 2850.0,
+    "defl_limit": 37.5
+  },
+  "cycle2": {
+    "Mu": 4120.0,
+    "defl_limit": 45.0
+  },
+  "cycle3": {
+    "Mu": 1890.0,
+    "defl_limit": 30.0
+  }
+}

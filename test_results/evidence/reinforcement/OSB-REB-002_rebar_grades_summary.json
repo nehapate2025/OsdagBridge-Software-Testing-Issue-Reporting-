@@ -1,0 +1,91 @@
+{
+  "test_case_id": "OSB-REB-002",
+  "description": "Multi-grade reinforcement database retrieval and design response",
+  "grades_evaluated": {
+    "Fe 415": {
+      "fy_MPa": 415.0,
+      "fu_MPa": 485.0,
+      "Es_MPa": 200000.0,
+      "allowable_steel_stress_MPa": 332.0,
+      "bottom_As_req_mm2_per_m": 722.8197998051991,
+      "bottom_As_prov_mm2_per_m": 753.9822368615504,
+      "bottom_dia_mm": 12,
+      "bottom_spacing_mm": 150.0,
+      "top_As_req_mm2_per_m": 548.1927710843373,
+      "top_As_prov_mm2_per_m": 579.9863360473464
+    },
+    "Fe 415D": {
+      "fy_MPa": 415.0,
+      "fu_MPa": 500.0,
+      "Es_MPa": 200000.0,
+      "allowable_steel_stress_MPa": 332.0,
+      "bottom_As_req_mm2_per_m": 722.8197998051991,
+      "bottom_As_prov_mm2_per_m": 753.9822368615504,
+      "bottom_dia_mm": 12,
+      "bottom_spacing_mm": 150.0,
+      "top_As_req_mm2_per_m": 548.1927710843373,
+      "top_As_prov_mm2_per_m": 579.9863360473464
+    },
+    "Fe 500": {
+      "fy_MPa": 500.0,
+      "fu_MPa": 545.0,
+      "Es_MPa": 200000.0,
+      "allowable_steel_stress_MPa": 400.0,
+      "bottom_As_req_mm2_per_m": 599.9404338383152,
+      "bottom_As_prov_mm2_per_m": 646.2704887384717,
+      "bottom_dia_mm": 12,
+      "bottom_spacing_mm": 175.0,
+      "top_As_req_mm2_per_m": 454.99999999999994,
+      "top_As_prov_mm2_per_m": 481.26525757120237
+    },
+    "Fe 500D": {
+      "fy_MPa": 500.0,
+      "fu_MPa": 565.0,
+      "Es_MPa": 200000.0,
+      "allowable_steel_stress_MPa": 400.0,
+      "bottom_As_req_mm2_per_m": 599.9404338383152,
+      "bottom_As_prov_mm2_per_m": 646.2704887384717,
+      "bottom_dia_mm": 12,
+      "bottom_spacing_mm": 175.0,
+      "top_As_req_mm2_per_m": 454.99999999999994,
+      "top_As_prov_mm2_per_m": 481.26525757120237
+    },
+    "Fe 550": {
+      "fy_MPa": 550.0,
+      "fu_MPa": 585.0,
+      "Es_MPa": 200000.0,
+      "allowable_steel_stress_MPa": 440.0,
+      "bottom_As_req_mm2_per_m": 545.4003943984676,
+      "bottom_As_prov_mm2_per_m": 579.9863360473464,
+      "bottom_dia_mm": 12,
+      "bottom_spacing_mm": 195.0,
+      "top_As_req_mm2_per_m": 413.63636363636357,
+      "top_As_prov_mm2_per_m": 434.9897520355098
+    },
+    "Fe 550D": {
+      "fy_MPa": 550.0,
+      "fu_MPa": 600.0,
+      "Es_MPa": 200000.0,
+      "allowable_steel_stress_MPa": 440.0,
+      "bottom_As_req_mm2_per_m": 545.4003943984676,
+      "bottom_As_prov_mm2_per_m": 579.9863360473464,
+      "bottom_dia_mm": 12,
+      "bottom_spacing_mm": 195.0,
+      "top_As_req_mm2_per_m": 413.63636363636357,
+      "top_As_prov_mm2_per_m": 434.9897520355098
+    },
+    "Fe 600": {
+      "fy_MPa": 600.0,
+      "fu_MPa": 660.0,
+      "Es_MPa": 200000.0,
+      "allowable_steel_stress_MPa": 480.0,
+      "bottom_As_req_mm2_per_m": 499.9503615319287,
+      "bottom_As_prov_mm2_per_m": 526.0341187406166,
+      "bottom_dia_mm": 12,
+      "bottom_spacing_mm": 215.0,
+      "top_As_req_mm2_per_m": 379.16666666666663,
+      "top_As_prov_mm2_per_m": 396.8327562429213
+    }
+  },
+  "status": "PASS"
+}

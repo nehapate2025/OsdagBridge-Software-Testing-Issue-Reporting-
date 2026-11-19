@@ -1,0 +1,62 @@
+{
+  "test_case_id": "OSB-CON-004",
+  "description": "Deck thickness variations, structural dead load, and BOQ volume scaling",
+  "results": {
+    "t_200mm": {
+      "thickness_mm": 200.0,
+      "effective_depth_bot_mm": 144.0,
+      "dead_load_wDL_kN_per_m2": 4.905000000000001,
+      "dead_load_moment_MDL_kNm_per_m": 2.1631050000000007,
+      "uls_sag_moment_kNm_per_m": 45.210739905737704,
+      "boq_concrete_volume_m3": 50.4,
+      "boq_concrete_weight_MT": 126.0,
+      "rebar_bottom_dia": 12.0,
+      "rebar_bottom_spacing": 110.0
+    },
+    "t_220mm": {
+      "thickness_mm": 220.0,
+      "effective_depth_bot_mm": 164.0,
+      "dead_load_wDL_kN_per_m2": 5.3955,
+      "dead_load_moment_MDL_kNm_per_m": 2.3794155,
+      "uls_sag_moment_kNm_per_m": 45.502759080737704,
+      "boq_concrete_volume_m3": 55.44,
+      "boq_concrete_weight_MT": 138.6,
+      "rebar_bottom_dia": 12.0,
+      "rebar_bottom_spacing": 140.0
+    },
+    "t_250mm": {
+      "thickness_mm": 250.0,
+      "effective_depth_bot_mm": 194.0,
+      "dead_load_wDL_kN_per_m2": 6.1312500000000005,
+      "dead_load_moment_MDL_kNm_per_m": 2.7038812500000002,
+      "uls_sag_moment_kNm_per_m": 45.9407878432377,
+      "boq_concrete_volume_m3": 63.0,
+      "boq_concrete_weight_MT": 157.5,
+      "rebar_bottom_dia": 12.0,
+      "rebar_bottom_spacing": 175.0
+    },
+    "t_280mm": {
+      "thickness_mm": 280.0,
+      "effective_depth_bot_mm": 224.0,
+      "dead_load_wDL_kN_per_m2": 6.867000000000001,
+      "dead_load_moment_MDL_kNm_per_m": 3.0283470000000006,
+      "uls_sag_moment_kNm_per_m": 46.378816605737704,
+      "boq_concrete_volume_m3": 70.56,
+      "boq_concrete_weight_MT": 176.4,
+      "rebar_bottom_dia": 12.0,
+      "rebar_bottom_spacing": 205.0
+    },
+    "t_300mm": {
+      "thickness_mm": 300.0,
+      "effective_depth_bot_mm": 244.0,
+      "dead_load_wDL_kN_per_m2": 7.3575,
+      "dead_load_moment_MDL_kNm_per_m": 3.2446575,
+      "uls_sag_moment_kNm_per_m": 46.670835780737704,
+      "boq_concrete_volume_m3": 75.6,
+      "boq_concrete_weight_MT": 189.0,
+      "rebar_bottom_dia": 12.0,
+      "rebar_bottom_spacing": 225.0
+    }
+  },
+  "status": "PASS"
+}

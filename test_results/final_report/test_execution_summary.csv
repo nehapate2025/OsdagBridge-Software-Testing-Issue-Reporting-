@@ -1,0 +1,10 @@
+Metric / Task,Total Test Cases,PASS,FAIL,BLOCKED,NOT RUN,Pass Rate (%)
+Task 1,33,30,0,3,0,90.9%
+Task 2,8,7,0,1,0,87.5%
+Task 3,8,7,0,1,0,87.5%
+Task 4,14,12,0,2,0,85.7%
+Task 5,7,6,0,1,0,85.7%
+Task 6,8,0,8,0,0,0.0%
+Task 7,9,0,9,0,0,0.0%
+Task 8,8,0,8,0,0,0.0%
+TOTAL MASTER SUITE,95,62,25,8,0,65.3%

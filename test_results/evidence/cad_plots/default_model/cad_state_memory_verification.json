@@ -1,0 +1,5 @@
+{
+  "iterations": 5,
+  "idempotent": true,
+  "span_mm": 30000.0
+}

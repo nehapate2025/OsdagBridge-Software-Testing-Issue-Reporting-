@@ -1,0 +1,6 @@
+Plot Type,Plotted Data Component,Axes & Units,Source Generator Function,Export Verified,Status
+3D Grillage Layout Plot,Nodes & Member Discretization,"X (m), Y (Elevation), Z (m)",build_figure_grillage(),PNG (54.9 KB),PASS
+Bending Moment Diagram (BMD),Envelope Moment Mz,"X (m), Moment (kNm), Z (m)",build_figure_bmd(),PNG (90.1 KB),PASS
+Shear Force Diagram (SFD),Envelope Shear Force Vy,"X (m), Shear (kN), Z (m)",build_figure_sfd(),PNG (70.5 KB),PASS
+Deflection Diagram,Vertical Displacement Dy,"X (m), Sag Deflection (mm), Z (m)",build_figure_deflection(),PNG (26.4 KB),PASS
+Multi-Format Export,Vector & Raster Figures,"DPI=100, SVG, PDF vector streams",Figure.savefig() / figure_to_bytes(),"PNG, SVG, PDF verified",PASS

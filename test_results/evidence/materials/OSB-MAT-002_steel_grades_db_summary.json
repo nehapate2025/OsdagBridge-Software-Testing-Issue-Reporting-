@@ -1,0 +1,37 @@
+{
+  "E 250A": {
+    "grade": "E 250A",
+    "fy_MPa": 250,
+    "fu_MPa": 410,
+    "E_GPa": 200,
+    "poisson": 0.3
+  },
+  "E 300A": {
+    "grade": "E 300A",
+    "fy_MPa": 300,
+    "fu_MPa": 440,
+    "E_GPa": 200,
+    "poisson": 0.3
+  },
+  "E 350A": {
+    "grade": "E 350A",
+    "fy_MPa": 350,
+    "fu_MPa": 490,
+    "E_GPa": 200,
+    "poisson": 0.3
+  },
+  "E 410A": {
+    "grade": "E 410A",
+    "fy_MPa": 410,
+    "fu_MPa": 540,
+    "E_GPa": 200,
+    "poisson": 0.3
+  },
+  "E 450A": {
+    "grade": "E 450A",
+    "fy_MPa": 450,
+    "fu_MPa": 570,
+    "E_GPa": 200,
+    "poisson": 0.3
+  }
+}

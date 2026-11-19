@@ -1,0 +1,87 @@
+Output Category,Output Dictionary Key,Internal Variable,Calculation Function,Source File,Unit,Data Type,Expected Display Location,Report Field,Verification Status
+Overall Design Results,utilization.flexure,cat_urs[1]['max_dcr']*100,_run_dcr_checks(),plategirderbridge.py,%,float,Output Dock PercentBar,Table 5.1 / Exec Summary,VERIFIED
+Overall Design Results,utilization.shear,cat_urs[2]['max_dcr']*100,_run_dcr_checks(),plategirderbridge.py,%,float,Output Dock PercentBar,Table 5.1 / Exec Summary,VERIFIED
+Overall Design Results,utilization.interaction,cat_urs[3]['max_dcr']*100,_run_dcr_checks(),plategirderbridge.py,%,float,Output Dock PercentBar,Table 5.1 / Exec Summary,VERIFIED
+Overall Design Results,utilization.ltb,cat_urs[4]['max_dcr']*100,_run_dcr_checks(),plategirderbridge.py,%,float,Output Dock PercentBar,Table 5.1 / Exec Summary,VERIFIED
+Overall Design Results,utilization.longitudinal_transverse_shear,cat_urs[5]['max_dcr']*100,_run_dcr_checks(),plategirderbridge.py,%,float,Output Dock PercentBar,Table 5.1 / Exec Summary,VERIFIED
+Overall Design Results,utilization.fatigue,cat_urs[6]['max_dcr']*100,_run_dcr_checks(),plategirderbridge.py,%,float,Output Dock PercentBar,Table 5.1 / Exec Summary,VERIFIED
+Overall Design Results,utilization.stress_limitation,cat_urs[7]['max_dcr']*100,_run_dcr_checks(),plategirderbridge.py,%,float,Output Dock PercentBar,Table 5.1 / Exec Summary,VERIFIED
+Overall Design Results,utilization.deflection_crack,cat_urs[8]['max_dcr']*100,_run_dcr_checks(),plategirderbridge.py,%,float,Output Dock PercentBar,Table 5.1 / Exec Summary,VERIFIED
+Overall Design Results,typical_section.overall_bridge_width,sizing_result.overall_width,solve_extend_basic_input_dict(),defaults.py,m,float,Main Dock / Input Tab,Chapter 2 Table 2.1,VERIFIED
+Overall Design Results,typical_section.no_of_girders,sizing_result.no_of_girders,solve_extend_basic_input_dict(),defaults.py,-,int,Main Dock / Input Tab,Chapter 2 Table 2.1,VERIFIED
+Overall Design Results,typical_section.girder_spacing,sizing_result.girder_spacing,solve_extend_basic_input_dict(),defaults.py,m,float,Main Dock / Input Tab,Chapter 2 Table 2.1,VERIFIED
+Overall Design Results,typical_section.deck_overhang,sizing_result.deck_overhang,solve_extend_basic_input_dict(),defaults.py,m,float,Main Dock / Input Tab,Chapter 2 Table 2.1,VERIFIED
+Main Steel Girder Results,steel_design.total_depth,dr['D_mm'],store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.2 / Section,VERIFIED
+Main Steel Girder Results,steel_design.web_thickness,dr['tw_mm'],store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.2 / Section,VERIFIED
+Main Steel Girder Results,steel_design.top_flange_width,dr['bf_top_mm'],store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.2 / Section,VERIFIED
+Main Steel Girder Results,steel_design.top_flange_thickness,dr['tf_top_mm'],store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.2 / Section,VERIFIED
+Main Steel Girder Results,steel_design.bottom_flange_width,dr['bf_bot_mm'],store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.2 / Section,VERIFIED
+Main Steel Girder Results,steel_design.bottom_flange_thickness,dr['tf_bot_mm'],store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.2 / Section,VERIFIED
+Main Steel Girder Results,steel_design.section_designation,D x bft x tft x bfb x tfb,store_design_results(),plategirderbridge.py,-,str,Steel Design Dialog,Table 5.2 / Designation,VERIFIED
+Main Steel Girder Results,steel_design.grade_of_material,dr['steel_grade'],store_design_results(),plategirderbridge.py,-,str,Steel Design Dialog,Table 5.2 / Grade,VERIFIED
+Main Steel Girder Results,steel_design.section_class,dr['section_class_governing'],store_design_results(),plategirderbridge.py,-,str,Steel Design Dialog,Table 5.2 / Class,VERIFIED
+Main Steel Girder Results,steel_design.mu_applied,"round(dr['Mu_kNm'], 2)",store_design_results(),plategirderbridge.py,kNm,float,Steel Design Dialog,Table 5.3 Flexure,VERIFIED
+Main Steel Girder Results,steel_design.md_capacity,"round(dr['Md_kNm'], 2)",store_design_results(),plategirderbridge.py,kNm,float,Steel Design Dialog,Table 5.3 Flexure,VERIFIED
+Main Steel Girder Results,steel_design.effective_slab_width,dr['beff_mm'],store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.3 / beff,VERIFIED
+Main Steel Girder Results,steel_design.pna_depth,"round(dr['xu_mm'], 1)",store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.3 / xu,VERIFIED
+Main Steel Girder Results,steel_design.shear_vu,"round(dr['Vu_kN'], 2)",store_design_results(),plategirderbridge.py,kN,float,Steel Design Dialog,Table 5.4 Shear,VERIFIED
+Main Steel Girder Results,steel_design.shear_vcr,"round(dr['Vcr_kN'], 2)",store_design_results(),plategirderbridge.py,kN,float,Steel Design Dialog,Table 5.4 Shear,VERIFIED
+Main Steel Girder Results,steel_design.shear_tau_b,"round(dr['tau_b_buck_MPa'], 2)",store_design_results(),plategirderbridge.py,MPa,float,Steel Design Dialog,Table 5.4 Shear,VERIFIED
+Main Steel Girder Results,steel_design.high_shear,'Yes' if beta > 0 else 'No',store_design_results(),plategirderbridge.py,-,str,Steel Design Dialog,Table 5.5 Interaction,VERIFIED
+Main Steel Girder Results,steel_design.mdv,"round(dr['Mdv_kNm'], 2)",store_design_results(),plategirderbridge.py,kNm,float,Steel Design Dialog,Table 5.5 Interaction,VERIFIED
+Main Steel Girder Results,steel_design.ltb_mcr,"round(dr['Mcr_kNm'], 2)",store_design_results(),plategirderbridge.py,kNm,float,Steel Design Dialog,Table 5.6 LTB,VERIFIED
+Main Steel Girder Results,steel_design.ltb_mb,"round(dr['Mb_kNm'], 2)",store_design_results(),plategirderbridge.py,kNm,float,Steel Design Dialog,Table 5.6 LTB,VERIFIED
+Main Steel Girder Results,steel_design.section_prop_area,"round(dr['A_steel_mm2']/100, 2)",store_design_results(),plategirderbridge.py,cm2,float,Steel Design Dialog,Table 5.2 / Area,VERIFIED
+Main Steel Girder Results,steel_design.section_prop_iz,"round(dr['Iz_steel_mm4']/10000, 2)",store_design_results(),plategirderbridge.py,cm4,float,Steel Design Dialog,Table 5.2 / Iz,VERIFIED
+Main Steel Girder Results,steel_design.section_prop_zz,"round(dr['Ze_steel_mm3']/1000, 2)",store_design_results(),plategirderbridge.py,cm3,float,Steel Design Dialog,Table 5.2 / Ze,VERIFIED
+Main Steel Girder Results,steel_design.section_prop_zuz,"round(dr['Zp_steel_mm3']/1000, 2)",store_design_results(),plategirderbridge.py,cm3,float,Steel Design Dialog,Table 5.2 / Zp,VERIFIED
+Main Steel Girder Results,steel_design.composite_iz,"round(dr['I_comp_short_mm4']/10000, 2)",store_design_results(),plategirderbridge.py,cm4,float,Steel Design Dialog,Table 5.3 / Icomp,VERIFIED
+Main Steel Girder Results,steel_design.defl_live,"round(dr['delta_live_mm'], 3)",store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.10 Deflection,VERIFIED
+Main Steel Girder Results,steel_design.defl_allow_live,"round(dr['defl_limit_live_mm'], 2)",store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.10 Deflection,VERIFIED
+Main Steel Girder Results,steel_design.defl_total,"round(dr['delta_total_mm'], 3)",store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.10 Deflection,VERIFIED
+Main Steel Girder Results,steel_design.defl_allow_total,"round(dr['defl_limit_total_mm'], 2)",store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.10 Deflection,VERIFIED
+Main Steel Girder Results,steel_design.shear_diameter,dr['stud_dia_mm'],store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.11 Studs,VERIFIED
+Main Steel Girder Results,steel_design.shear_height,dr['stud_height_mm'],store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.11 Studs,VERIFIED
+Main Steel Girder Results,steel_design.shear_studs_per_section,dr['studs_per_section'],store_design_results(),plategirderbridge.py,-,int,Steel Design Dialog,Table 5.11 Studs,VERIFIED
+Main Steel Girder Results,steel_design.shear_longitudinal_spacing,dr['stud_spacing_provided_mm'],store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.11 Studs,VERIFIED
+Stiffener and Diaphragm Results,steel_design.stiff_method,dr['stiff_method'],store_design_results(),plategirderbridge.py,-,str,Steel Design Dialog,Table 5.7 Stiffeners,VERIFIED
+Stiffener and Diaphragm Results,steel_design.stiff_int_thick,dr['stiff_int_thick_req'],store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.7 Stiffeners,VERIFIED
+Stiffener and Diaphragm Results,steel_design.stiff_int_spacing,dr['stiff_int_space_req'],store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.7 Stiffeners,VERIFIED
+Stiffener and Diaphragm Results,steel_design.stiff_end_thick,dr['stiff_end_thick_req'],store_design_results(),plategirderbridge.py,mm,float,Steel Design Dialog,Table 5.7 Stiffeners,VERIFIED
+Stiffener and Diaphragm Results,steel_design.stiff_end_count,dr['bs_n_plates'],store_design_results(),plategirderbridge.py,-,int,Steel Design Dialog,Table 5.7 Stiffeners,VERIFIED
+Stiffener and Diaphragm Results,steel_design.stiff_long,longitudinal_stiffener status,store_design_results(),plategirderbridge.py,-,str,Steel Design Dialog,Table 5.7 Stiffeners,VERIFIED
+Stiffener and Diaphragm Results,steel_design.bs_r,"round(dr['bs_R_kN'], 2)",store_design_results(),plategirderbridge.py,kN,float,Steel Design Dialog,Table 5.9 Bearing,VERIFIED
+Stiffener and Diaphragm Results,steel_design.bs_fcdw_wb,"round(dr['bs_Fcdw_wb_kN'], 2)",store_design_results(),plategirderbridge.py,kN,float,Steel Design Dialog,Table 5.9 Bearing,VERIFIED
+Stiffener and Diaphragm Results,steel_design.bs_fpsd,"round(dr['bs_Fpsd_kN'], 2)",store_design_results(),plategirderbridge.py,kN,float,Steel Design Dialog,Table 5.9 Bearing,VERIFIED
+Stiffener and Diaphragm Results,steel_design.bs_fcd,"round(dr['bs_Fcd_kN'], 2)",store_design_results(),plategirderbridge.py,kN,float,Steel Design Dialog,Table 5.9 Bearing,VERIFIED
+Stiffener and Diaphragm Results,crossbracing_design_results,self.crossbracing_design_results,_stage_transverse_design(),plategirderbridge.py,dict,dict,Transverse Design Dialog,Chapter 7 Bracing,VERIFIED
+Stiffener and Diaphragm Results,end_diaphragm_design_results,self.end_diaphragm_design_results,_stage_transverse_design(),plategirderbridge.py,dict,dict,Transverse Design Dialog,Chapter 7 Diaphragms,VERIFIED
+Concrete Deck Results,deck_design_results,self.deck_design_results,design_deck_slab(),deckdesign.py,dict,dict,Deck Design Dialog,Chapter 6 Summary,VERIFIED
+Concrete Deck Results,deck.report.span,report_values[KEY_DD_SPAN],design_deck_slab(),deckdesign.py,m,float,Deck Design Dialog,Table 5.17(a),VERIFIED
+Concrete Deck Results,deck.report.w_dl,report_values[KEY_DD_WDL],design_deck_slab(),deckdesign.py,kN/m,float,Deck Design Dialog,Table 5.17(a),VERIFIED
+Concrete Deck Results,deck.report.m_dl,report_values[KEY_DD_M_DL],design_deck_slab(),deckdesign.py,kNm/m,float,Deck Design Dialog,Table 5.17(a),VERIFIED
+Concrete Deck Results,deck.report.m_ll,report_values[KEY_DD_M_LL],design_deck_slab(),deckdesign.py,kNm/m,float,Deck Design Dialog,Table 5.17(a),VERIFIED
+Concrete Deck Results,deck.report.m_uls_sag,report_values[KEY_DD_M_ULS_SAG],design_deck_slab(),deckdesign.py,kNm/m,float,Deck Design Dialog,Table 5.17(b),VERIFIED
+Concrete Deck Results,deck.report.m_uls_hog,report_values[KEY_DD_M_ULS_HOG],design_deck_slab(),deckdesign.py,kNm/m,float,Deck Design Dialog,Table 5.17(b),VERIFIED
+Concrete Deck Results,deck.report.d_bot,report_values[KEY_DD_D_BOT],design_deck_slab(),deckdesign.py,mm,float,Deck Design Dialog,Table 5.17(b),VERIFIED
+Concrete Deck Results,deck.report.d_top,report_values[KEY_DD_D_TOP],design_deck_slab(),deckdesign.py,mm,float,Deck Design Dialog,Table 5.17(b),VERIFIED
+Concrete Deck Results,deck.report.punch_ved_kn,report_values[KEY_DD_PUNCH_VED_KN],design_deck_slab(),deckdesign.py,kN,float,Deck Design Dialog,Table 5.17(d),VERIFIED
+Concrete Deck Results,deck.report.vrd_c_mpa,report_values[KEY_DD_VRD_C_MPA],design_deck_slab(),deckdesign.py,MPa,float,Deck Design Dialog,Table 5.17(d),VERIFIED
+Concrete Deck Results,deck.report.punch_ok,report_values[KEY_DD_PUNCH_OK],design_deck_slab(),deckdesign.py,-,str,Deck Design Dialog,Table 5.17(d),VERIFIED
+Reinforcement Results,deck.report.as_req_bot,report_values[KEY_DD_AS_REQ_BOT],design_deck_slab(),deckdesign.py,mm2/m,float,Deck Design Dialog,Table 5.17(c),VERIFIED
+Reinforcement Results,deck.report.dia_bot,report_values[KEY_DD_DIA_BOT],design_deck_slab(),deckdesign.py,mm,float,Deck Design Dialog,Table 5.17(c),VERIFIED
+Reinforcement Results,deck.report.spc_bot,report_values[KEY_DD_SPC_BOT],design_deck_slab(),deckdesign.py,mm,float,Deck Design Dialog,Table 5.17(c),VERIFIED
+Reinforcement Results,deck.report.as_bot,report_values[KEY_DD_AS_BOT],design_deck_slab(),deckdesign.py,mm2/m,float,Deck Design Dialog,Table 5.17(c),VERIFIED
+Reinforcement Results,deck.report.as_req_top,report_values[KEY_DD_AS_REQ_TOP],design_deck_slab(),deckdesign.py,mm2/m,float,Deck Design Dialog,Table 5.17(c),VERIFIED
+Reinforcement Results,deck.report.dia_top,report_values[KEY_DD_DIA_TOP],design_deck_slab(),deckdesign.py,mm,float,Deck Design Dialog,Table 5.17(c),VERIFIED
+Reinforcement Results,deck.report.spc_top,report_values[KEY_DD_SPC_TOP],design_deck_slab(),deckdesign.py,mm,float,Deck Design Dialog,Table 5.17(c),VERIFIED
+Reinforcement Results,deck.report.as_top,report_values[KEY_DD_AS_TOP],design_deck_slab(),deckdesign.py,mm2/m,float,Deck Design Dialog,Table 5.17(c),VERIFIED
+Reinforcement Results,deck.report.as_long,report_values[KEY_DD_AS_LONG],design_deck_slab(),deckdesign.py,mm2/m,float,Deck Design Dialog,Table 5.17(c),VERIFIED
+Reinforcement Results,deck.report.wk_bot,report_values[KEY_DD_WK_BOT],design_deck_slab(),deckdesign.py,mm,float,Deck Design Dialog,Table 5.17(e),VERIFIED
+Reinforcement Results,deck.report.wk_top,report_values[KEY_DD_WK_TOP],design_deck_slab(),deckdesign.py,mm,float,Deck Design Dialog,Table 5.17(e),VERIFIED
+Reinforcement Results,deck.report.wk_limit,report_values[KEY_DD_WK_LIMIT],design_deck_slab(),deckdesign.py,mm,float,Deck Design Dialog,Table 5.17(e),VERIFIED
+Additional Results,steel_design.ts_vl,dr.get('ts_VL_N_per_mm'),design_deck_slab(),plategirderbridge.py,N/mm,float,Deck Dialog Composite Bar,Table 5.12 Shear,VERIFIED
+Additional Results,steel_design.ts_vrd,dr.get('ts_VRd_kN_per_m'),design_deck_slab(),plategirderbridge.py,kN/m,float,Deck Dialog Composite Bar,Table 5.12 Shear,VERIFIED
+Additional Results,steel_design.crack_as_min,dr.get('crack_As_min_mm2'),design_deck_slab(),plategirderbridge.py,mm2,float,Deck Dialog Composite Bar,Table 5.13 Crack,VERIFIED
+Additional Results,steel_design.crack_as_prov,dr.get('crack_As_prov_mm2'),design_deck_slab(),plategirderbridge.py,mm2,float,Deck Dialog Composite Bar,Table 5.13 Crack,VERIFIED
+Additional Results,analysis_summary,"lc_summary, rxn_summary",generate_design_report(),plategirderbridge.py,dict,dict,Generate Results Dialog,Chapter 4 Summary,VERIFIED

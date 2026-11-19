@@ -1,0 +1,26 @@
+{
+  "100.0mm": {
+    "input_value": 100.0,
+    "validation_result": "VALID"
+  },
+  "200.0mm": {
+    "input_value": 200.0,
+    "validation_result": "VALID"
+  },
+  "250.0mm": {
+    "input_value": 250.0,
+    "validation_result": "VALID"
+  },
+  "280.0mm": {
+    "input_value": 280.0,
+    "validation_result": "VALID"
+  },
+  "300.0mm": {
+    "input_value": 300.0,
+    "validation_result": "VALID"
+  },
+  "500.0mm": {
+    "input_value": 500.0,
+    "validation_result": "VALID"
+  }
+}

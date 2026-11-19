@@ -1,0 +1,22 @@
+{
+  "span_under": [
+    20.0,
+    "Span must be between 20.0 m and 45.0 m (software limitation)."
+  ],
+  "span_over": [
+    45.0,
+    "Span must be between 20.0 m and 45.0 m (software limitation)."
+  ],
+  "span_non_numeric": [
+    20.0,
+    "Span must be a numeric value."
+  ],
+  "carriageway_negative": [
+    4.25,
+    "Minimum carriageway width required is 4.25 m as per IRC 5:2015 Clause 104.3.1."
+  ],
+  "skew_over": [
+    15.0,
+    "Skew angle must be between -15.0\u00b0 and 15.0\u00b0."
+  ]
+}

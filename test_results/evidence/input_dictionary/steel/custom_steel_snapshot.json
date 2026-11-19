@@ -1,0 +1,10 @@
+{
+  "material.girder": "Custom",
+  "material.custom_steel_fy": 410.0,
+  "material.custom_steel_fu": 540.0,
+  "material.custom_steel_density": 78.5,
+  "material.custom_steel_elastic_modulus": 205.0,
+  "material.custom_steel_poissons_ratio": 0.3,
+  "loading.temperature_load.thermal_coeff_steel": "11.7e-6",
+  "design_options_cont.partial_factor.reinforcing_steel.gamma_s": "1.15"
+}

@@ -1,0 +1,18 @@
+{
+  "valid_tested": [
+    250.0,
+    350.0,
+    400.0,
+    450.0,
+    550.0,
+    690.0
+  ],
+  "clamped_low": [
+    100.0,
+    "Yield Strength, Fy must be between 100.0 and 1200.0 MPa."
+  ],
+  "clamped_high": [
+    1200.0,
+    "Yield Strength, Fy must be between 100.0 and 1200.0 MPa."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "fy_250.0MPa": {
+    "input_fy_MPa": 250.0,
+    "validation": "VALID",
+    "converted_Pa": 250000000.0
+  },
+  "fy_350.0MPa": {
+    "input_fy_MPa": 350.0,
+    "validation": "VALID",
+    "converted_Pa": 350000000.0
+  },
+  "fy_400.0MPa": {
+    "input_fy_MPa": 400.0,
+    "validation": "VALID",
+    "converted_Pa": 400000000.0
+  },
+  "fy_450.0MPa": {
+    "input_fy_MPa": 450.0,
+    "validation": "VALID",
+    "converted_Pa": 450000000.0
+  },
+  "fy_500.0MPa": {
+    "input_fy_MPa": 500.0,
+    "validation": "VALID",
+    "converted_Pa": 500000000.0
+  }
+}

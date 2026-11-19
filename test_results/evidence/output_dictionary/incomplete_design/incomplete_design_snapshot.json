@@ -1,0 +1,5 @@
+{
+  "output_dict_size": 0,
+  "expected_error": "Span must be strictly positive",
+  "safe_handling": true
+}

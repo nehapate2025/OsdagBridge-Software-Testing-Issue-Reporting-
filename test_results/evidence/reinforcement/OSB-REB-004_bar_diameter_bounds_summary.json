@@ -1,0 +1,39 @@
+{
+  "test_case_id": "OSB-REB-004",
+  "description": "Reinforcement size bound constraints on automated rebar selection",
+  "results": {
+    "bounds_8_to_10": {
+      "lower_bound_mm": 8,
+      "upper_bound_mm": 10,
+      "chosen_bottom_dia_mm": 8,
+      "chosen_bottom_spacing_mm": 80.0,
+      "provided_steel_area_mm2_per_m": 628.0,
+      "required_steel_area_mm2_per_m": 599.9404338383152
+    },
+    "bounds_12_to_16": {
+      "lower_bound_mm": 12,
+      "upper_bound_mm": 16,
+      "chosen_bottom_dia_mm": 12,
+      "chosen_bottom_spacing_mm": 175.0,
+      "provided_steel_area_mm2_per_m": 646.0,
+      "required_steel_area_mm2_per_m": 599.9404338383152
+    },
+    "bounds_16_to_25": {
+      "lower_bound_mm": 16,
+      "upper_bound_mm": 25,
+      "chosen_bottom_dia_mm": 16,
+      "chosen_bottom_spacing_mm": 300.0,
+      "provided_steel_area_mm2_per_m": 670.0,
+      "required_steel_area_mm2_per_m": 599.9404338383152
+    },
+    "bounds_20_to_32": {
+      "lower_bound_mm": 20,
+      "upper_bound_mm": 32,
+      "chosen_bottom_dia_mm": 20,
+      "chosen_bottom_spacing_mm": 300.0,
+      "provided_steel_area_mm2_per_m": 1047.0,
+      "required_steel_area_mm2_per_m": 599.9404338383152
+    }
+  },
+  "status": "PASS"
+}

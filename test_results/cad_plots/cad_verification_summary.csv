@@ -1,0 +1,7 @@
+Component Category,CAD Component / Parameter,DTO Parameter Key,Source Builder Function,Visual & Dimension Verification,Status
+Overall Bridge Model,Complete 3D Bridge Span & Width,"span_length_L, carriageway_width",get_3d_cad_parameters(),"Verified (L=30m/36m, CW=7.5m/9.5m)",PASS
+Steel Components,Plate Girders (Web & Flanges),"girder_section_d, bf, tf, tw",build_plate_girder_geometry(),Verified against output dictionary,PASS
+Steel Components,Intermediate & Bearing Stiffeners,intermediate_stiffener_thickness/spacing,PlateGirderCADGenerator._set_parameters(),Verified per-girder member properties,PASS
+Concrete Deck,Reinforced Concrete Deck Slab,"deck_thickness, footpath_config",build_deck(),Verified aligned above girder top flanges,PASS
+Safety & Ancillaries,Crash Barriers & Railings,"barrier_type, railing_type","build_crash_barriers(), build_railings()",Verified IRC 5 dimensions & positions,PASS
+State & Memory,Consecutive Model Regeneration,Idempotence & Leak Check,PlateGirderBridge.get_3d_cad_parameters(),Verified 5-cycle memory idempotence,PASS

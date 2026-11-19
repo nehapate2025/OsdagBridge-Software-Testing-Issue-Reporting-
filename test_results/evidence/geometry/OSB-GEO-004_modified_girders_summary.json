@@ -1,0 +1,9 @@
+{
+  "carriageway_width": 7.5,
+  "overall_width": 8.4,
+  "user_specified_girders": 5,
+  "actual_no_of_girders": 5,
+  "girder_spacing": 1.68,
+  "deck_overhang": 0.84,
+  "width_recheck_satisfied": true
+}

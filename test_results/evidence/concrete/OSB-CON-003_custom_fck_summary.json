@@ -1,0 +1,47 @@
+{
+  "test_case_id": "OSB-CON-003",
+  "description": "Custom concrete fck scaling and capacity response",
+  "results": {
+    "fck_25MPa": {
+      "fck_MPa": 25.0,
+      "fctm_MPa": 2.21,
+      "Ecm_GPa": 29.0,
+      "allowable_concrete_stress_MPa": 12.0,
+      "actual_concrete_stress_MPa": 2.483,
+      "shear_UR": 0.941,
+      "punching_UR": 0.388,
+      "punching_resistance_VRDC_MPa": 0.48888387050245996
+    },
+    "fck_35MPa": {
+      "fck_MPa": 35.0,
+      "fctm_MPa": 2.77,
+      "Ecm_GPa": 32.0,
+      "allowable_concrete_stress_MPa": 16.8,
+      "actual_concrete_stress_MPa": 2.492,
+      "shear_UR": 0.887,
+      "punching_UR": 0.366,
+      "punching_resistance_VRDC_MPa": 0.5187292164511269
+    },
+    "fck_45MPa": {
+      "fck_MPa": 45.0,
+      "fctm_MPa": 3.28,
+      "Ecm_GPa": 34.5,
+      "allowable_concrete_stress_MPa": 21.6,
+      "actual_concrete_stress_MPa": 2.495,
+      "shear_UR": 0.782,
+      "punching_UR": 0.323,
+      "punching_resistance_VRDC_MPa": 0.5881836447913187
+    },
+    "fck_60MPa": {
+      "fck_MPa": 60.0,
+      "fctm_MPa": 3.97,
+      "Ecm_GPa": 37.7,
+      "allowable_concrete_stress_MPa": 28.8,
+      "actual_concrete_stress_MPa": 2.498,
+      "shear_UR": 0.677,
+      "punching_UR": 0.279,
+      "punching_resistance_VRDC_MPa": 0.6791759713064061
+    }
+  },
+  "status": "PASS"
+}

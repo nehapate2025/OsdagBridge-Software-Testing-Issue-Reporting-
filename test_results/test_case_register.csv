@@ -1,0 +1,96 @@
+Test Case ID,Module,Test Function,Category,Input Configuration,Expected Result,Execution Status,Dependency / Blocker
+OSB-UNIT-001,tests/unit/test_io.py,test_input_dict_json_serialization,Unit / IO,Standard Baseline Dictionary,Lossless JSON Serialization,PASSED,None
+OSB-UNIT-002,tests/unit/test_io.py,test_input_dict_yaml_handling,Unit / IO,Temporary YAML File,Exact Roundtrip Persistence,PASSED,None
+OSB-UNIT-003,tests/unit/test_io.py,test_resolve_girder_value_io,Unit / IO,Dynamic (.G1.M1) and Scalar Keys,Correct Value Resolution,PASSED,None
+OSB-UNIT-004,tests/unit/test_io.py,test_evidence_json_export,Unit / IO,JSON and Text Error Log,Evidence Successfully Exported,PASSED,None
+OSB-UNIT-005,tests/unit/test_input_validation.py,test_validate_span_valid_range,Unit / Validation,Spans: 20.0m 30.0m 45.0m,Validation Acceptance,PASSED,None
+OSB-UNIT-006,tests/unit/test_input_validation.py,test_validate_span_under_minimum,Unit / Validation,Spans: 10.0m 19.99m 0.0m -5.0m,Clamping to 20.0m Min,PASSED,None
+OSB-UNIT-007,tests/unit/test_input_validation.py,test_validate_span_over_maximum,Unit / Validation,Spans: 45.01m 50.0m 100.0m,Clamping to 45.0m Max,PASSED,None
+OSB-UNIT-008,tests/unit/test_input_validation.py,test_validate_span_non_numeric,Unit / Validation,Spans: 'thirty' None [],Rejection with Error String,PASSED,None
+OSB-UNIT-009,tests/unit/test_input_validation.py,test_validate_carriageway_width,Unit / Validation,Carriageway: 7.5m 10.5m -3.0m,Boundary Acceptance & Clamping,PASSED,None
+OSB-UNIT-010,tests/unit/test_input_validation.py,test_validate_skew_angle_range,Unit / Validation,Skew angles: 0 15 -15 20 -20,Boundary Acceptance & Range Check,PASSED,None
+OSB-UNIT-MAT-001,tests/unit/test_material_properties.py,test_validate_girder_weight_density_valid,Unit / Material,Densities: 50.0 78.5 120.0 kN/m3,Validation Acceptance,PASSED,None
+OSB-UNIT-MAT-002,tests/unit/test_material_properties.py,test_validate_girder_weight_density_out_of_bounds,Unit / Material,Densities: 49.9 0.0 -10.0 kN/m3,Error String & Clamping,PASSED,None
+OSB-UNIT-MAT-003,tests/unit/test_material_properties.py,test_validate_girder_yield_strength,Unit / Material,Fy: 100 250 350 1200 99 1201,Permissible Range [100 1200] MPa,PASSED,None
+OSB-UNIT-MAT-004,tests/unit/test_material_properties.py,test_validate_girder_tensile_strength,Unit / Material,Fu: 100 410 490 1500 99 1501,Permissible Range [100 1500] MPa,PASSED,None
+OSB-UNIT-MAT-005,tests/unit/test_material_properties.py,test_validate_concrete_grade_compressive_strength,Unit / Material,fck: 10 35 45 80 9 81,Permissible Range [10 80] MPa,PASSED,None
+OSB-UNIT-011,tests/unit/test_dictionary_integrity.py,test_solve_extend_basic_input_dict_expansion,Unit / Integrity,7 Basic Input Keys,Expansion to 100+ Canonical Keys,PASSED,None
+OSB-UNIT-012,tests/unit/test_dictionary_integrity.py,test_canonical_keys_presence,Unit / Integrity,Expanded Input Dictionary,All Required Keys Present,PASSED,None
+OSB-UNIT-013,tests/unit/test_dictionary_integrity.py,test_input_dict_deep_isolation,Unit / Integrity,Copied Baseline Dictionary,Mutations Isolated,PASSED,None
+OSB-UNIT-014,tests/unit/test_analyser.py,test_analyser_import_or_blocked,Unit / FE,Finite Element Mesh Model,Analyser Execution or Blocked Skip,BLOCKED,OpenSeesPy FE Engine
+OSB-UNIT-015,tests/unit/test_designer.py,test_designer_import_or_blocked,Unit / Design,Bridge Design Payload,Design Verification or Blocked Skip,BLOCKED,OpenSeesPy FE Engine
+OSB-INT-001,tests/integration/test_api_plate_girder.py,test_bridge_configuration_solver_width,Integration / API,Carriageway 7.5m Footpaths 2x1.5m,Overall Width 11.4m Calculated,PASSED,None
+OSB-INT-002,tests/integration/test_api_plate_girder.py,test_preliminary_depth_bounds,Integration / API,30.0m Span,Depth Bounds [1.5m 2.5m],PASSED,None
+OSB-INT-003,tests/integration/test_api_plate_girder.py,test_initial_sizing_increments,Integration / API,Values: 1.234 1.200 1.201 with inc 0.01m,Ceil to Step Increment,PASSED,None
+OSB-INT-004,tests/integration/test_cli_plate_girder.py,test_cli_entrypoint_main,Integration / CLI,Command Line Call,Help/Banner Return Code 0,PASSED,None
+OSB-INT-005,tests/integration/test_cli_plate_girder.py,test_cli_analyze_cmd_execution,Integration / CLI,Example YAML Path,Parse Arguments and Dispatch,PASSED,None
+OSB-INT-006,tests/integration/test_cli_plate_girder.py,test_cli_invalid_path_handling,Integration / CLI,Non-existent File Path,Graceful Error Return,PASSED,None
+OSB-INT-007,tests/integration/test_design_execution.py,test_plate_girder_bridge_instantiation,Integration / Core,PlateGirderBridge Class,Model Initialized or Blocked Skip,BLOCKED,OpenSeesPy FE Engine
+OSB-INT-008,tests/integration/test_design_execution.py,test_boq_material_quantities_integration,Integration / Core,Baseline Inputs & Design Results,Quantities & BOQ Formulas Populated,PASSED,None
+OSB-INT-009,tests/integration/test_design_execution.py,test_report_generator_styles_integration,Integration / Reporting,ReportLab & LaTeX Styles,Consistent Styling Loaded,PASSED,None
+OSB-INT-010,tests/integration/verification_ddcl_cases.py,test_verification_ddcl_cases_structure,Integration / Validation,examples/plate_girder YAML Files,Syntax and Geometry Parsed,PASSED,None
+OSB-GEO-001,tests/scenarios/test_basic_geometry.py,test_baseline_geometry,Scenario / Geometry,30m Span 7.5m Carriageway,Baseline Dimensions Solved,PASSED,None
+OSB-GEO-002,tests/scenarios/test_basic_geometry.py,test_modified_span_length,Scenario / Geometry,Spans 25.0m 36.0m 42.0m,Girder Depth & Stiffeners Scaled,PASSED,None
+OSB-GEO-003,tests/scenarios/test_basic_geometry.py,test_modified_bridge_width,Scenario / Geometry,Carriageway 8.5m 10.5m 12.0m Dual,Width & Girder Count Solved,PASSED,None
+OSB-GEO-004,tests/scenarios/test_basic_geometry.py,test_modified_girder_configuration,Scenario / Geometry,5 Girders on 8.40m Bridge,Girder Count Preserved,PASSED,None
+OSB-GEO-005,tests/scenarios/test_basic_geometry.py,test_modified_deck_geometry,Scenario / Geometry,Deck Thickness 100 to 500mm,Dimensions Retained & Validated,PASSED,None
+OSB-GEO-006,tests/scenarios/test_basic_geometry.py,test_combined_geometry_modification,Scenario / Geometry,Span 36m CW 8.5m Skew 15deg Dual Footpaths,Coupled Layout Solved,PASSED,None
+OSB-GEO-007,tests/scenarios/test_basic_geometry.py,test_invalid_geometry_handling,Scenario / Geometry,Negative/Out-of-range dimensions,Validator Clamping & Error Strings,PASSED,None
+OSB-GEO-008,tests/scenarios/test_basic_geometry.py,test_gui_input_dock_automation_status,Scenario / GUI,InputDock Class Instantiation,GUI Automation or Blocked Skip,BLOCKED,PySide6 UI Framework
+OSB-RUN-001,tests/scenarios/test_consecutive_runs.py,test_consecutive_design_runs_isolation,Scenario / Stability,5 Consecutive Execution Cycles,Zero State Mutation / Leakage,PASSED,None
+OSB-RUN-002,tests/scenarios/test_consecutive_runs.py,test_consecutive_runs_with_varied_parameters,Scenario / Stability,Alternating Spans: 25 30 35m,Fresh Input Dict Per Run,PASSED,None
+OSB-RUN-003,tests/scenarios/test_consecutive_runs.py,test_consecutive_geometry_modifications,Scenario / Consecutive Runs,3-Cycle: Span 30m -> Span 36m -> CW 10.5m,Independent Volume & Sagging Moment Update,PASSED,None
+OSB-RUN-004,tests/scenarios/test_consecutive_runs.py,test_consecutive_material_modifications,Scenario / Consecutive Runs,3-Cycle: E350A/M35 -> E250A -> M45,Moment Capacity & Concrete Permissible Stress Update,PASSED,None
+OSB-RUN-005,tests/scenarios/test_consecutive_runs.py,test_baseline_restoration_repeatability,Scenario / Consecutive Runs,3-Cycle: Baseline -> Modified -> Restored,Bit-for-Bit Identity between Run 1 and Run 3,PASSED,None
+OSB-RUN-006,tests/scenarios/test_consecutive_runs.py,test_input_output_state_isolation,Scenario / State Isolation,Defaults Immutability & Distinct Instances,Zero Residue Mutation & Memory Reset,PASSED,None
+OSB-RUN-007,tests/scenarios/test_consecutive_runs.py,test_gui_consecutive_design_execution_status,Scenario / GUI / Automation,InputDock toggle_lock() Cycles,Graceful Headless Skip,BLOCKED,PySide6 UI Framework
+OSB-MAT-001,tests/scenarios/test_custom_steel.py,test_default_steel_material,Scenario / Material,E 350A Default Steel Grade,DB Retrieval & Default Retention,PASSED,None
+OSB-MAT-002,tests/scenarios/test_custom_steel.py,test_custom_steel_grade,Scenario / Material,Grades: E 250A E 300A E 410A E 450A,DB Retrieval & Dictionary Sync,PASSED,None
+OSB-MAT-003,tests/scenarios/test_custom_yield_strength,test_custom_yield_strength,Scenario / Material,Custom Fy: 250 350 400 450 550 690 MPa,Direct Proportional Capacity Scaling,PASSED,None
+OSB-MAT-004,tests/scenarios/test_custom_steel.py,test_custom_ultimate_strength,Scenario / Material,Custom Fu: 410 490 540 570 780 MPa,Fu Stored & Retained Without Fy Alteration,PASSED,None
+OSB-MAT-005,tests/scenarios/test_custom_steel.py,test_custom_elastic_modulus,Scenario / Material,Custom E: 180 200 205 210 250 GPa,Correct Pa Conversion in MaterialProperties,PASSED,None
+OSB-MAT-006,tests/scenarios/test_custom_steel.py,test_component_specific_steel_properties,Scenario / Material,Girders Bracing Diaphragms Stiffeners,Independent Assignment & Stiffener Inheritance,PASSED,None
+OSB-MAT-007,tests/scenarios/test_custom_steel.py,test_invalid_material_properties,Scenario / Material / Validation,Negative/Out-of-range Density Fy Fu E Poisson,Validator Clamping & Error Messages,PASSED,None
+OSB-MAT-008,tests/scenarios/test_custom_steel.py,test_gui_material_dialog_automation_status,Scenario / GUI / Automation,MaterialPropertiesDialog Instantiation,Graceful Headless Skip,BLOCKED,PySide6 UI Framework
+OSB-CON-001,tests/scenarios/test_custom_concrete.py,test_default_concrete_configuration,Scenario / Material,M35 Baseline Concrete Deck 250mm,Concrete Properties & Design Validated,PASSED,None
+OSB-CON-002,tests/scenarios/test_custom_concrete.py,test_custom_concrete_grade,Scenario / Material,Grades: M25 M30 M35 M40 M45 M50,DB Retrieval & Allowable Stress Scaling,PASSED,None
+OSB-CON-003,tests/scenarios/test_custom_concrete.py,test_custom_concrete_compressive_strength,Scenario / Material,Custom fck: 25 35 45 60 MPa,Design Engine Transfer & Stress Response,PASSED,None
+OSB-CON-004,tests/scenarios/test_custom_concrete.py,test_modified_deck_thickness,Scenario / Material,Deck Thickness: 200 220 250 280 300mm,Volume & Dead Load Moment Scaling,PASSED,None
+OSB-CON-005,tests/scenarios/test_custom_concrete.py,test_modified_concrete_properties,Scenario / Material,"Ecm: 25-40GPa, fctm: 2.0-3.5MPa",Modular Ratio & As_min Crack Response,PASSED,None
+OSB-CON-006,tests/scenarios/test_custom_concrete.py,test_invalid_concrete_inputs,Scenario / Material / Validation,"Negative/Zero fck, Out-of-bounds t/density",Safe Clamping & Rejection Error Messages,PASSED,None
+OSB-CON-007,tests/scenarios/test_custom_concrete.py,test_gui_concrete_dialog_automation_status,Scenario / GUI / Automation,MaterialPropertiesDialog Deck Mode,Graceful Headless Skip,BLOCKED,PySide6 UI Framework
+OSB-REB-001,tests/scenarios/test_custom_reinforcement.py,test_default_reinforcement_configuration,Scenario / Material,Fe 500 Baseline Rebar 50mm Covers,Rebar Properties & Baseline Design Validated,PASSED,None
+OSB-REB-002,tests/scenarios/test_custom_reinforcement.py,test_custom_reinforcement_grade,Scenario / Material,Grades: Fe 415 to Fe 600,DB Retrieval & Allowable Steel Stress Scaling,PASSED,None
+OSB-REB-003,tests/scenarios/test_custom_reinforcement.py,test_modified_reinforcement_yield_strength,Scenario / Material,Yield Strengths: 415 500 550 600 MPa,Mu Formula Direct fy Proportionality,PASSED,None
+OSB-REB-004,tests/scenarios/test_custom_reinforcement.py,test_modified_bar_diameter_bounds,Scenario / Material,Bounds: [8 10] [12 16] [16 25] [20 32],Algorithm Strictly Respects User Bounds,PASSED,None
+OSB-REB-005,tests/scenarios/test_custom_reinforcement.py,test_modified_reinforcement_spacing,Scenario / Material,Spacing: Min 75mm Max 300mm 5mm Rounding,Spacing Constraints Strictly Enforced,PASSED,None
+OSB-REB-006,tests/scenarios/test_custom_reinforcement.py,test_invalid_reinforcement_inputs,Scenario / Material / Validation,"Inverted Bounds, Out-of-bounds Clear Covers",Validator Bounds Clamping & Cover Error,PASSED,None
+OSB-REB-007,tests/scenarios/test_custom_reinforcement.py,test_gui_reinforcement_dialog_automation_status,Scenario / GUI / Automation,AdditionalInputs Deck Tab,Graceful Headless Skip,BLOCKED,PySide6 UI Framework
+OSB-REP-001,tests/reporting/test_evidence_export.py,test_export_input_dict_snapshot,Reporting / Snapshot,Baseline Input Dictionary,JSON Evidence Exported,PASSED,None
+OSB-REP-002,tests/reporting/test_evidence_export.py,test_export_output_dict_snapshot,Reporting / Snapshot,Baseline Design Output,JSON Evidence Exported,PASSED,None
+OSB-REP-003,tests/reporting/test_evidence_export.py,test_chart_generation_and_export,Reporting / Charts,UR Data [0.78 0.52 0.84 0.58],Charts Rendered & Saved,PASSED,None
+OSB-DICT-IN-001,Default Input Dictionary Verification,Input Dictionary,Unit / Scenario,Automated,Verify standard baseline inputs expand to all 541 canonical keys with proper default values.,tests/scenarios/test_input_dictionary.py,PASS
+OSB-DICT-IN-002,Custom Geometry Input Verification,Input Dictionary,Unit / Scenario,Automated,"Verify custom span, carriageway width, skew angle, footpath, and median transfer into input dictionary.",tests/scenarios/test_input_dictionary.py,PASS
+OSB-DICT-IN-003,Custom Steel Property Verification,Input Dictionary,Unit / Scenario,Automated,"Verify custom structural steel properties (Fy, Fu, E, density) are validated and preserved without default overwrite.",tests/scenarios/test_input_dictionary.py,PASS
+OSB-DICT-IN-004,Custom Concrete and Reinforcement Verification,Input Dictionary,Unit / Scenario,Automated,Verify custom concrete compressive strength (fck) and rebar properties transfer accurately to input dictionary.,tests/scenarios/test_input_dictionary.py,PASS
+OSB-DICT-IN-005,Additional Parameter Verification,Input Dictionary,Unit / Scenario,Automated,"Verify additional project attributes, member properties, bearing types, and sub-tab defaults expansion.",tests/scenarios/test_input_dictionary.py,PASS
+OSB-DICT-IN-006,Numerical Precision and Unit Verification,Input Dictionary,Unit / Scenario,Automated,"Verify high-precision floating point preservation without truncation and unit consistency (m, mm, kN/m3, MPa, GPa).",tests/scenarios/test_input_dictionary.py,PASS
+OSB-DICT-IN-007,Missing and Default Substitution Verification,Input Dictionary,Unit / Scenario,Automated,Verify mandatory parameter validation error handling and automatic IRC default substitution for omitted optional keys.,tests/scenarios/test_input_dictionary.py,PASS
+OSB-DICT-IN-008,Input Dictionary Consistency Across Consecutive Runs,Input Dictionary,Scenario,Automated,"Verify complete input dictionary isolation, zero parameter leakage, and state purity across 3 consecutive cycles.",tests/scenarios/test_input_dictionary.py,PASS
+OSB-DICT-OUT-001,Baseline Output Verification,Output Dictionary,Scenario,Automated,"Verify baseline design populates all 8 Category URs, plate dimensions, moment capacity, shear, and deck outputs.",tests/scenarios/test_output_dictionary.py,PASS
+OSB-DICT-OUT-002,Geometry-Dependent Output Verification,Output Dictionary,Scenario,Automated,"Verify that output values scale predictably when span, width, footpaths, and girder count change.",tests/scenarios/test_output_dictionary.py,PASS
+OSB-DICT-OUT-003,Custom Steel Output Verification,Output Dictionary,Scenario,Automated,Verify that custom steel material properties propagate to output dictionary and capacities scale with yield strength.,tests/scenarios/test_output_dictionary.py,PASS
+OSB-DICT-OUT-004,Concrete Deck Output Verification,Output Dictionary,Scenario,Automated,Verify concrete deck design outputs for custom high-strength concrete (M45 vs M35).,tests/scenarios/test_output_dictionary.py,PASS
+OSB-DICT-OUT-005,Reinforcement Output Verification,Output Dictionary,Scenario,Automated,"Verify reinforcement design outputs, bar spacing, areas, and crack widths against permissible limits.",tests/scenarios/test_output_dictionary.py,PASS
+OSB-DICT-OUT-006,Output Display Consistency,Output Dictionary,Scenario,Automated,"Verify agreement between Output Dictionary, Output Dock percent bars, and design report tables.",tests/scenarios/test_output_dictionary.py,PASS
+OSB-DICT-OUT-007,Output Precision and Unit Verification,Output Dictionary,Scenario,Automated,"Verify numerical precision, rounding rules (3 decimals for deflections, 2 for moments/forces), and unit conventions.",tests/scenarios/test_output_dictionary.py,PASS
+OSB-DICT-OUT-008,Consecutive Design Output Refresh,Output Dictionary,Scenario,Automated,Verify that consecutive design executions completely refresh the Output Dictionary without retaining stale results.,tests/scenarios/test_output_dictionary.py,PASS
+OSB-DICT-OUT-009,Incomplete or Failed Design Output Handling,Output Dictionary,Scenario,Automated,Verify that incomplete or failed design executions do not produce corrupted or misleading successful outputs.,tests/scenarios/test_output_dictionary.py,PASS
+OSB-CAD-001,Default 3D Model Generation,CAD Visualization,Scenario,Automated,Verify baseline bridge CAD parameters compile into BridgeParametersDTO with proper dimensions.,tests/scenarios/test_cad_visualization.py,PASS
+OSB-CAD-002,Geometry Modification Visualization,CAD Visualization,Scenario,Automated,"Verify that modified span, width, skew angle, and footpaths update the CAD DTO representation.",tests/scenarios/test_cad_visualization.py,PASS
+OSB-CAD-003,Custom Steel Component Visualization,CAD Visualization,Scenario,Automated,Verify custom steel flange dimensions and stiffener configurations propagate to CAD DTO.,tests/scenarios/test_cad_visualization.py,PASS
+OSB-CAD-004,Concrete Deck Visualization,CAD Visualization,Scenario,Automated,Verify concrete deck thickness and alignment in the CAD DTO representation.,tests/scenarios/test_cad_visualization.py,PASS
+OSB-CAD-005,Structural Plot Generation,Structural Plots,Scenario,Automated,"Verify generation of 3D Grillage, BMD, SFD, and Deflection plots and figure-to-bytes export.",tests/scenarios/test_structural_plots.py,PASS
+OSB-CAD-006,Consecutive Run Graphical Refresh,Structural Plots,Scenario,Automated,Verify that consecutive design runs completely refresh graphical plots without retaining old curves.,tests/scenarios/test_structural_plots.py,PASS
+OSB-CAD-007,Graphical State and Memory Verification,CAD Visualization,Scenario,Automated,Verify that repeated CAD DTO parameter extraction is idempotent without memory leakage.,tests/scenarios/test_cad_visualization.py,PASS
+OSB-CAD-008,Graphical Export Verification,Structural Plots,Scenario,Automated,"Verify that plots export successfully to PNG, SVG, and PDF with valid non-zero file sizes.",tests/scenarios/test_structural_plots.py,PASS

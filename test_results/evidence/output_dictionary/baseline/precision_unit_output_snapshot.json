@@ -1,0 +1,14 @@
+{
+  "defl_live": {
+    "val": 22.35,
+    "unit": "mm"
+  },
+  "mu_applied": {
+    "val": 2850.5,
+    "unit": "kNm"
+  },
+  "total_depth": {
+    "val": 1800.0,
+    "unit": "mm"
+  }
+}

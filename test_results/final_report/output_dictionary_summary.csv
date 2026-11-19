@@ -1,0 +1,8 @@
+Category,Total Supported Parameters,Verified Keys,Default Values Consistent,Custom Values Preserved,Unit Fidelity Verified,Status
+Overall Design Results,12,12,Yes,Yes,Yes,PASS
+Main Steel Girder Results,33,33,Yes,Yes,Yes,PASS
+Stiffener and Diaphragm Results,12,12,Yes,Yes,Yes,PASS
+Concrete Deck Results,12,12,Yes,Yes,Yes,PASS
+Reinforcement Results,12,12,Yes,Yes,Yes,PASS
+Additional Results,5,5,Yes,Yes,Yes,PASS
+Total Output Dictionary,86,86,Yes,Yes,Yes,PASS

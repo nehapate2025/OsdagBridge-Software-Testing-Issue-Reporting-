@@ -1,0 +1,5 @@
+{
+  "missing_span_error": "Span must be a numeric value.",
+  "substituted_deck_thickness": 250.0,
+  "substituted_wearing_course_thickness": 50.0
+}

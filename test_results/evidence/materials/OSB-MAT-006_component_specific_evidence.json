@@ -1,0 +1,6 @@
+{
+  "main_girder_key": "material.girder",
+  "cross_bracing_key": "material.cross_bracing",
+  "end_diaphragm_key": "material.end_diaphragm",
+  "stiffeners_inherit_from_girder": true
+}

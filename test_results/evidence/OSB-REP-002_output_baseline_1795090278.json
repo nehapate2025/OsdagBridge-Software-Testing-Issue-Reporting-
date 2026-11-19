@@ -1,0 +1,113 @@
+{
+  "summary": {
+    "max_bm": 1560.0,
+    "max_sf": 520.0,
+    "max_reaction": 545.2,
+    "max_deflection": 18.5,
+    "governing_combination": "1.35 DL + 1.50 LL (Class 70R Eccentric)",
+    "dcr_moment": 0.78,
+    "dcr_shear": 0.52,
+    "dcr_deflection": 0.58,
+    "design_status": "PASS"
+  },
+  "design_results": {
+    "per_girder": {
+      "G1": {
+        "checks": [
+          {
+            "check_id": 1,
+            "name": "Moment Capacity (ULS)",
+            "demand": 1560.0,
+            "capacity": 2000.0,
+            "dcr": 0.78,
+            "status": "PASS",
+            "demand_unit": "kN-m",
+            "capacity_unit": "kN-m"
+          },
+          {
+            "check_id": 2,
+            "name": "Shear Capacity (ULS)",
+            "demand": 520.0,
+            "capacity": 1000.0,
+            "dcr": 0.52,
+            "status": "PASS",
+            "demand_unit": "kN",
+            "capacity_unit": "kN"
+          },
+          {
+            "check_id": 5,
+            "name": "Lateral Torsional Buckling",
+            "demand": 1260.0,
+            "capacity": 1500.0,
+            "dcr": 0.84,
+            "status": "PASS",
+            "demand_unit": "kN-m",
+            "capacity_unit": "kN-m"
+          },
+          {
+            "check_id": 13,
+            "name": "Deflection (SLS)",
+            "demand": 23.2,
+            "capacity": 40.0,
+            "dcr": 0.58,
+            "status": "PASS",
+            "demand_unit": "mm",
+            "capacity_unit": "mm"
+          }
+        ]
+      }
+    },
+    "concrete_deck": {
+      "checks": [
+        {
+          "check_id": "D1",
+          "name": "Sagging Moment",
+          "demand": 120.0,
+          "capacity": 180.0,
+          "dcr": 0.667,
+          "status": "PASS",
+          "demand_unit": "kNm/m",
+          "capacity_unit": "kNm/m"
+        },
+        {
+          "check_id": "D2",
+          "name": "Punching Shear",
+          "demand": 210.0,
+          "capacity": 350.0,
+          "dcr": 0.6,
+          "status": "PASS",
+          "demand_unit": "kN",
+          "capacity_unit": "kN"
+        }
+      ]
+    },
+    "cross_bracing": {
+      "checks": [
+        {
+          "check_id": "CB1",
+          "name": "Chord Compression",
+          "demand": 95.0,
+          "capacity": 250.0,
+          "dcr": 0.38,
+          "status": "PASS",
+          "demand_unit": "kN",
+          "capacity_unit": "kN"
+        }
+      ]
+    },
+    "end_diaphragm": {
+      "checks": [
+        {
+          "check_id": "ED1",
+          "name": "Diaphragm Bending",
+          "demand": 110.0,
+          "capacity": 261.9,
+          "dcr": 0.42,
+          "status": "PASS",
+          "demand_unit": "kNm",
+          "capacity_unit": "kNm"
+        }
+      ]
+    }
+  }
+}

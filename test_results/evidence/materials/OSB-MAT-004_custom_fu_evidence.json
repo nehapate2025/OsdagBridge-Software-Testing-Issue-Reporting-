@@ -1,0 +1,17 @@
+{
+  "valid_tested": [
+    410.0,
+    490.0,
+    540.0,
+    570.0,
+    780.0
+  ],
+  "clamped_low": [
+    100.0,
+    "Ultimate Tensile Strength, Fu must be between 100.0 and 1500.0 MPa."
+  ],
+  "clamped_high": [
+    1500.0,
+    "Ultimate Tensile Strength, Fu must be between 100.0 and 1500.0 MPa."
+  ]
+}

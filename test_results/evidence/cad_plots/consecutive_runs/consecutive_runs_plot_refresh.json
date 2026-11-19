@@ -1,0 +1,20 @@
+[
+  {
+    "run": 1,
+    "span": 30.0,
+    "xlim_max": 30.0,
+    "g1_peak_moment": 2226.562
+  },
+  {
+    "run": 2,
+    "span": 36.0,
+    "xlim_max": 36.0,
+    "g1_peak_moment": 2226.562
+  },
+  {
+    "run": 3,
+    "span": 24.0,
+    "xlim_max": 24.0,
+    "g1_peak_moment": 2226.562
+  }
+]

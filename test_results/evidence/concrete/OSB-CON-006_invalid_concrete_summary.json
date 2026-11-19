@@ -1,0 +1,87 @@
+{
+  "test_case_id": "OSB-CON-006",
+  "description": "Validation checks and boundary clamping for invalid concrete inputs",
+  "records": [
+    {
+      "key": "material.deck.fck",
+      "input": -35.0,
+      "result": [
+        10.0,
+        "Characteristic Compressive Strength, fck must be between 10.0 and 80.0 MPa."
+      ]
+    },
+    {
+      "key": "material.deck.fck",
+      "input": 0.0,
+      "result": [
+        10.0,
+        "Characteristic Compressive Strength, fck must be between 10.0 and 80.0 MPa."
+      ]
+    },
+    {
+      "key": "material.deck.fck",
+      "input": 95.0,
+      "result": [
+        80.0,
+        "Characteristic Compressive Strength, fck must be between 10.0 and 80.0 MPa."
+      ]
+    },
+    {
+      "key": "typical_section.deck_thickness",
+      "input": -200.0,
+      "result": [
+        100,
+        "Deck thickness must be at least 100 mm."
+      ]
+    },
+    {
+      "key": "typical_section.deck_thickness",
+      "input": 50.0,
+      "result": [
+        100,
+        "Deck thickness must be at least 100 mm."
+      ]
+    },
+    {
+      "key": "typical_section.deck_thickness",
+      "input": 650.0,
+      "result": [
+        500,
+        "Deck thickness must not exceed 500 mm."
+      ]
+    },
+    {
+      "key": "material.deck.density",
+      "input": 12.0,
+      "result": [
+        18.0,
+        "Weight Density must be between 18.0 and 28.0 kN/m\u00b3."
+      ]
+    },
+    {
+      "key": "material.deck.density",
+      "input": 35.0,
+      "result": [
+        28.0,
+        "Weight Density must be between 18.0 and 28.0 kN/m\u00b3."
+      ]
+    },
+    {
+      "key": "material.deck.ecm",
+      "input": 8.0,
+      "result": [
+        15.0,
+        "Secant Modulus of Elasticity, Ecm must be between 15.0 and 50.0 GPa."
+      ]
+    },
+    {
+      "key": "material.deck.fck",
+      "input": "invalid_fck",
+      "result": [
+        10.0,
+        "Characteristic Compressive Strength, fck must be a numeric value."
+      ]
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,31 @@
+{
+  "test_case_id": "OSB-REB-003",
+  "description": "Yield strength sensitivity on cross-section moment capacity",
+  "results": {
+    "fy_415MPa": {
+      "fy_MPa": 415.0,
+      "fixed_As_mm2": 646.0,
+      "effective_depth_mm": 194.0,
+      "moment_capacity_Mu_kNm_per_m": 43.435
+    },
+    "fy_500MPa": {
+      "fy_MPa": 500.0,
+      "fixed_As_mm2": 646.0,
+      "effective_depth_mm": 194.0,
+      "moment_capacity_Mu_kNm_per_m": 51.884
+    },
+    "fy_550MPa": {
+      "fy_MPa": 550.0,
+      "fixed_As_mm2": 646.0,
+      "effective_depth_mm": 194.0,
+      "moment_capacity_Mu_kNm_per_m": 56.783
+    },
+    "fy_600MPa": {
+      "fy_MPa": 600.0,
+      "fixed_As_mm2": 646.0,
+      "effective_depth_mm": 194.0,
+      "moment_capacity_Mu_kNm_per_m": 61.629
+    }
+  },
+  "status": "PASS"
+}

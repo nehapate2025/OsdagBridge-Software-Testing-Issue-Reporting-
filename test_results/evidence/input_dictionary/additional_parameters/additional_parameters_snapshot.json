@@ -1,0 +1,7 @@
+{
+  "typical_section.deck_thickness": 250.0,
+  "member_properties.girder_details.section_input.top_flange_thickness": "22",
+  "project.title": "High Span Verification Bridge",
+  "support_conditions.custom_bearing_note": "High Damping Rubber Bearing",
+  "loading.special_vehicle_weight": 385.0
+}

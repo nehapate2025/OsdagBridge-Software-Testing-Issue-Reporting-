@@ -1,0 +1,18 @@
+{
+  "KEY_SPAN": {
+    "val": 28.375,
+    "type": "<class 'float'>"
+  },
+  "KEY_SKEW_ANGLE": {
+    "val": 12.345,
+    "type": "<class 'float'>"
+  },
+  "no_of_girders": {
+    "val": 4,
+    "type": "<class 'int'>"
+  },
+  "girder_spacing": {
+    "val": 2.1,
+    "type": "<class 'float'>"
+  }
+}
