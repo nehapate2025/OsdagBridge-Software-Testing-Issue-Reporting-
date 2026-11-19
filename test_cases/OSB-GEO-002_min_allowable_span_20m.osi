@@ -1,0 +1,9 @@
+geometry:
+  carriageway_width: 7.5
+  span: 20.0
+project:
+  name: example_basic
+  span_m: 30.0
+typical_section:
+  girder_spacing: 2.2
+  no_of_girders: 4

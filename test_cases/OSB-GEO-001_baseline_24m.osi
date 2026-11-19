@@ -1,0 +1,10 @@
+geometry:
+  carriageway_width: 7.5
+  skew_angle: 0.0
+  span: 24.0
+project:
+  name: example_basic
+  span_m: 30.0
+typical_section:
+  girder_spacing: 2.2
+  no_of_girders: 4

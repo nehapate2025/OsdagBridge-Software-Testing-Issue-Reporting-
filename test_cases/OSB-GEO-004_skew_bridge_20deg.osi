@@ -1,0 +1,6 @@
+geometry:
+  skew_angle: 20.0
+  span: 25.0
+project:
+  name: example_basic
+  span_m: 30.0

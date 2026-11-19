@@ -1,0 +1,7 @@
+material:
+  steel_grade: Custom
+  ultimate_tensile_stress: 490.0
+  yield_stress: 350.0
+project:
+  name: example_basic
+  span_m: 30.0

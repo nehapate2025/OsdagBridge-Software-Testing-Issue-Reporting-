@@ -1,0 +1,6 @@
+material:
+  concrete_grade: M40
+  deck_slab_concrete_fck: 40.0
+project:
+  name: example_basic
+  span_m: 30.0

@@ -1,0 +1,12 @@
+Test Case ID,Filename,Scenario,File Format,Verification Status,Remarks
+OSB-GEO-001,OSB-GEO-001_baseline_24m.osi,Baseline 24m Span Highway Plate Girder,YAML OSI (Osdag Bridge Input),VERIFIED_VALID,Valid YAML OSI input dictionary. Fully conforms to BridgeInputValidator schema.
+OSB-GEO-002,OSB-GEO-002_min_allowable_span_20m.osi,Minimum Allowable Span 20m Girder Bridge,YAML OSI (Osdag Bridge Input),VERIFIED_VALID,Valid YAML OSI input dictionary. Fully conforms to BridgeInputValidator schema.
+OSB-GEO-003,OSB-GEO-003_long_span_36m.osi,Long Span 36m Highway Bridge,YAML OSI (Osdag Bridge Input),VERIFIED_VALID,Valid YAML OSI input dictionary. Fully conforms to BridgeInputValidator schema.
+OSB-GEO-004,OSB-GEO-004_skew_bridge_10deg.osi,Skew Bridge with Allowable 10 Degree Angle,YAML OSI (Osdag Bridge Input),VERIFIED_VALID,Valid YAML OSI input dictionary. Fully conforms to BridgeInputValidator schema.
+OSB-MAT-001,OSB-MAT-001_custom_steel_e350.osi,High Strength Custom Steel Grade E350 (fy=350 MPa),YAML OSI (Osdag Bridge Input),VERIFIED_VALID,Valid YAML OSI input dictionary. Fully conforms to BridgeInputValidator schema.
+OSB-CON-001,OSB-CON-001_concrete_deck_m40.osi,High Performance M40 Grade Concrete Deck,YAML OSI (Osdag Bridge Input),VERIFIED_VALID,Valid YAML OSI input dictionary. Fully conforms to BridgeInputValidator schema.
+OSB-RUN-001,OSB-RUN-001_consecutive_run1_24m.osi,Consecutive Design Run 1 - Baseline 24m Span,YAML OSI (Osdag Bridge Input),VERIFIED_VALID,Valid YAML OSI input dictionary. Fully conforms to BridgeInputValidator schema.
+OSB-RUN-002,OSB-RUN-002_consecutive_run2_30m.osi,Consecutive Design Run 2 - Medium 30m Span,YAML OSI (Osdag Bridge Input),VERIFIED_VALID,Valid YAML OSI input dictionary. Fully conforms to BridgeInputValidator schema.
+OSB-RUN-003,OSB-RUN-003_consecutive_run3_22m.osi,Consecutive Design Run 3 - Short 22m Span,YAML OSI (Osdag Bridge Input),VERIFIED_VALID,Valid YAML OSI input dictionary. Fully conforms to BridgeInputValidator schema.
+OSB-BND-001,OSB-BND-001_invalid_under_span_12m.osi,Boundary Test - Below Minimum Span (12m < 20m),YAML OSI (Osdag Bridge Input),BOUNDARY_REJECTED,Correctly caught by load-time validator: • geometry.span: Span must be between 20.0 m and 45.0 m (software limitation).
+OSB-BND-002,OSB-BND-002_invalid_excess_skew_25deg.osi,Boundary Test - Exceeds Max Skew Angle (25deg > 15deg),YAML OSI (Osdag Bridge Input),BOUNDARY_REJECTED,Correctly caught by load-time validator: • geometry.skew_angle: Skew angle must be between -15.0° and 15.0°.
