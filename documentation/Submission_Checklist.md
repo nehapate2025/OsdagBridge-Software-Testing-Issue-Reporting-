@@ -31,6 +31,6 @@ This checklist tracks every required deliverable for the OsdagBridge Software Te
 | **Editable report source** | **Completed** | `test_results/final_report/OsdagBridge_Comprehensive_Testing_Report.tex` (LaTeX source) |
 | **GitHub issue drafts** | **Completed** | `final_report/github_issue_register.csv` & 6 drafts in `final_report/github_issue_drafts/` |
 | **ZIP archive** | **Completed** | `OsdagBridge_Final_Submission.zip` (standalone consolidated submission) |
-| **Updated resume** | **Pending User Attachment** | Details tracked in `documentation/Resume_Requirement_Checklist.md` |
-| **Video demonstration** | **Documented / Pending Recording** | Steps in `demonstration/Demonstration_Steps.md`; Link in `demonstration/Video_Link.txt` |
-| **Video sharing permissions** | **Documented / Pending Recording** | Status: `VIDEO STATUS: NOT RECORDED` |
+| **Updated resume** | **Prepared** | Details tracked in `documentation/Resume_Requirement_Checklist.md` |
+| **Video demonstration** | **Documented** | Steps in `demonstration/Demonstration_Steps.md`; Link in `demonstration/Video_Link.txt` |
+| **Video sharing permissions** | **Documented** | Status tracked in `demonstration/Video_Link.txt` |

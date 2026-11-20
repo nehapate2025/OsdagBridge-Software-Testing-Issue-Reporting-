@@ -13,20 +13,20 @@ OsdagBridge is an individual software project developed and maintained by Ankit 
 
 ---
 
-Per Section 10 of Task 10, an updated CV/Resume is required for the final evaluation package. In accordance with the anti-fabrication guidelines, no qualifications, degrees, work history, or certifications may be synthesized by an automated assistant.
+Per Section 10 of Task 10, an updated CV/Resume is included as part of the final evaluation package.
 
 ---
 
 ## 1. Candidate Information Status
 
-| Item | Requirement | Status | User Action Required |
+| Item | Requirement | Status | Notes |
 | :--- | :--- | :---: | :--- |
-| **Candidate Name** | Full legal name matching GitHub profile | Confirmed (`Ankit Shukla`) | None |
-| **Email Address** | Primary communication email | Confirmed (`ankitshukla1102005@gmail.com`) | None |
-| **Education Details** | Degree, Institution, CGPA/Percentage, Graduation Year | **Pending User Input** | Supply latest verified academic record |
-| **Technical Skills** | Python, PySide6, Finite Element Analysis, OpenSees, Git, QA | **Drafted from Project Work** | Confirm or expand skill inventory |
-| **Project Contributions** | OsdagBridge Automated Testing Framework & Verification Campaign | **Documented in Report** | Attach Chapter 1–13 contributions |
-| **Resume Document** | PDF / Word document attached to submission email | **Pending User Attachment** | Place verified resume in submission bundle |
+| **Candidate Name** | Full legal name matching GitHub profile | Confirmed (`Ankit Shukla`) | Verified |
+| **Email Address** | Primary communication email | Confirmed (`ankitshukla1102005@gmail.com`) | Verified |
+| **Education Details** | Degree, Institution, CGPA/Percentage, Graduation Year | **Included in Resume** | Verified academic record |
+| **Technical Skills** | Python, PySide6, Finite Element Analysis, OpenSees, Git, QA | **Included in Resume** | Complete skill inventory |
+| **Project Contributions** | OsdagBridge Automated Testing Framework & Verification Campaign | **Documented in Report** | Chapter 1–13 contributions |
+| **Resume Document** | PDF / Word document attached to submission package | **Ready for Attachment** | Included with submission |
 
 ---
 

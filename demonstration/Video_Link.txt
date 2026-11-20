@@ -10,7 +10,7 @@ PROJECT TYPE:              Individual Project
 PROJECT OWNERSHIP:         Ankit Shukla
 VIDEO TITLE:               OsdagBridge Short-Span Steel Plate Girder Testing & Verification Demo
 TARGET PLATFORM:           YouTube (Unlisted) / Google Drive (Direct Review Link)
-ACTUAL VIDEO URL:          PENDING_USER_RECORDING
+ACTUAL VIDEO URL:          PENDING_RECORDING
 SHARING PERMISSION:        Public / Anyone with Link (View Only)
 UPLOAD STATUS:             NOT UPLOADED
 RECORDING DATE:            PENDING

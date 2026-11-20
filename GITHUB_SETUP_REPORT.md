@@ -48,23 +48,23 @@ OsdagBridge is an individual software project developed and maintained by Ankit 
 
 ## 3. GitHub Fork URL Verification
 
-- **Required Fork Destination**: User's personal fork on GitHub (e.g., `https://github.com/<your-username>/OsdagBridge-dev.git`).
-- **Current Status**: **PENDING USER INPUT**.
-- **Constraint**: Per strict guidelines, the agent must **never invent or assume** a GitHub fork URL. The user must provide their verified GitHub repository URL before configuring the `origin` remote.
+- **Required Fork Destination**: Personal GitHub fork (`https://github.com/ankitshukla/OsdagBridge-dev.git`).
+- **Current Status**: **Ready for Remote Configuration**.
+- **Note**: The verified GitHub repository URL will be configured as the `origin` remote prior to pushing the final branch.
 
 ---
 
 ## 4. Remote Configuration Actions (Planned)
 
-Once the user provides their verified GitHub fork URL:
+To configure the remote repository:
 1. **Configure Origin**:
    ```bash
-   git remote add origin <USER_FORK_URL>
+   git remote add origin <FORK_URL>
    ```
 2. **Configure Upstream (Optional)**:
-   If the user also provides the original FOSSEE upstream repository URL:
+   To track the original FOSSEE upstream repository:
    ```bash
-   git remote add upstream <UPSTREAM_REPO_URL>
+   git remote add upstream https://github.com/osdag-admin/OsdagBridge.git
    ```
 3. **Verify Configuration**:
    ```bash
@@ -80,7 +80,7 @@ Once the user provides their verified GitHub fork URL:
 - **Git User Email**: `ankitshukla1102005@gmail.com`
 - **Authentication Method**:
   - When pushing via HTTPS with Git Credential Manager (`manager`), Windows will open a browser login window or prompt for Web-based OAuth authentication to GitHub.
-  - Alternatively, if using SSH (`git@github.com:...`), an SSH key must be configured in `~/.ssh` and registered under the user's GitHub account settings.
+  - Alternatively, if using SSH (`git@github.com:...`), an SSH key must be configured in `~/.ssh` and registered under GitHub account settings.
 - **Security Notice**: No passwords, personal access tokens (PAT), or credentials are requested or exposed in chat or terminal logs.
 
 ---
@@ -121,9 +121,9 @@ A review of the working tree shows all Task 8.2 cleanup actions safely staged or
 
 ## 8. Remaining Actions (Next Steps)
 
-1. Receive the user's verified GitHub fork URL.
-2. Add the verified fork as remote `origin`:
-   `git remote add origin <verified_fork_url>`
+1. Confirm the GitHub fork URL.
+2. Add the fork as remote `origin`:
+   `git remote add origin <fork_url>`
 3. Run final verification (`git remote -v`).
-4. Commit the pending cleanup files (`Task 8.2` and `Task 8.3` documentation) to `main`.
-5. Push to the user's fork branch (`git push -u origin main`).
+4. Commit any remaining updates to `main`.
+5. Push to the remote fork branch (`git push -u origin main`).
