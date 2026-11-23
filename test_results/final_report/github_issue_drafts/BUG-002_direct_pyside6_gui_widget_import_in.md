@@ -5,7 +5,8 @@ An issue was identified in module `osdagbridge.core.bridge_types.plate_girder.ui
 
 ## Project Developer & Author
 - **Project Name:** OsdagBridge
-- **Developer & Author:** Ankit Shukla (Sole Individual Developer — Individual Project)
+- **Developed By: Yoshita Namdev**
+- **Developer & Author:** Yoshita Namdev (Sole Individual Developer — Individual Project)
 
 ## Environment
 - **Operating System:** Microsoft Windows 11 Home (x64)

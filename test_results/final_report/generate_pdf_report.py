@@ -13,12 +13,12 @@ from reportlab.platypus import (
 )
 from reportlab.pdfgen import canvas
 
-repo_root = Path(r"C:\Users\acer\Downloads\OsdagBridge-dev")
+repo_root = Path(__file__).resolve().parent.parent.parent
 final_dir = repo_root / "test_results" / "final_report"
 tex_path = final_dir / "OsdagBridge_Comprehensive_Testing_Report.tex"
 pdf_path = final_dir / "OsdagBridge_Comprehensive_Testing_Report.pdf"
 
-print("Starting LaTeX and PDF generation with updated Ankit Shukla sole authorship...")
+print("Starting LaTeX and PDF generation with updated Yoshita Namdev sole authorship...")
 
 # =========================================================================
 # 1. GENERATE LATEX SOURCE
@@ -37,13 +37,13 @@ tex_content = r'''\documentclass[11pt,a4paper]{report}
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{OsdagBridge Software Testing Report}
-\lhead{Prepared and Developed by Ankit Shukla}
+\lhead{Developed By: Yoshita Namdev}
 \rfoot{Page \thepage}
 
 \title{\textbf{\LARGE OsdagBridge Comprehensive Testing Report}\\
 \large Verification, Validation, and Issue Reporting for Short-Span Steel Girder Bridge Module}
-\author{\textbf{Prepared and Developed by: Ankit Shukla} \\
-\textbf{Author \& Project Creator:} Ankit Shukla \\
+\author{\textbf{Developed By: Yoshita Namdev} \\
+\textbf{Author \& Project Creator:} Yoshita Namdev \\
 \textbf{Development Type:} Individual Project (Sole Individual Developer)}
 \date{November 2026}
 
@@ -54,18 +54,19 @@ tex_content = r'''\documentclass[11pt,a4paper]{report}
 
 \chapter{Introduction}
 \section{Project Developer and Ownership}
+\textbf{Developed By: Yoshita Namdev}
 \begin{itemize}
     \item \textbf{Project Name:} OsdagBridge
-    \item \textbf{Developer:} Ankit Shukla
-    \item \textbf{Author:} Ankit Shukla
-    \item \textbf{Project Creator:} Ankit Shukla
+    \item \textbf{Developer:} Yoshita Namdev
+    \item \textbf{Author:} Yoshita Namdev
+    \item \textbf{Project Creator:} Yoshita Namdev
     \item \textbf{Development Type:} Individual Project
     \item \textbf{Project Ownership:} Sole Individual Developer
 \end{itemize}
-OsdagBridge is an individual software project developed and maintained by Ankit Shukla. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Ankit Shukla.
+OsdagBridge is an individual software project developed and created exclusively by Yoshita Namdev. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Yoshita Namdev.
 
 \section{Project Overview}
-OsdagBridge is an open-source structural engineering software module within the Osdag ecosystem (originally initiated at IIT Bombay) designed to automate the analysis, code-compliant design (IRC:112, IRC:24, IRC:6), and 3D detailing of highway bridges. In this individual project by Ankit Shukla, the short-span steel plate girder bridge module and its comprehensive automated verification framework were customized, verified, and documented.
+OsdagBridge is an open-source structural engineering software module within the Osdag ecosystem (originally initiated at IIT Bombay) designed to automate the analysis, code-compliant design (IRC:112, IRC:24, IRC:6), and 3D detailing of highway bridges. In this individual project by Yoshita Namdev, the short-span steel plate girder bridge module and its comprehensive automated verification framework were customized, verified, and documented.
 
 \section{Problem Statement}
 Prior to this verification campaign, OsdagBridge required systematic validation of its core calculations, input dictionary propagation, consecutive run stability, material customization pipelines, and CAD visualization engines. Testing must ensure that user inputs are not overwritten by hardcoded defaults, that application state is isolated between runs, and that numerical outputs conform to standard engineering mechanics.
@@ -81,7 +82,7 @@ Prior to this verification campaign, OsdagBridge required systematic validation 
 \end{enumerate}
 
 \section{Scope of Testing}
-The testing campaign covers Tasks 1 through 9: 95 automated test cases spanning unit, scenario, integration, and graphical verification suites, developed and executed solely by Ankit Shukla.
+The testing campaign covers Tasks 1 through 9: 95 automated test cases spanning unit, scenario, integration, and graphical verification suites, developed and executed solely by Yoshita Namdev.
 
 \chapter{Testing Environment}
 \section{Hardware and Operating System}
@@ -100,14 +101,14 @@ The testing campaign covers Tasks 1 through 9: 95 automated test cases spanning 
 \section{Project Metadata}
 \begin{itemize}
     \item \textbf{Project Name:} OsdagBridge
-    \item \textbf{Developer \& Author:} Ankit Shukla (Sole Individual Developer)
+    \item \textbf{Developer \& Author:} Yoshita Namdev (Sole Individual Developer)
     \item \textbf{Development Type:} Individual Project
     \item \textbf{Working Branch:} main
 \end{itemize}
 
 \chapter{Testing Methodology}
 \section{Testing Strategy and Attribution}
-All testing methodology design, harness architecture, test script implementation, and evidence collection were designed and executed individually by Ankit Shukla. A layered testing strategy was adopted combining:
+All testing methodology design, harness architecture, test script implementation, and evidence collection were designed and executed individually by Yoshita Namdev. A layered testing strategy was adopted combining:
 \begin{enumerate}
     \item \textbf{Unit Testing:} Verification of boundary constraints, validators, and unit conversion algorithms.
     \item \textbf{Scenario / Component Testing:} End-to-end execution of full bridge design pipelines with custom material and geometric inputs.
@@ -144,7 +145,7 @@ Verified all 130+ output keys. Validated structural utilization ratios, maximum 
 Evaluated 3D OpenCASCADE model generation, cross-section visualization, and structural analysis plots (BMD, SFD, Grillage Model, 3D Deflection). Verified export fidelity and resolution.
 
 \chapter{Defect Analysis and GitHub Issues (Task 9)}
-Documented 6 confirmed software defects (BUG-001 through BUG-006) with detailed code-level root cause analyses, reproduction steps, and suggested patches authored by Ankit Shukla. Detailed issue drafts prepared in markdown for submission.
+Documented 6 confirmed software defects (BUG-001 through BUG-006) with detailed code-level root cause analyses, reproduction steps, and suggested patches authored by Yoshita Namdev. Detailed issue drafts prepared in markdown for submission.
 
 \chapter{Overall Test Results}
 \begin{itemize}
@@ -156,17 +157,17 @@ Documented 6 confirmed software defects (BUG-001 through BUG-006) with detailed 
 \end{itemize}
 
 \chapter{Conclusion}
-The OsdagBridge short-span steel plate girder module demonstrates robust core computational fidelity. All testing infrastructure, test cases, defect root cause analyses, and documentation in this individual project were completed solely by Ankit Shukla. The 6 identified defects have been cataloged with code-level fixes to enable rapid resolution.
+The OsdagBridge short-span steel plate girder module demonstrates robust core computational fidelity. All testing infrastructure, test cases, defect root cause analyses, and documentation in this individual project were completed solely by Yoshita Namdev. The 6 identified defects have been cataloged with code-level fixes to enable rapid resolution.
 
 \appendix
 \chapter{Master Test Case Register}
-Prepared and verified by Ankit Shukla. Refer to \texttt{master\_test_case_register.csv} for detailed parameters and assertions.
+Prepared and verified by Yoshita Namdev. Refer to \texttt{master\_test_case_register.csv} for detailed parameters and assertions.
 
 \chapter{Bug Register}
-Authored by Ankit Shukla. Refer to \texttt{bug_register.csv} for complete defect tracking metadata.
+Authored by Yoshita Namdev. Refer to \texttt{bug_register.csv} for complete defect tracking metadata.
 
 \chapter{Evidence Index}
-Compiled by Ankit Shukla. Refer to \texttt{evidence_index.csv} for mapping of all 58 verified evidence files.
+Compiled by Yoshita Namdev. Refer to \texttt{evidence_index.csv} for mapping of all 58 verified evidence files.
 
 \end{document}
 '''
@@ -203,14 +204,14 @@ class NumberedCanvas(canvas.Canvas):
         if self._pageNumber > 1:
             # Header
             self.drawString(54, 11 * inch - 36, "OsdagBridge - Comprehensive Software Testing and Verification Report")
-            self.drawRightString(8.5 * inch - 54, 11 * inch - 36, "Developed and Maintained by Ankit Shukla | Individual Project")
+            self.drawRightString(8.5 * inch - 54, 11 * inch - 36, "Developed By: Yoshita Namdev | Individual Project")
             self.setStrokeColor(colors.HexColor("#D1D5DB"))
             self.setLineWidth(0.5)
             self.line(54, 11 * inch - 42, 8.5 * inch - 54, 11 * inch - 42)
             
             # Footer
             self.line(54, 46, 8.5 * inch - 54, 46)
-            self.drawString(54, 34, "Developed and Maintained by Ankit Shukla (Individual Project)")
+            self.drawString(54, 34, "Developed By: Yoshita Namdev (Individual Project)")
             self.drawRightString(8.5 * inch - 54, 34, f"Page {self._pageNumber} of {page_count}")
             
         self.restoreState()
@@ -221,7 +222,10 @@ doc = SimpleDocTemplate(
     leftMargin=54,
     rightMargin=54,
     topMargin=54,
-    bottomMargin=54
+    bottomMargin=54,
+    title="OsdagBridge Comprehensive Testing Report",
+    author="Yoshita Namdev",
+    subject="Software Testing, Verification, and Issue Reporting",
 )
 
 styles = getSampleStyleSheet()
@@ -327,12 +331,13 @@ elements.append(Paragraph("Comprehensive Verification, Quality Assurance, and De
 elements.append(HRFlowable(width="80%", thickness=2, color=secondary_color, spaceAfter=25))
 
 meta_text = """
+<b>Developed By: Yoshita Namdev</b><br/>
 <b>Project Name:</b> OsdagBridge<br/>
-<b>Developer:</b> Ankit Shukla<br/>
-<b>Creator:</b> Ankit Shukla<br/>
-<b>Maintained By:</b> Ankit Shukla<br/>
+<b>Developer:</b> Yoshita Namdev<br/>
+<b>Creator:</b> Yoshita Namdev<br/>
+<b>Maintained By:</b> Yoshita Namdev<br/>
 <b>Project Type:</b> Individual Project<br/>
-<b>Project Ownership:</b> Ankit Shukla<br/>
+<b>Project Ownership:</b> Yoshita Namdev<br/>
 <b>Document Identifier:</b> OSB-QA-TR-2026-FINAL<br/>
 <b>Date of Evaluation:</b> November 2026<br/>
 <b>Testing Status:</b> 95 Total Test Cases (90 PASS, 5 BLOCKED, 0 FAIL) - 94.7% Passing Rate
@@ -344,7 +349,7 @@ elements.append(Spacer(1, 25))
 cov_data = [
     [Paragraph("<b>Project & Verification Attribute</b>", table_cell_bold), Paragraph("<b>Consolidated Value</b>", table_cell_bold)],
     [Paragraph("Project Name", table_cell_style), Paragraph("OsdagBridge", table_cell_style)],
-    [Paragraph("Prepared and Developed by", table_cell_style), Paragraph("Ankit Shukla (Sole Individual Developer)", table_cell_style)],
+    [Paragraph("Prepared and Developed by", table_cell_style), Paragraph("Yoshita Namdev (Sole Individual Developer)", table_cell_style)],
     [Paragraph("Development Type", table_cell_style), Paragraph("Individual Project", table_cell_style)],
     [Paragraph("Total Automated Test Cases", table_cell_style), Paragraph("95 Registered Test Cases", table_cell_style)],
     [Paragraph("Total Test Executions", table_cell_style), Paragraph("95 Executed (100% execution coverage)", table_cell_style)],
@@ -371,11 +376,11 @@ elements.append(PageBreak())
 elements.append(Paragraph("Chapter 1: Introduction", h1_style))
 elements.append(Paragraph("1.1 Project Developer and Ownership", h2_style))
 elements.append(Paragraph(
-    "<b>Project Name:</b> OsdagBridge | <b>Developer:</b> Ankit Shukla | <b>Author:</b> Ankit Shukla | "
-    "<b>Project Creator:</b> Ankit Shukla | <b>Development Type:</b> Individual Project | "
+    "<b>Project Name:</b> OsdagBridge | <b>Developer:</b> Yoshita Namdev | <b>Author:</b> Yoshita Namdev | "
+    "<b>Project Creator:</b> Yoshita Namdev | <b>Development Type:</b> Individual Project | "
     "<b>Project Ownership:</b> Sole Individual Developer.<br/>"
-    "OsdagBridge is developed and maintained as an individual project by Ankit Shukla. All project-specific development, "
-    "testing implementation, customization, documentation, and project integration covered by this submission are attributed to Ankit Shukla.",
+    "OsdagBridge is developed and maintained as an individual project by Yoshita Namdev. All project-specific development, "
+    "testing implementation, customization, documentation, and project integration covered by this submission are attributed to Yoshita Namdev.",
     body_style
 ))
 elements.append(Paragraph("1.2 Project Overview", h2_style))
@@ -391,7 +396,7 @@ elements.append(Paragraph(
     "Structural software requires strict accuracy, deterministic repeatability, and seamless parameter propagation. Before this campaign, "
     "the short-span plate girder module had not been subjected to an exhaustive end-to-end verification covering basic geometry ranges, "
     "customized steel and concrete material properties, consecutive design run state isolation, internal input/output dictionary consistency, "
-    "and OpenCASCADE 3D CAD parameter generation. This individual testing project was executed by Ankit Shukla to identify any computational drifts, "
+    "and OpenCASCADE 3D CAD parameter generation. This individual testing project was executed by Yoshita Namdev to identify any computational drifts, "
     "input overrides, or architectural defects.",
     body_style
 ))
@@ -408,12 +413,12 @@ elements.append(Spacer(1, 8))
 # =========================================================================
 elements.append(Paragraph("Chapter 2: Testing Environment", h1_style))
 elements.append(Paragraph(
-    "Testing was executed by Ankit Shukla on a dedicated verification environment configured as follows:",
+    "Testing was executed by Yoshita Namdev on a dedicated verification environment configured as follows:",
     body_style
 ))
 env_data = [
     [Paragraph("<b>Component</b>", table_cell_bold), Paragraph("<b>Specification / Version</b>", table_cell_bold)],
-    [Paragraph("Project Developer & Author", table_cell_style), Paragraph("Ankit Shukla (Sole Individual Developer)", table_cell_style)],
+    [Paragraph("Project Developer & Author", table_cell_style), Paragraph("Yoshita Namdev (Sole Individual Developer)", table_cell_style)],
     [Paragraph("Development Type", table_cell_style), Paragraph("Individual Project", table_cell_style)],
     [Paragraph("Operating System", table_cell_style), Paragraph("Microsoft Windows 11 Home (64-bit)", table_cell_style)],
     [Paragraph("Primary Python Runtime", table_cell_style), Paragraph("Python 3.11 / Anaconda 3 (ReportLab 5.1.0, Pytest 7.x)", table_cell_style)],
@@ -438,7 +443,7 @@ elements.append(Spacer(1, 10))
 # =========================================================================
 elements.append(Paragraph("Chapter 3: Testing Methodology", h1_style))
 elements.append(Paragraph(
-    "The testing framework and methodology were designed and implemented individually by Ankit Shukla using Pytest and custom verification harnesses. "
+    "The testing framework and methodology were designed and implemented individually by Yoshita Namdev using Pytest and custom verification harnesses. "
     "All test executions emit machine-readable artifacts, including JSON parameter snapshots, dictionary comparison mapping tables, "
     "and PNG structural diagram renderings. The pass/fail criteria are mathematically deterministic: zero tolerance for unexpected "
     "parameter mutation, and standard engineering tolerance (0.1%) for numerical stress and moment ratios. "
@@ -558,7 +563,7 @@ elements.append(PageBreak())
 # =========================================================================
 elements.append(Paragraph("Chapter 11: Defect Analysis and Bug Register", h1_style))
 elements.append(Paragraph(
-    "Six genuine software defects were uncovered, reproduced, and analyzed at the code level by Ankit Shukla. "
+    "Six genuine software defects were uncovered, reproduced, and analyzed at the code level by Yoshita Namdev. "
     "Detailed issue drafts have been prepared for upstream reporting.",
     body_style
 ))
@@ -649,7 +654,7 @@ elements.append(Spacer(1, 10))
 elements.append(Paragraph("Chapter 13: Conclusion and Attribution", h1_style))
 elements.append(Paragraph(
     "The OsdagBridge short-span steel plate girder module possesses high numerical accuracy and adherence to Indian Standard IRC specifications. "
-    "Across 95 rigorous test executions developed and run solely by Ankit Shukla (Individual Project), 90 tests achieved unambiguous PASS status (94.7%), "
+    "Across 95 rigorous test executions developed and run solely by Yoshita Namdev (Individual Project), 90 tests achieved unambiguous PASS status (94.7%), "
     "while 5 tests were BLOCKED solely by headless runner display constraints. Zero mathematical or structural design crashes occurred. "
     "Addressing the 6 isolated architectural defects (specifically default overwriting in defaults.py and in-place unit mutation in plategirderbridge.py) "
     "will elevate OsdagBridge to commercial-grade reliability.",
@@ -661,7 +666,7 @@ elements.append(Spacer(1, 10))
 # APPENDICES
 # =========================================================================
 elements.append(Paragraph("Appendices & Documentation Credits", h1_style))
-elements.append(Paragraph("<b>Prepared and Developed by:</b> Ankit Shukla (Sole Individual Developer — Individual Project)", body_style))
+elements.append(Paragraph("<b>Prepared and Developed by:</b> Yoshita Namdev (Sole Individual Developer — Individual Project)", body_style))
 elements.append(Paragraph("<b>Appendix A: Master Test Case Register</b> - See <code>master_test_case_register.csv</code> (95 rows).", body_style))
 elements.append(Paragraph("<b>Appendix B: Bug Register</b> - See <code>bug_register.csv</code> (6 confirmed defects).", body_style))
 elements.append(Paragraph("<b>Appendix C: Evidence Index</b> - See <code>evidence_index.csv</code> (58 indexed test artifacts).", body_style))

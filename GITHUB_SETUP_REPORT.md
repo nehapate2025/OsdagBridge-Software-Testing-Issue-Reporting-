@@ -2,19 +2,21 @@
 
 ### Project Developer and Ownership
 
-- **Project Name:** OsdagBridge
-- **Developer:** Ankit Shukla
-- **Creator:** Ankit Shukla
-- **Maintained By:** Ankit Shukla
-- **Project Type:** Individual Project
-- **Project Ownership:** Ankit Shukla
+**Developed By: Yoshita Namdev**
 
-OsdagBridge is an individual software project developed and maintained by Ankit Shukla. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Ankit Shukla.
+- **Project Name:** OsdagBridge
+- **Developer:** Yoshita Namdev
+- **Creator:** Yoshita Namdev
+- **Maintained By:** Yoshita Namdev
+- **Project Type:** Individual Project
+- **Project Ownership:** Yoshita Namdev
+
+OsdagBridge is an individual software project developed and created exclusively by Yoshita Namdev. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Yoshita Namdev.
 
 ---
 
 **Project:** OsdagBridge (Plate Girder Highway Bridge Design and Automated Reporting)  
-**Author:** Ankit Shukla  
+**Author:** Yoshita Namdev  
 **Date:** November 18, 2026  
 **Document Version:** 1.0.0  
 **Target Repository:** `OsdagBridge-dev`  
@@ -48,7 +50,7 @@ OsdagBridge is an individual software project developed and maintained by Ankit 
 
 ## 3. GitHub Fork URL Verification
 
-- **Required Fork Destination**: Personal GitHub fork (`https://github.com/ankitshukla/OsdagBridge-dev.git`).
+- **Required Fork Destination**: Personal GitHub fork (`https://github.com/yoshitanamdev/OsdagBridge-dev.git`).
 - **Current Status**: **Ready for Remote Configuration**.
 - **Note**: The verified GitHub repository URL will be configured as the `origin` remote prior to pushing the final branch.
 
@@ -76,8 +78,8 @@ To configure the remote repository:
 ## 5. GitHub Authentication Status
 
 - **Git Credential Helper**: Configured as `manager` (Windows Git Credential Manager).
-- **Git User Name**: `Ankit Shukla`
-- **Git User Email**: `ankitshukla1102005@gmail.com`
+- **Git User Name**: `Yoshita Namdev`
+- **Git User Email**: `yoshitanamdev@gmail.com`
 - **Authentication Method**:
   - When pushing via HTTPS with Git Credential Manager (`manager`), Windows will open a browser login window or prompt for Web-based OAuth authentication to GitHub.
   - Alternatively, if using SSH (`git@github.com:...`), an SSH key must be configured in `~/.ssh` and registered under GitHub account settings.

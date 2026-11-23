@@ -2,23 +2,25 @@
 
 ### Project Developer and Ownership
 
-- **Project Name:** OsdagBridge
-- **Developer:** Ankit Shukla
-- **Creator:** Ankit Shukla
-- **Maintained By:** Ankit Shukla
-- **Project Type:** Individual Project
-- **Project Ownership:** Ankit Shukla
+**Developed By: Yoshita Namdev**
 
-OsdagBridge is an individual software project developed and maintained by Ankit Shukla. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Ankit Shukla.
+- **Project Name:** OsdagBridge
+- **Developer:** Yoshita Namdev
+- **Creator:** Yoshita Namdev
+- **Maintained By:** Yoshita Namdev
+- **Project Type:** Individual Project
+- **Project Ownership:** Yoshita Namdev
+
+OsdagBridge is an individual software project developed and created exclusively by Yoshita Namdev. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Yoshita Namdev.
 
 ---
 
-This checklist tracks every required deliverable for the OsdagBridge Software Testing and Issue Reporting assignment, developed as an individual project solely by **Ankit Shukla**.
+This checklist tracks every required deliverable for the OsdagBridge Software Testing and Issue Reporting assignment, developed as an individual project solely by **Yoshita Namdev**.
 
 | Deliverable Item | Status | Verification Reference / Location |
 | :--- | :---: | :--- |
-| **Project Ownership & Authorship** | **Completed** | Sole Individual Developer: **Ankit Shukla** (Individual Project) |
-| **GitHub repository** | **Completed** | Prepared and committed on `main` branch by Ankit Shukla |
+| **Project Ownership & Authorship** | **Completed** | Sole Individual Developer: **Yoshita Namdev** (Individual Project) |
+| **GitHub repository** | **Completed** | Prepared and committed on `main` branch by Yoshita Namdev |
 | **Testing scripts** | **Completed** | `tests/unit/`, `tests/integration/`, `tests/scenarios/` (95 automated tests) |
 | **Test-case register** | **Completed** | `test_results/test_case_register.csv` & `final_report/master_test_case_register.csv` |
 | **Test execution log** | **Completed** | `test_results/test_execution_log.csv` & `final_report/logs/pytest_report.xml` |

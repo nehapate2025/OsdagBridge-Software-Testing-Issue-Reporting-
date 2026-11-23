@@ -2,19 +2,21 @@
 
 ### Project Developer and Ownership
 
-- **Project Name:** OsdagBridge
-- **Developer:** Ankit Shukla
-- **Creator:** Ankit Shukla
-- **Maintained By:** Ankit Shukla
-- **Project Type:** Individual Project
-- **Project Ownership:** Ankit Shukla
+**Developed By: Yoshita Namdev**
 
-OsdagBridge is an individual software project developed and maintained by Ankit Shukla. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Ankit Shukla.
+- **Project Name:** OsdagBridge
+- **Developer:** Yoshita Namdev
+- **Creator:** Yoshita Namdev
+- **Maintained By:** Yoshita Namdev
+- **Project Type:** Individual Project
+- **Project Ownership:** Yoshita Namdev
+
+OsdagBridge is an individual software project developed and created exclusively by Yoshita Namdev. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Yoshita Namdev.
 
 ---
 
 **Project:** OsdagBridge (Plate Girder Highway Bridge Design and Automated Reporting)  
-**Author:** Ankit Shukla  
+**Author:** Yoshita Namdev  
 **Date:** November 18, 2026  
 **Document Version:** 1.0.0 (Pre-Push & Verification Readiness)  
 **Local Branch:** `main`  
@@ -28,7 +30,7 @@ OsdagBridge is an individual software project developed and maintained by Ankit 
 - **Current Branch**: `main`
 - **Destination Repository (Target)**: Personal GitHub Fork
 - **Upstream Remote**: None configured
-- **Active Git User**: `Ankit Shukla <ankitshukla1102005@gmail.com>`
+- **Active Git User**: `Yoshita Namdev <yoshitanamdev@gmail.com>`
 - **Git Credential Helper**: `manager` (Windows Git Credential Manager)
 
 ---
@@ -36,7 +38,7 @@ OsdagBridge is an individual software project developed and maintained by Ankit 
 ## 2. Commit Details
 
 - **Commit Hash**: `08c831682f808794d0dc3d4847e0aa966b47c0b0` (short: `08c8316`)
-- **Author**: Ankit Shukla
+- **Author**: Yoshita Namdev
 - **Date**: 2026-11-18 21:26:07 +0530
 - **Summary Message**: `Complete OsdagBridge report improvements and documentation`
 - **Files Committed in Final Commit (12 files)**:

@@ -7,7 +7,7 @@ def ch1_project_info(m):
 
 This section records all project metadata as entered by the designer.
 
-\section{Project and Design Team Details}
+\section{Project and Developer Details}
 \label{sec:project-details}
 
 \begin{tabular}{|L{5.5cm}|L{8.5cm}|}

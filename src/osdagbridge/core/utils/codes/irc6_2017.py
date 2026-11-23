@@ -434,7 +434,7 @@ class IRC6_2017:
         IRC:6-2017 Clause 206.2
         Kerb load based on kerb width (obtained from IRC5)
 
-        @author: Sweta Pal
+        @author: Yoshita Namdev
         """
 
         # Get kerb data from IRC5

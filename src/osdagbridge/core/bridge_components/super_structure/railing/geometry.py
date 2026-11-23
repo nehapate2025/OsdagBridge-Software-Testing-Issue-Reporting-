@@ -2,7 +2,7 @@
 Railing geometry calculations.
 Takes dimensions from IRC5_2015 and computes areas only.
 
-@author: Sweta Pal
+@author: Yoshita Namdev
 """
 
 from osdagbridge.core.utils.codes.irc5_2015 import IRC5_2015

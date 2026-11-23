@@ -165,8 +165,8 @@ class ReportOptionsDialog(QDialog):
         layout.setSpacing(10)
         layout.setContentsMargins(0, 0, 0, 0)
 
-        # ── Box 1: Project & Team Information ────────────────────────
-        box1 = QGroupBox("Project && Team Information")
+        # ── Box 1: Project & Developer Information ────────────────────────
+        box1 = QGroupBox("Project && Developer Information")
         form1 = QFormLayout()
         form1.setLabelAlignment(Qt.AlignLeft | Qt.AlignVCenter)
         form1.setHorizontalSpacing(12)
@@ -198,7 +198,7 @@ class ReportOptionsDialog(QDialog):
         form1.addRow("", profile_layout)
 
         self.group_name = QLineEdit()
-        form1.addRow("Organisation / Design Team Name :", self.group_name)
+        form1.addRow("Organisation / Developer Name :", self.group_name)
 
         # Organisation Logo (with Browse)
         self.org_logo = QLineEdit()
@@ -354,7 +354,7 @@ class ReportOptionsDialog(QDialog):
         ("ProjectName",       "Project Name"),
         ("Designer",          "Designer"),
         ("Reviewer",          "Reviewer"),
-        ("OrganisationName",  "Organisation / Design Team Name"),
+        ("OrganisationName",  "Organisation / Developer Name"),
         ("OrganisationLogo",  "Organisation Logo Path"),
     ]
 
@@ -375,7 +375,7 @@ class ReportOptionsDialog(QDialog):
         }
 
     def save_profile(self):
-        """Save Project & Team Information fields to a `.tex` profile
+        """Save Project & Developer Information fields to a `.tex` profile
         file at a user-chosen location.
 
         • Validates that at least one field is non-empty.
@@ -410,7 +410,7 @@ class ReportOptionsDialog(QDialog):
                 )
                 fh.write("%%\n")
                 fh.write(
-                    "%% This file stores Project & Team Information for re-use.\n"
+                    "%% This file stores Project & Developer Information for re-use.\n"
                 )
                 fh.write(
                     "%% Do not edit the \\ProfileField lines manually unless\n"
@@ -437,7 +437,7 @@ class ReportOptionsDialog(QDialog):
 
     def load_profile(self):
         """Browse for a previously saved `.tex` profile and auto-fill
-        the Project & Team Information fields from it."""
+        the Project & Developer Information fields from it."""
         path, _ = QFileDialog.getOpenFileName(
             self,
             "Open Profile",

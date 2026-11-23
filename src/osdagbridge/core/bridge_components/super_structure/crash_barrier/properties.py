@@ -2,7 +2,7 @@
 Crash barrier self-weight calculations.
 Takes area values from geometry.py and converts them to load.
 
-@author: Sweta Pal
+@author: Yoshita Namdev
 """
 
 from .geometry import (

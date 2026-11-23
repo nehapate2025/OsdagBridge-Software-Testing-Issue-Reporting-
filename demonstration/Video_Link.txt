@@ -3,11 +3,12 @@ OSDAGBRIDGE VIDEO DEMONSTRATION RECORDING STATUS
 ================================================================================
 
 PROJECT NAME:              OsdagBridge
-DEVELOPER:                 Ankit Shukla
-CREATOR:                   Ankit Shukla
-MAINTAINED BY:             Ankit Shukla
+DEVELOPED BY:              Yoshita Namdev
+DEVELOPER:                 Yoshita Namdev
+CREATOR:                   Yoshita Namdev
+MAINTAINED BY:             Yoshita Namdev
 PROJECT TYPE:              Individual Project
-PROJECT OWNERSHIP:         Ankit Shukla
+PROJECT OWNERSHIP:         Yoshita Namdev
 VIDEO TITLE:               OsdagBridge Short-Span Steel Plate Girder Testing & Verification Demo
 TARGET PLATFORM:           YouTube (Unlisted) / Google Drive (Direct Review Link)
 ACTUAL VIDEO URL:          PENDING_RECORDING
@@ -19,12 +20,14 @@ VIDEO STATUS:              VIDEO STATUS: NOT RECORDED
 ================================================================================
 PROJECT DEVELOPER AND OWNERSHIP
 ================================================================================
-OsdagBridge is an individual software project developed and maintained by Ankit
-Shukla. The project-specific implementation, customization, testing,
-documentation, and integration covered by this project are attributed to Ankit
-Shukla.
+Developed By: Yoshita Namdev
+
+OsdagBridge is an individual software project developed and created exclusively
+by Yoshita Namdev. The project-specific implementation, customization, testing,
+documentation, and integration covered by this project are attributed to Yoshita
+Namdev.
 
 A complete, production-ready recording guide and presentation script has been
-prepared by Ankit Shukla in:
+prepared by Yoshita Namdev in:
     demonstration/Demonstration_Steps.md
 ================================================================================

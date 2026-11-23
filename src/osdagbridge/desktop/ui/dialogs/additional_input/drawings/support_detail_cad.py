@@ -4,7 +4,7 @@ Draws the end bearing detail of a plate girder.
 Layout is pixel-proportional to the widget size.
 Only the bearing plate arrow width is driven by bearing_length.
 
-Author: OsdagBridge
+Author: Yoshita Namdev
 """
 
 import math

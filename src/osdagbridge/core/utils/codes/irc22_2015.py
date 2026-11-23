@@ -1,7 +1,7 @@
 """
 Module for IRC 22:2014 bridge design clauses.
 
-@author: Sweta Pal
+@author: Yoshita Namdev
 
 """
 
@@ -696,7 +696,7 @@ class IRC22_2014:
         For i_minor:
             Av = 2 * bf * tf
 
-        @author: Sweta Pal
+        @author: Yoshita Namdev
         """
 
 
@@ -765,7 +765,7 @@ class IRC22_2014:
         Simple Post-Critical Shear Buckling Method
         Uses IS 800:2007 Clause 8.4.2.2(a)
 
-        @author: Sweta Pal
+        @author: Yoshita Namdev
         """
 
         import math
@@ -931,7 +931,7 @@ class IRC22_2014:
             m_long  = Es/(Kc*Ecm) >= 15.0
             m_before = Es/Eci (if concrete age i < 28 days)
 
-            @author: Sweta Pal
+            @author: Yoshita Namdev
         """
 
         # As per clause (fixed)
@@ -1000,7 +1000,7 @@ class IRC22_2014:
         - f_yk_reinf is characteristic yield strength of reinforcement
         - f_y_struct is characteristic yield strength of structural steel
 
-        @author: Sweta Pal
+        @author: Yoshita Namdev
         """
 
 
@@ -1734,7 +1734,7 @@ class IRC22_2014:
     ):
         """
         IRC 22:2015 - Clause 606.4.1
-        @author: Sweta Pal
+        @author: Yoshita Namdev
 
         Longitudinal Shear and Spacing of Shear Connectors (ULS)
 
@@ -1936,7 +1936,7 @@ class IRC22_2014:
     ):
         """
         IRC 22:2015 Clause 606.6 - Detailing of Shear Connectors
-        @author: Sweta Pal
+        @author: Yoshita Namdev
 
         Checks:
         1) d_stud <= 2 * t_flange
@@ -2085,7 +2085,7 @@ class IRC22_2014:
     ):
         """
         IRC 22:2015 - Clause 606.10 Transverse Shear Check
-        @author: Sweta Pal
+        @author: Yoshita Namdev
 
         Returns:
             governing_capacity_kN/m

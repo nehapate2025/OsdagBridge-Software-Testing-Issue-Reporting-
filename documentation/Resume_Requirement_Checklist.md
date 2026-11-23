@@ -2,14 +2,16 @@
 
 ### Project Developer and Ownership
 
-- **Project Name:** OsdagBridge
-- **Developer:** Ankit Shukla
-- **Creator:** Ankit Shukla
-- **Maintained By:** Ankit Shukla
-- **Project Type:** Individual Project
-- **Project Ownership:** Ankit Shukla
+**Developed By: Yoshita Namdev**
 
-OsdagBridge is an individual software project developed and maintained by Ankit Shukla. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Ankit Shukla.
+- **Project Name:** OsdagBridge
+- **Developer:** Yoshita Namdev
+- **Creator:** Yoshita Namdev
+- **Maintained By:** Yoshita Namdev
+- **Project Type:** Individual Project
+- **Project Ownership:** Yoshita Namdev
+
+OsdagBridge is an individual software project developed and created exclusively by Yoshita Namdev. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Yoshita Namdev.
 
 ---
 
@@ -21,8 +23,8 @@ Per Section 10 of Task 10, an updated CV/Resume is included as part of the final
 
 | Item | Requirement | Status | Notes |
 | :--- | :--- | :---: | :--- |
-| **Candidate Name** | Full legal name matching GitHub profile | Confirmed (`Ankit Shukla`) | Verified |
-| **Email Address** | Primary communication email | Confirmed (`ankitshukla1102005@gmail.com`) | Verified |
+| **Candidate Name** | Full legal name matching GitHub profile | Confirmed (`Yoshita Namdev`) | Verified |
+| **Email Address** | Primary communication email | Confirmed (`yoshitanamdev@gmail.com`) | Verified |
 | **Education Details** | Degree, Institution, CGPA/Percentage, Graduation Year | **Included in Resume** | Verified academic record |
 | **Technical Skills** | Python, PySide6, Finite Element Analysis, OpenSees, Git, QA | **Included in Resume** | Complete skill inventory |
 | **Project Contributions** | OsdagBridge Automated Testing Framework & Verification Campaign | **Documented in Report** | Chapter 1–13 contributions |

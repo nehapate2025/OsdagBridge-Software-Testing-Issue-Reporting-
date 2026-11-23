@@ -1,6 +1,6 @@
 """
 Module for IRC 5:2015 bridge design clauses.
-@author: Aditya Donde
+@author: Yoshita Namdev
 
 """
 
