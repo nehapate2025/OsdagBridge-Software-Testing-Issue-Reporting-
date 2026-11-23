@@ -2,23 +2,23 @@
 
 ### Project Developer and Ownership
 
-**Developed By: Yoshita Namdev**
+**Developed By: Neha Patel**
 
 - **Project Name:** OsdagBridge
-- **Developer:** Yoshita Namdev
-- **Creator:** Yoshita Namdev
-- **Maintained By:** Yoshita Namdev
+- **Developer:** Neha Patel
+- **Creator:** Neha Patel
+- **Maintained By:** Neha Patel
 - **Project Type:** Individual Project
-- **Project Ownership:** Yoshita Namdev
+- **Project Ownership:** Neha Patel
 
-OsdagBridge is an individual software project developed and created exclusively by Yoshita Namdev. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Yoshita Namdev.
+OsdagBridge is an individual software project developed and created exclusively by Neha Patel. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Neha Patel.
 
 ---
 
 **Project:** OsdagBridge (Plate Girder Highway Bridge Design and Automated Reporting)  
 **Document:** `ENGINEERING_VALUE_COMPARISON.md`  
 **Date:** November 18, 2026  
-**Author:** Yoshita Namdev (Bridge Engineering Division)  
+**Author:** Neha Patel (Bridge Engineering Division)  
 **Status:** Complete Engineering Verification  
 
 ---

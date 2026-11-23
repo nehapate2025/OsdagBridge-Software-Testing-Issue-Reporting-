@@ -3,12 +3,12 @@ OSDAGBRIDGE VIDEO DEMONSTRATION RECORDING STATUS
 ================================================================================
 
 PROJECT NAME:              OsdagBridge
-DEVELOPED BY:              Yoshita Namdev
-DEVELOPER:                 Yoshita Namdev
-CREATOR:                   Yoshita Namdev
-MAINTAINED BY:             Yoshita Namdev
+DEVELOPED BY:              Neha Patel
+DEVELOPER:                 Neha Patel
+CREATOR:                   Neha Patel
+MAINTAINED BY:             Neha Patel
 PROJECT TYPE:              Individual Project
-PROJECT OWNERSHIP:         Yoshita Namdev
+PROJECT OWNERSHIP:         Neha Patel
 VIDEO TITLE:               OsdagBridge Short-Span Steel Plate Girder Testing & Verification Demo
 TARGET PLATFORM:           YouTube (Unlisted) / Google Drive (Direct Review Link)
 ACTUAL VIDEO URL:          PENDING_RECORDING
@@ -20,14 +20,14 @@ VIDEO STATUS:              VIDEO STATUS: NOT RECORDED
 ================================================================================
 PROJECT DEVELOPER AND OWNERSHIP
 ================================================================================
-Developed By: Yoshita Namdev
+Developed By: Neha Patel
 
 OsdagBridge is an individual software project developed and created exclusively
-by Yoshita Namdev. The project-specific implementation, customization, testing,
-documentation, and integration covered by this project are attributed to Yoshita
-Namdev.
+by Neha Patel. The project-specific implementation, customization, testing,
+documentation, and integration covered by this project are attributed to Neha
+Patel.
 
 A complete, production-ready recording guide and presentation script has been
-prepared by Yoshita Namdev in:
+prepared by Neha Patel in:
     demonstration/Demonstration_Steps.md
 ================================================================================

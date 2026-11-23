@@ -1,7 +1,7 @@
 """
 Top View CAD Widget for OsdagBridge
 Handles top/plan view rendering of bridge structures
-Author: Yoshita Namdev
+Author: Neha Patel
 """
 from osdagbridge.core.utils.common import *
 import math

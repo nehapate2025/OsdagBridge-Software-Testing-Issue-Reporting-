@@ -2,7 +2,7 @@
 Crash barrier geometry calculations.
 Takes dimensions from IRC5_2015 and computes areas only.
 
-@author: Yoshita Namdev
+@author: Neha Patel
 """
 from osdagbridge.core.utils.common import *
 from osdagbridge.core.utils.codes.irc5_2015 import IRC5_2015

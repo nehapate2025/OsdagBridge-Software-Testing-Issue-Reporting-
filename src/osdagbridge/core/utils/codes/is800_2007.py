@@ -2,7 +2,7 @@
 
 Started on 01 - Nov - 2018
 
-@author: Yoshita Namdev
+@author: Neha Patel
 """
 import math
 try:
@@ -662,7 +662,7 @@ class IS800_2007(object):
 
         Note:
             Reference: IS 800 pg34
-            @author: Yoshita Namdev
+            @author: Neha Patel
         """
         design_compressive_strength= effective_area * design_compressive_stress                     #area in mm2,stress in kN/mm2
         if axial_load < design_compressive_strength:                                                #kN
@@ -747,7 +747,7 @@ class IS800_2007(object):
             list of euler_buckling_stress, nondimensional_effective_slenderness_ratio, phi, stress_reduction_factor, design_compressive_stress_fr .design_compressive_stress, design_compressive_stress_min
         Note:
             Reference: IS 800 pg34
-            @author: Yoshita Namdev
+            @author: Neha Patel
         """
         # 2.4 - Euler buckling stress
         euler_buckling_stress = (math.pi ** 2 * modulus_of_elasticity) / effective_slenderness_ratio ** 2
@@ -870,7 +870,7 @@ class IS800_2007(object):
             list of euler_buckling_stress, nondimensional_effective_slenderness_ratio, phi, stress_reduction_factor, design_compressive_stress_fr .design_compressive_stress, design_compressive_stress_min
         Note:
             Reference: IS 800 pg34
-            @author: Yoshita Namdev
+            @author: Neha Patel
         """
         # 2.4 - Euler buckling stress
         imperfection_factor = 0.49
@@ -1092,7 +1092,7 @@ class IS800_2007(object):
 
     @staticmethod
     def cl_8_2_2_Unsupported_beam_bending_non_slenderness( E, meu,Iy, It, Iw, Llt,beta_b, Zp, hf,ry, tf):
-        ''' Author : Yoshita Namdev
+        ''' Author : Neha Patel
         Clauses: 8.2.2.1 and Annex E
         '''
         G = E/(2+2*meu)
@@ -1104,7 +1104,7 @@ class IS800_2007(object):
 
     @staticmethod
     def cl_8_2_2_Unsupported_beam_bending_fcrb(E, Llt_ry, hf_tf):
-        ''' Author : Yoshita Namdev
+        ''' Author : Neha Patel
         Clauses: 8.2.2.1 and Annex E
         '''
         fcrb = 1.1 * math.pi**2 * E * (1 + (Llt_ry/hf_tf)**2/20)**0.5 / Llt_ry
@@ -1327,7 +1327,7 @@ class IS800_2007(object):
         '''nominal shear strength, Vn,of webs with or without
         intermediate stiffeners as governed by buckling
 
-        Author: Yoshita Namdev    '''
+        Author: Neha Patel    '''
         d_tw = d / tw
         if type == 1 and d_tw <= 67 * e:
             return False
@@ -1343,7 +1343,7 @@ class IS800_2007(object):
     #         transverse stiffener, provided that the web has
     #         transverse stiffeners at the supports.
     #
-    #     Author: Yoshita Namdev    '''
+    #     Author: Neha Patel    '''
 
     @staticmethod
     def cl_8_4_2_2_K_v_Simple_postcritical(support, c = 0, d = 1):
@@ -1402,7 +1402,7 @@ class IS800_2007(object):
             field action, or the end posts provide anchorage
             for the tension fields
 
-        Author: Yoshita Namdev    '''
+        Author: Neha Patel    '''
 
         M_fr = 0.25 * bf * tf ** 2 * fyf * (1 - (Nf / (bf * tf * fyf / gamma_mo)) ** 2)
         print(M_fr, 'M_fr')
@@ -1417,7 +1417,7 @@ class IS800_2007(object):
             field action, or the end posts provide anchorage
             for the tension fields
 
-        Author: Yoshita Namdev    '''
+        Author: Neha Patel    '''
 
         if c == 0:
             phi = 90  
@@ -1518,7 +1518,7 @@ class IS800_2007(object):
         shall be carried in accordance with the provisions given
         herein.
         only simple post critical method design
-        Author: Yoshita Namdev    '''
+        Author: Neha Patel    '''
 
         phi = math.atan(d / c) * 180 / math.pi
         M_fr = 0.25 * bf * tf ** 3 * fyf * (1 - (Nf / (bf * tf * fyf / gamma_mo)) ** 2)

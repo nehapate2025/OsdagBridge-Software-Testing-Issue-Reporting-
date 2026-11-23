@@ -119,7 +119,7 @@ def render_pdf_report(
         topMargin=54,
         bottomMargin=58,
         title="OsdagBridge Design Report",
-        author="Yoshita Namdev",
+        author="Neha Patel",
         subject="Automated Bridge Analysis, Design and Code Compliance",
     )
 
@@ -259,8 +259,8 @@ def render_pdf_report(
         [Paragraph("Job Identifier", th_style), Paragraph("OB-2026-001", td_style)],
         [Paragraph("Location Coordinates", th_style), Paragraph("Karwar, Karnataka (Lat: 14.81° N, Lon: 74.13° E)", td_style)],
         [Paragraph("Client / Authority", th_style), Paragraph("National Highway Authority of India (NHAI)", td_style)],
-        [Paragraph("Project Ownership", th_style), Paragraph("Yoshita Namdev (Individual Project)", td_style)],
-        [Paragraph("Developer, Creator & Maintainer", th_style), Paragraph("Developed By: Yoshita Namdev", td_style)],
+        [Paragraph("Project Ownership", th_style), Paragraph("Neha Patel (Individual Project)", td_style)],
+        [Paragraph("Developer, Creator & Maintainer", th_style), Paragraph("Developed By: Neha Patel", td_style)],
         [Paragraph("Design Revision", th_style), Paragraph("Rev 0 — Final Submission", td_style)],
         [Paragraph("Report Date", th_style), Paragraph("November 18, 2026", td_style)],
         [Paragraph("Primary Design Codes", th_style), Paragraph("IRC:6-2017, IRC:21-2000, IRC:22-2014, IRC:24-2010, IS 800:2007", td_style)],

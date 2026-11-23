@@ -1,6 +1,6 @@
 """
 Module for IRC 5:2015 bridge design clauses.
-@author: Yoshita Namdev
+@author: Neha Patel
 
 """
 

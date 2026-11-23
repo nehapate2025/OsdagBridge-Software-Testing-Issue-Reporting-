@@ -2,16 +2,16 @@
 
 ### Project Developer and Ownership
 
-**Developed By: Yoshita Namdev**
+**Developed By: Neha Patel**
 
 - **Project Name:** OsdagBridge
-- **Developer:** Yoshita Namdev
-- **Creator:** Yoshita Namdev
-- **Maintained By:** Yoshita Namdev
+- **Developer:** Neha Patel
+- **Creator:** Neha Patel
+- **Maintained By:** Neha Patel
 - **Project Type:** Individual Project
-- **Project Ownership:** Yoshita Namdev
+- **Project Ownership:** Neha Patel
 
-OsdagBridge is an individual software project developed and created exclusively by Yoshita Namdev. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Yoshita Namdev.
+OsdagBridge is an individual software project developed and created exclusively by Neha Patel. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Neha Patel.
 
 ---
 
@@ -23,8 +23,8 @@ Per Section 10 of Task 10, an updated CV/Resume is included as part of the final
 
 | Item | Requirement | Status | Notes |
 | :--- | :--- | :---: | :--- |
-| **Candidate Name** | Full legal name matching GitHub profile | Confirmed (`Yoshita Namdev`) | Verified |
-| **Email Address** | Primary communication email | Confirmed (`yoshitanamdev@gmail.com`) | Verified |
+| **Candidate Name** | Full legal name matching GitHub profile | Confirmed (`Neha Patel`) | Verified |
+| **Email Address** | Primary communication email | Confirmed (`np3559940@gmail.com`) | Verified |
 | **Education Details** | Degree, Institution, CGPA/Percentage, Graduation Year | **Included in Resume** | Verified academic record |
 | **Technical Skills** | Python, PySide6, Finite Element Analysis, OpenSees, Git, QA | **Included in Resume** | Complete skill inventory |
 | **Project Contributions** | OsdagBridge Automated Testing Framework & Verification Campaign | **Documented in Report** | Chapter 1–13 contributions |

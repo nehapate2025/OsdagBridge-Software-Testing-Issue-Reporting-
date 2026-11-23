@@ -1,5 +1,5 @@
 # architecture.md
 
-**Developed By: Yoshita Namdev**
+**Developed By: Neha Patel**
 
 Documentation placeholder.

@@ -1,7 +1,7 @@
 """
 Cross-Section CAD Widget for OsdagBridge
 Handles cross-sectional view rendering of bridge structures
-Author: Yoshita Namdev
+Author: Neha Patel
 """
 
 import math

@@ -1,5 +1,5 @@
 # user_guide.md
 
-**Developed By: Yoshita Namdev**
+**Developed By: Neha Patel**
 
 Documentation placeholder.

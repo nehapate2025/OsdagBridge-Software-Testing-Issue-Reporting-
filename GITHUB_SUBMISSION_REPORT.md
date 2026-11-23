@@ -2,21 +2,21 @@
 
 ### Project Developer and Ownership
 
-**Developed By: Yoshita Namdev**
+**Developed By: Neha Patel**
 
 - **Project Name:** OsdagBridge
-- **Developer:** Yoshita Namdev
-- **Creator:** Yoshita Namdev
-- **Maintained By:** Yoshita Namdev
+- **Developer:** Neha Patel
+- **Creator:** Neha Patel
+- **Maintained By:** Neha Patel
 - **Project Type:** Individual Project
-- **Project Ownership:** Yoshita Namdev
+- **Project Ownership:** Neha Patel
 
-OsdagBridge is an individual software project developed and created exclusively by Yoshita Namdev. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Yoshita Namdev.
+OsdagBridge is an individual software project developed and created exclusively by Neha Patel. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Neha Patel.
 
 ---
 
 **Project:** OsdagBridge (Plate Girder Highway Bridge Design and Automated Reporting)  
-**Author:** Yoshita Namdev  
+**Author:** Neha Patel  
 **Date:** November 18, 2026  
 **Document Version:** 1.0.0 (Pre-Push & Verification Readiness)  
 **Local Branch:** `main`  
@@ -30,7 +30,7 @@ OsdagBridge is an individual software project developed and created exclusively 
 - **Current Branch**: `main`
 - **Destination Repository (Target)**: Personal GitHub Fork
 - **Upstream Remote**: None configured
-- **Active Git User**: `Yoshita Namdev <yoshitanamdev@gmail.com>`
+- **Active Git User**: `Neha Patel <np3559940@gmail.com>`
 - **Git Credential Helper**: `manager` (Windows Git Credential Manager)
 
 ---
@@ -38,7 +38,7 @@ OsdagBridge is an individual software project developed and created exclusively 
 ## 2. Commit Details
 
 - **Commit Hash**: `08c831682f808794d0dc3d4847e0aa966b47c0b0` (short: `08c8316`)
-- **Author**: Yoshita Namdev
+- **Author**: Neha Patel
 - **Date**: 2026-11-18 21:26:07 +0530
 - **Summary Message**: `Complete OsdagBridge report improvements and documentation`
 - **Files Committed in Final Commit (12 files)**:

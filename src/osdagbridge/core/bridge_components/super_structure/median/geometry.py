@@ -2,7 +2,7 @@
 Median geometry calculations.
 Takes dimensions from IRC5_2015 and computes areas only.
 
-@author: Yoshita Namdev
+@author: Neha Patel
 """
 
 import math

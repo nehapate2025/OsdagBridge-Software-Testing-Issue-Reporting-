@@ -1,7 +1,7 @@
 """
 Dual CAD View Widget for OsdagBridge
 Combines cross-section and top view in a split layout
-Author: Yoshita Namdev
+Author: Neha Patel
 """
 
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QSplitter, QScrollArea, QHBoxLayout, QPushButton, QLabel

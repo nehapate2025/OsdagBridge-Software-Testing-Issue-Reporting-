@@ -9,14 +9,14 @@ description = "OsdagBridge - Shared core for analysis and design of steel bridge
 readme = "README.md"
 license = { file = "LICENSE" }
 
-# Project Developer and Ownership (Individual Project Submission): Yoshita Namdev
+# Project Developer and Ownership (Individual Project Submission): Neha Patel
 # Upstream Open-Source Framework: Osdag (contact-osdag@fossee.in)
 authors = [
-  { name = "Yoshita Namdev", email = "yoshitanamdev@gmail.com" }
+  { name = "Neha Patel", email = "np3559940@gmail.com" }
 ]
 
 maintainers = [
-  { name = "Yoshita Namdev", email = "yoshitanamdev@gmail.com" }
+  { name = "Neha Patel", email = "np3559940@gmail.com" }
 ]
 
 requires-python = ">=3.11,<3.13"

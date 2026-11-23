@@ -2,25 +2,25 @@
 
 ### Project Developer and Ownership
 
-**Developed By: Yoshita Namdev**
+**Developed By: Neha Patel**
 
 - **Project Name:** OsdagBridge
-- **Developer:** Yoshita Namdev
-- **Creator:** Yoshita Namdev
-- **Maintained By:** Yoshita Namdev
+- **Developer:** Neha Patel
+- **Creator:** Neha Patel
+- **Maintained By:** Neha Patel
 - **Project Type:** Individual Project
-- **Project Ownership:** Yoshita Namdev
+- **Project Ownership:** Neha Patel
 
-OsdagBridge is an individual software project developed and created exclusively by Yoshita Namdev. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Yoshita Namdev.
+OsdagBridge is an individual software project developed and created exclusively by Neha Patel. The project-specific implementation, customization, testing, documentation, and integration covered by this project are attributed to Neha Patel.
 
 ---
 
-This checklist tracks every required deliverable for the OsdagBridge Software Testing and Issue Reporting assignment, developed as an individual project solely by **Yoshita Namdev**.
+This checklist tracks every required deliverable for the OsdagBridge Software Testing and Issue Reporting assignment, developed as an individual project solely by **Neha Patel**.
 
 | Deliverable Item | Status | Verification Reference / Location |
 | :--- | :---: | :--- |
-| **Project Ownership & Authorship** | **Completed** | Sole Individual Developer: **Yoshita Namdev** (Individual Project) |
-| **GitHub repository** | **Completed** | Prepared and committed on `main` branch by Yoshita Namdev |
+| **Project Ownership & Authorship** | **Completed** | Sole Individual Developer: **Neha Patel** (Individual Project) |
+| **GitHub repository** | **Completed** | Prepared and committed on `main` branch by Neha Patel |
 | **Testing scripts** | **Completed** | `tests/unit/`, `tests/integration/`, `tests/scenarios/` (95 automated tests) |
 | **Test-case register** | **Completed** | `test_results/test_case_register.csv` & `final_report/master_test_case_register.csv` |
 | **Test execution log** | **Completed** | `test_results/test_execution_log.csv` & `final_report/logs/pytest_report.xml` |

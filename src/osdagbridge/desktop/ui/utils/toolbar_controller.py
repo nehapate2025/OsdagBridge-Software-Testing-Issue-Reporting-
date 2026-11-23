@@ -1,5 +1,5 @@
 """
-Author: Yoshita Namdev
+Author: Neha Patel
 toolbar_controller.py
 ─────────────────────
 This file is the CONTROLLER layer for the shared ToolBarWidget.
